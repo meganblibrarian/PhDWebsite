@@ -3,37 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://meganebarnes.com/blog/educational-statement/</loc>
+    <loc>https://meganebarnes.com/-cv/cv/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/contact/educational-statement/</loc>
+    <loc>https://meganebarnes.com/contact/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/cv/educational-statement/</loc>
+    <loc>https://meganebarnes.com/portfolio/portfolio/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/portfolio/educational-statement/</loc>
+    <loc>https://meganebarnes.com/posts/educational-statement/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/research/educational-statement/</loc>
+    <loc>https://meganebarnes.com/research/research/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/blog/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://meganebarnes.com/</loc>
+    <loc>https://meganebarnes.com/-cv/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -43,12 +38,17 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/cv/</loc>
+    <loc>https://meganebarnes.com/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://meganebarnes.com/portfolio/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://meganebarnes.com/posts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

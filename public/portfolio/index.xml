@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Blowfish</title>
+    <title>Portfolios on Megan E. Barnes</title>
     <link>https://meganebarnes.com/portfolio/</link>
-    <description>Recent content in Portfolios on Blowfish</description>
+    <description>Recent content in Portfolios on Megan E. Barnes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
+    <copyright>© 2024 Megan E. Barnes</copyright>
     <atom:link href="https://meganebarnes.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://meganebarnes.com/portfolio/educational-statement/</link>
+      <link>https://meganebarnes.com/portfolio/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://meganebarnes.com/portfolio/educational-statement/</guid>
-      <description>This blog is a part of my journey as a Ph.</description>
+      <guid>https://meganebarnes.com/portfolio/portfolio/</guid>
+      <description>Portfolio of work coming soon</description>
       
     </item>
     

@@ -48,7 +48,7 @@ showReadingTime = true
 showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
-showWordCount = true
+showWordCount = false
 showZenMode = false
 heroStyle = "background"
 
