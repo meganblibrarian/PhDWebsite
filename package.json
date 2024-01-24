@@ -1,26 +1,5 @@
 {
-  "name": "netlify-plugin-cypress",
-  "private": false,
-  "version": "0.0.0-development",
-  "description": "Cypress Netlify build plugin",
-  "main": "src",
-  "scripts": {
-    "test": "cypress run",
-    "test:unit": "jest",
-    "semantic-release": "semantic-release",
-    "start": "serve public"
-  },
-  "keywords": [
-    "netlify",
-    "netlify-plugin"
-  ],
-  "author": "Cypress-io",
-  "files": [
-    "manifest.yml",
-    "src",
-    "!src/**/*.test.js"
-  ],
-  "license": "ISC",
+   "license": "ISC",
   "dependencies": {
     "common-tags": "1.8.0",
     "debug": "4.1.1",
@@ -28,13 +7,6 @@
     "local-web-server": "^4.2.1",
     "puppeteer": "18.1.0",
     "ramda": "0.28.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cypress-io/netlify-plugin-cypress.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cypress-io/netlify-plugin-cypress/issues"
   },
   "publishConfig": {
     "access": "public"
