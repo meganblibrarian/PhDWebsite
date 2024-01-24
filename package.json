@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "cypress": "^13.6.3"
+  
+  }
+  "devDependencies": {
+    "xvfb": "0.4.0"
   }
 }
