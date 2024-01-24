@@ -1,3 +1,71 @@
 {
+  "name": "netlify-plugin-cypress",
+  "private": false,
+  "version": "0.0.0-development",
+  "description": "Cypress Netlify build plugin",
+  "main": "src",
+  "scripts": {
+    "test": "cypress run",
+    "test:unit": "jest",
+    "semantic-release": "semantic-release",
+    "start": "serve public"
+  },
+  "keywords": [
+    "netlify",
+    "netlify-plugin"
+  ],
+  "author": "Cypress-io",
+  "files": [
+    "manifest.yml",
+    "src",
+    "!src/**/*.test.js"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "common-tags": "1.8.0",
+    "debug": "4.1.1",
+    "got": "11.8.6",
+    "local-web-server": "^4.2.1",
+    "puppeteer": "18.1.0",
+    "ramda": "0.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cypress-io/netlify-plugin-cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cypress-io/netlify-plugin-cypress/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
-    "git+https://github.com/cypress-io/cypress-docker-images.git"}
+    "jest": "^24.9.0",
+    "cypress": "13.6.3",
+    "netlify-cli": "17.11.1",
+    "prettier": "2.2.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "semantic-release": "^20.0.2",
+    "serve": "14.2.0"
+  },
+  "release": {
+    "branches": [
+      {
+        "name": "master"
+      },
+      {
+        "name": "prepare-v2",
+        "prerelease": true
+      }
+    ]
+  },
+  "jest": {
+    "rootDir": "./src"
+  }
+}
