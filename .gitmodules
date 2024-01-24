@@ -2,3 +2,7 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
+[submodule "cypress-docker-images"]
+	path = cypress-docker-images
+	url = https://github.com/cypress-io/cypress-docker-images.git
+	branch = main
