@@ -1,8 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^13.6.3"
-
-    "xvfb": "^0.4.0"
+    git+https://github.com/cypress-io/cypress-docker-images.git
   }
 }
 #{
