@@ -6,6 +6,7 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 highlightCurrentMenuArea = "enable"
+smartTOC = "enable"
 
 [header]
 layout = "basic"
@@ -19,12 +20,12 @@ showScrollToTop = true
 
 [homepage]
 layout = "profile"
-showRecent = false
-showRecentItems = 5
+showRecent = "enable"
+showRecentItems = "5"
 showMoreLink = false
 showMoreLinkDest = "/posts"
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 layoutBackgroundBlur = false
 
 [article]
@@ -44,7 +45,7 @@ seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
-showReadingTime = true
+showReadingTime = "hide"
 showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
