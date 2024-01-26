@@ -7,12 +7,10 @@ draft: false
 
 
 
-+++
-date = 2024-01-25
-title = 'Power/Knowledge Ball & Wang'
-+++
-
-
+---
+publishDate = 2024-01-25
+{{ .PublishDate | time.Format ":date_medium" }}
+title = Power/Knowledge Ball & Wang
 ---
 # Welcome
 
