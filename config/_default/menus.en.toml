@@ -23,11 +23,5 @@ name = "Portfolio"
 pageRef = "/portfolio"
 weight = 3
 
-[[main]]
-name = "Home"
-pageRef = "index"
-identifier = "UBhtYXpaOh"
-weight = 1
-
 [[footer]]
 none = "none"
