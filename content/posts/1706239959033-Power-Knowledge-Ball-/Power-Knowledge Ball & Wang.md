@@ -1,7 +1,10 @@
----
-publishDate = 2024-01-25
-title = Power/Knowledge Ball & Wang
----
++++
+title: "Power/Knowledge Ball & Wang"
+date: 2024-01-25
+tags: ['philosophy', 'education', 'phd']
+description: 'A reflection on Wang's article Power/Knowledge for Educational Theory'
+draft: false
++++
 # Welcome
 
 First, welcome. If you're reading this and you aren't my professor or a classmate, thanks for stopping in. This blog entry is a brief analysis of the article ["Power/Knowledge for Educational Theory: Stephen Ball and the Reception of Foucault" by Chia-Ling Wang.](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9752.2011.00789.x)
