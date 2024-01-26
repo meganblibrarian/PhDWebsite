@@ -1,8 +1,10 @@
 ---
-description: 2024-01-25
-title: Power-Knowledge Ball & Wang
+title: "Power/Knowledge Ball & Wang"
+date: 01-24-2024
+tags: ["philosophy", "education", "phd"]
+description: "A reflection on Wang's article Power/Knowledge for Educational Theory"
+draft: false
 ---
-
 # Welcome
 
 First, welcome. If you're reading this and you aren't my professor or a classmate, thanks for stopping in. This blog entry is a brief analysis of the article ["Power/Knowledge for Educational Theory: Stephen Ball and the Reception of Foucault" by Chia-Ling Wang.](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9752.2011.00789.x)
@@ -30,6 +32,8 @@ I have a background in debate. I was a Lincoln-Douglas debater in high school, a
 I did make some connections to both Bronfenbrenner's ecological model and Freire's pedagogy of the oppressed as I read this. The combination of Freire and Bronfenbrenner with the power/knowledge model allow us to look at the concept how power/knowledge tools in education - grades, required curricula, standardized testing - impact the practitioners and students as tools of social conditioning, but are the tools of the[macro-, exo-, and mesosystems](https://www.simplypsychology.org/bronfenbrenner.html) to strengthen social conditioning while prioritizing the prized knowledge of cultural in-groups.
 
 # Citations
+
+Gutting, G., & Oksala, J. (2022). *Michel Foucault*. In E. N. Zalta & U. Nodelman (Eds.), The Stanford Encyclopedia of Philosophy Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/fall2022/entries/foucault/
 
 Mcleod, S. (2024). *Bronfenbrenner's Ecological Systems Theory*. <https://www.simplypsychology.org/bronfenbrenner.html>
 
