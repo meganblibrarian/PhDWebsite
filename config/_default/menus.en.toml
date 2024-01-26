@@ -1,27 +1,22 @@
 [[main]]
 name = "Blog"
 pageRef = "/posts"
-weight = 6
-
-[[main]]
-name = "CV"
-pageRef = "/cv"
-weight = 2
+weight = 5
 
 [[main]]
 name = "Research"
 pageRef = "/research"
-weight = 5
+weight = 4
 
 [[main]]
 name = "Projects"
 pageRef = "/projects"
-weight = 4
+weight = 3
 
 [[main]]
 name = "Portfolio"
 pageRef = "/portfolio"
-weight = 3
+weight = 2
 
 [[footer]]
 none = "none"
