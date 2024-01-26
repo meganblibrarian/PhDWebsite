@@ -6,7 +6,6 @@ description: "A reflection on Wang's article Power/Knowledge for Educational The
 draft: false
 
 publishDate = 2024-01-25
-{{ .PublishDate | time.Format ":date_medium" }}
 title = Power/Knowledge Ball & Wang
 ---
 # Welcome
