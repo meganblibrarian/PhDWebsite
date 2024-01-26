@@ -1,10 +1,4 @@
 ---
-title: "Power/Knowledge Ball & Wang"
-date: 01-24-2024
-tags: ["philosophy", "education", "phd"]
-description: "A reflection on Wang's article Power/Knowledge for Educational Theory"
-draft: false
-
 publishDate = 2024-01-25
 title = Power/Knowledge Ball & Wang
 ---
