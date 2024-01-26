@@ -1,9 +1,5 @@
 ---
 description: 2024-01-25
-tags:
-- "\\#philosophy"
-- "\\#education"
-- "\\#PhD"
 title: Power-Knowledge Ball & Wang
 ---
 
