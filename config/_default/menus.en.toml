@@ -5,12 +5,12 @@ weight = 5
 
 [[main]]
 name = "Research"
-pageRef = "/research"
+pageRef = "/research.md"
 weight = 4
 
 [[main]]
 name = "Projects"
-pageRef = "/projects"
+pageRef = "/projects.md"
 weight = 3
 
 [[main]]
