@@ -18,5 +18,10 @@ name = "Portfolio"
 pageRef = "/portfolio"
 weight = 2
 
+[[main]]
+name = "CV"
+pageRef = "/cv.md"
+weight = 6
+
 [[footer]]
 none = "none"
