@@ -9,7 +9,7 @@ highlightCurrentMenuArea = "enable"
 smartTOC = "enable"
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -30,7 +30,7 @@ layoutBackgroundBlur = false
 
 [article]
 showDate = true
-showViews = false
+showViews = true
 showLikes = false
 showDateUpdated = false
 showAuthor = true

@@ -9,6 +9,7 @@ show_comments: false
 ---
 
 ## Education
+---
 
 **University of North Texas**, Denton, TX (2023-Current)
 
@@ -24,6 +25,7 @@ show_comments: false
 - *Bachelor of Arts, Music*
 
 ## Continuing Education & Professional Development
+---
 
 **Harvard Graduate School of Education Professional Development Workshops Cambridge**, MA (Summer, 2020)
 - Education Redesign: Building 21st Century Systems of Child Development and Education
@@ -37,15 +39,17 @@ show_comments: false
 - K-5 Professional Development
 
 ## Conference Activity
+---
 
-Multidisciplinary Information Research Symposium, Denton, TX (December, 2023)
-\* Ethical Considerations on the Adoption of Educational Technology
+*Multidisciplinary Information Research Symposium, Denton, TX (December, 2023)
+    Ethical Considerations on the Adoption of Educational Technology
 Texas Computer Educator Association Conference Austin, TX (February, 2020)
 - Increasing Schoology Usage in Elementary Classrooms: A Librarian's PD Journey
 iYouth Conference Seattle, WA (February, 2015)
 - Event Organizer
 
 ## Experience
+---
 
 **The Episcopal School of Dallas**
 *Director of Educational Technology through Grade 6*, TX (July 2023 - Present)
@@ -53,7 +57,7 @@ iYouth Conference Seattle, WA (February, 2015)
 - Lead introduction to AI professional development sessions for faculty
 - Increased utilization of Canva for Education for both faculty and students  
 - Piloted new device release strategy for rising 5th graders
-- 
+
 
 **The Episcopal School of Dallas**
 *Lower School Library Media Director* Dallas, TX (August 2016 - July 2023)
@@ -79,6 +83,7 @@ iYouth Conference Seattle, WA (February, 2015)
 |------------------------------------|------------------------------------|
 
 ## Professional Memberships
+---
 
 | American Library Association<br> American Association of School Librarians | Texas Library Association            |
 |-----------------------------------------------|------------------------|
@@ -86,4 +91,5 @@ iYouth Conference Seattle, WA (February, 2015)
 
 ## Publications
 
-Barnes, M. Ethical considerations on the adoption of educational technology. Forthcoming, 2024. Barnes M. Cognitive Neuroscience, Educational Technology, and Ethics: Ethical Considerations on the Adoption of Educational Technology Using Cognitive Neuroscience. Forthcoming, 2024.
+Barnes, M. Ethical considerations on the adoption of educational technology. Forthcoming, 2024. 
+Barnes M. Cognitive Neuroscience, Educational Technology, and Ethics: Ethical Considerations on the Adoption of Educational Technology Using Cognitive Neuroscience. Forthcoming, 2024.
