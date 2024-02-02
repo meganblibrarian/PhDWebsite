@@ -1,7 +1,7 @@
 ---
 categories: ['6010']
 
-date: '2024-02-2501'
+date: '2024-02-01'
 
 description: 'A personal learning theory.'
 
