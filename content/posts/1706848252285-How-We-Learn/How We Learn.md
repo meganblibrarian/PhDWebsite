@@ -22,9 +22,9 @@ After this, I transitioned into formal education. I brought this teacher-as-coac
 
 As an educator, I learned the science of how our students' brains develop and work. The changes that experience - all experiences - have on their physical brain change our brains. I have always been and was excited to learn that neuroscience has highlighted the physical reasons that activating prior knowledge before introducing new material works and that you see Vygotsky's Zone of Proximal Development at play in a learner's brain (McTighe & Willis, 2019).
 
-The following graphic is a selection of learning theories (Millwood, R. 2013)
+The following graphic is a selection of learning theories <a href = "https://cmapspublic3.ihmc.us/rid=1LGVGJY66-CCD5CZ-12G3/Learning%20Theory.cmap">(Millwood, R. 2013)</a>
 
-![Learning Theories Map](../../../assets/Learning_Theory_v5.jpg)
+{{< figure src="/Learning_Theory_v5.jpg" title="Learning Theory Map" >}}
 
 As I reflected on this graphic, I tried to find the connections between theories and concepts I use in my teaching practice. Do I (attempt) to make communities of practice? Absolutely. Do I strive to provide experiential learning opportunities for my students? Absolutely. Do I think that learning is, at its heart, done in the brain of the learner? Yes.
 
