@@ -24,7 +24,7 @@ As an educator, I learned the science of how our students' brains develop and wo
 
 The following graphic is a selection of learning theories (Millwood, R. 2013)
 
-![Learning Theories Map](../../../assets/Learning_Theory_v5.jpg)]
+![Learning Theories Map](../../../assets/Learning_Theory_v5.jpg)
 
 As I reflected on this graphic, I tried to find the connections between theories and concepts I use in my teaching practice. Do I (attempt) to make communities of practice? Absolutely. Do I strive to provide experiential learning opportunities for my students? Absolutely. Do I think that learning is, at its heart, done in the brain of the learner? Yes.
 
