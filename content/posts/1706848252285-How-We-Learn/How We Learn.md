@@ -11,6 +11,7 @@ title: 'How We Learn'
 include_toc: true
 show_comments: false
 ---
+
 My favorite moments are when a mental light bulb goes off, a smile lights up their face, and something like "OH!" is exclaimed.
 
 When I started teaching, it was in the most informal learning environment you could imagine: a retail store. I was coached to not point at screens, to always let the student drive (control the computer), and to encourage active engagement versus furious notetaking on the part of the learner. My job was to know how to coach the learner through the process of exploring tools, guide the learner through discovering how menus were organized, and generally help the learner gain the confidence needed to know that clicking the thing would not destroy their new computer.
@@ -23,7 +24,7 @@ As an educator, I learned the science of how our students' brains develop and wo
 
 The following graphic is a selection of learning theories (Millwood, R. 2013)
 
-\[!\![\[Learning Theory v5 1.jpg\]\]\]
+<img src ="https://cmapspublic3.ihmc.us/rid=1LGVGJY66-CCD5CZ-12G3/Learning%20Theory.cmap>Learning Theory v5 1.jpg</img>
 
 As I reflected on this graphic, I tried to find the connections between theories and concepts I use in my teaching practice. Do I (attempt) to make communities of practice? Absolutely. Do I strive to provide experiential learning opportunities for my students? Absolutely. Do I think that learning is, at its heart, done in the brain of the learner? Yes.
 
