@@ -4,7 +4,7 @@ date: '2024-01-25'
 description: 'spf13-vim is a cross platform distribution of vim plugins and resources for Vim.'
 tags: ['philosophy', 'education', 'Phd']
 title: 'Power-Knowledge Wang & Ball'
-
+toc: true
 show_comments: false
 ---
 
