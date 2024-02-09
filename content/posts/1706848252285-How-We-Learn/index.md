@@ -8,7 +8,7 @@ description: 'A personal learning theory.'
 tags: ['philosophy', 'education', 'Phd']
 
 title: 'How We Learn'
-include_toc: true
+
 show_comments: false
 ---
 

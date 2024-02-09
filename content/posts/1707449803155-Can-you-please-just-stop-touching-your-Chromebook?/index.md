@@ -4,7 +4,7 @@ date: 2024-02-09
 draft: false
 description: 'The impacts of technology on teaching and learning.'
 tags: ['philosophy', 'education', 'Phd', 'technology', 'ed tech']
-include_toc: true
+
 ---
 
 # Ms. Barnes, I'm just gonna close my Chromebook

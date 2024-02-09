@@ -5,7 +5,6 @@ description: 'spf13-vim is a cross platform distribution of vim plugins and reso
 tags: ['philosophy', 'education', 'Phd']
 title: 'Power-Knowledge Wang & Ball'
 
-include_toc: true
 show_comments: false
 ---
 
