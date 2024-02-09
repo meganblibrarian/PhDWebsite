@@ -6,7 +6,7 @@ description: 'The impacts of technology on teaching and learning.'
 tags: ['philosophy', 'education', 'Phd', 'technology', 'ed tech']
 include_toc: true
 ---
-# Ms. Barnes, I'm just gonna close my Chromebook
+## Ms. Barnes, I'm just gonna close my Chromebook
 
 K is a 5th grader in my Introduction to Coding/Computer Science class this semester. I taught her last year, and I have always known her to be conscientious, ready to listen, and ready to learn.
 
@@ -14,7 +14,7 @@ I am constantly telling K to stop touching their Chromebook while I am giving cl
 
 K, after being reminded to take their hands off the key for what feels like the millionth time this semester, goes "I'm just going shut my Chromebook, Ms. B." It's a reasonable solution for both of us.
 
-# Affordances & Costs of Technology
+## Affordances & Costs of Technology
 
 Technology, especially the connectivity afforded by the internet, provides all of us with the ability to forge connections we would have been unlikely to make 50 years ago. It allows us to develop communities of practice with our hobbies, no matter how niche, with people on the other side of the planet. We have access to a wealth of knowledge virtually at our fingertips. (Weinstein, et al, 2023, p 7)
 
@@ -22,7 +22,7 @@ But this happens at a price. We can connect with people on the other side of the
 
 We - as in everybody who uses the internet - must be mindful of the perils of distributed cognition. As the power of our smartphones have grown, so has our regular use - possibly even dependence - on them for basic navigation and information seeking leaving us vulnerable to
 
-# Our Role as Educators
+## Our Role as Educators
 
 As educators, it is our responsibility to model ethical use of information, critical thinking, and always keep the student at the center of our digital decision-making in the classroom.
 
@@ -33,5 +33,7 @@ When you use generative AI, discuss why it was the tool to use.
 When it's time for a tech break, talk about the mindfulness of using technology.
 
 When you're picking out a new digital tool to use with your students, ask yourself: Is it better for them, or just me? How does it help them work towards their goals? Are there design tricks that can over-stimulate their brains?
+
+## Citation
 
 Weinstein, E., Tench, B., Choukas-Bradley, S., James, C., Buch, E., & Nesi, J. (2023) Teaching Digital Well-being: Evidence-based Resources to Help Youth Thrive. Cambridge, MA, USA: Center for Digital Thriving.
