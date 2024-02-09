@@ -4,9 +4,8 @@ date: 2024-02-09
 draft: false
 description: 'The impacts of technology on teaching and learning.'
 tags: ['philosophy', 'education', 'Phd', 'technology', 'ed tech']
-toc: true
+include_toc: true
 ---
-
 # Ms. Barnes, I'm just gonna close my Chromebook
 
 K is a 5th grader in my Introduction to Coding/Computer Science class this semester. I taught her last year, and I have always known her to be conscientious, ready to listen, and ready to learn.
