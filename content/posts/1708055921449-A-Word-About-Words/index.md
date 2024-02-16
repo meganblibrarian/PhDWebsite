@@ -8,8 +8,8 @@ include_toc: true
 show_comments: false
 ---
 Earlier posts:
-1. [Power-Knowledge Ball & Wang](<../1706239959033-Power-Knowledge-Ball-/Power-Knowledge Ball & Wang.md>)Power-Knowledge Ball & Wang
-2. [How We Learn](</workspaces/PhDWebsite/content/posts/1706848252285-How-We-Learn/index.md>)
+1. [Power-Knowledge Ball & Wang](<../1706239959033-Power-Knowledge-Ball-/Power-Knowledge Ball & Wang.md>)
+2. [How We Learn](../1706848252285-How-We-Learn/index.md)
 3. [Technology & Learning](../1707449803155-Can-you-please-just-stop-touching-your-Chromebook?/index.md)
 
 ## A Word about Words
