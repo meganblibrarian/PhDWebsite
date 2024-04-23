@@ -3,7 +3,7 @@ title: "Is-it-a-science-though"
 date: 2024-04-21
 draft: false
 description: "A discussion on if the social sciences are a science"
-tags: ["education", "PhD", "social science"]
+tags: ["education", "PhD", "social science", "hugo"]
 ---
 
 Once again, let's start with some definitions.
