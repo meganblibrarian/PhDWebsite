@@ -50,8 +50,9 @@ showTableOfContents = true
 showTaxonomies = true
 showAuthorsBadges = false
 showWordCount = false
-showZenMode = false
+showZenMode = "showZenMode"
 heroStyle = "background"
+showRelatedContent = "showRelatedContent"
 
 [list]
 showHero = false
