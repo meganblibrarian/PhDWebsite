@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research</title>
+    <link>https://meganebarnes.com/research/</link>
+    <description>Research Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Megan E. Barnes</copyright>
+    <atom:link href="https://meganebarnes.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://meganebarnes.com/research/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meganebarnes.com/research/research/</guid>
+      <description>Coming soon: Research projects</description>
+      
+    </item>
+    
+  </channel>
+</rss>
