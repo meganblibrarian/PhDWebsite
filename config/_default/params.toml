@@ -1,14 +1,15 @@
 colorScheme = "autumn"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 highlightCurrentMenuArea = "enable"
+smartTOC = "enable"
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -18,13 +19,13 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = "enable"
 showRecentItems = "5"
 showMoreLink = false
 showMoreLinkDest = "/posts"
 cardView = "enable"
-cardViewScreenWidth = "full"
+cardViewScreenWidth = "enable"
 layoutBackgroundBlur = false
 
 [article]
@@ -88,6 +89,7 @@ showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
+heroStyle = "big"
 
 [firebase]
 
