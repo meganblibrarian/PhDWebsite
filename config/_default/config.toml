@@ -3,7 +3,7 @@
 baseurl = "https://meganebarnes.com" 
 title = "Universal"
 theme = "hugo-universal-theme"
-themesDir = "themes/hugo-universal-theme"
+themesDir = "themes/"
 languageCode = "en-us"
 
 # baseURL = "https://meganebarnes.com"
