@@ -1,5 +1,0 @@
-[submodule = "themes/hugo-theme-stack-starter"]
-	path = themes/hugo-theme-stack-starter
-	url = https://github.com/CaiJimmy/hugo-theme-stack-starter
-	branch = main
-	
