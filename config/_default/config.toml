@@ -1,9 +1,7 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
 baseurl = "https://meganebarnes.com" 
-title = "blowfish"
-theme = "blowfish"
-themesDir = "themes/"
+
 languageCode = "en-us"
 
 # baseURL = "https://meganebarnes.com"
