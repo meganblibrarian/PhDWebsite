@@ -7,5 +7,29 @@ pageRef = "Portfolio"
 identifier = "sYDsd7AnDM"
 weight = 9999
 
+[[main]]
+name = "Projects"
+pageRef = "projects"
+identifier = "gEQq9ULrqe"
+weight = 9999
+
+[[main]]
+name = "Research"
+pageRef = "research"
+identifier = "amj520fzmp"
+weight = 9999
+
+[[main]]
+name = "Blog"
+pageRef = "posts"
+identifier = "zl2aiorYBp"
+weight = 9999
+
+[[main]]
+name = "CV"
+pageRef = "cv"
+identifier = "MaWoN4zkUh"
+weight = 9999
+
 [[footer]]
 none = "none"

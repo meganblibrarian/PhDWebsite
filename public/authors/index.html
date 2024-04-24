@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Authors &middot; Blowfish</title>
-  <meta name="title" content="Authors &middot; Blowfish" />
+  <title>Authors &middot; Megan E. Barnes</title>
+  <meta name="title" content="Authors &middot; Megan E. Barnes" />
   
   
   
@@ -17,7 +17,7 @@
   
   <link rel="canonical" href="http://localhost:1313/authors/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/authors/index.xml" title="Blowfish" />
+  <link rel="alternate" type="application/rss+xml" href="/authors/index.xml" title="Megan E. Barnes" />
   
   
   
@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.ac59a1b8eaafef739c129d12787ac29f6a420bcb348c7aeec8949a8d0b7d6c2023766c169d14b9031b751504eb3c976efe786fec135b340a49868acd8caa4127.css"
-    integrity="sha512-rFmhuOqv73OcEp0SeHrCn2pCC8s0jHruyJSajQt9bCAjdmwWnRS5Axt1FQTrPJdu/nhv7BNbNApJhorNjKpBJw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.16aa8d306a138ea429fdb0319d238957c1264458628facd4b38f2371eb1a7f300d45aeebea162923cfd1e4cd989c2e4db37beff4915dc18521f6b4d1f54a8663.css"
+    integrity="sha512-FqqNMGoTjqQp/bAxnSOJV8EmRFhij6zUs48jcesafzANRa7r6hYpI8/R5M2YnC5Ns3vv9JFdwYUh9rTR9UqGYw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -75,6 +75,7 @@
 
   
   
+  <meta name="author" content="Megan E. Barnes" />
   
   
   
@@ -127,7 +128,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blowfish</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Megan E. Barnes</a>
             
 
         </nav>
@@ -136,10 +137,50 @@
             
             
             
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Blog
+    </p>
+</a>
+
+
+            
+            
+  <a href="/cv/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        CV
+    </p>
+</a>
+
+
+            
+            
   <a href="/portfolio/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Portfolio
+    </p>
+</a>
+
+
+            
+            
+  <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Projects
+    </p>
+</a>
+
+
+            
+            
+  <a href="/research/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Research
     </p>
 </a>
 
@@ -290,10 +331,66 @@
 
                     
   <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/cv/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            CV
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
     <a href="/portfolio/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Portfolio
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Projects
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/research/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Research
         </p>
     </a>
 </li>
@@ -327,6 +424,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   
@@ -418,7 +525,7 @@
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
       2024
-      
+      Megan E. Barnes
     </p>
     
 
