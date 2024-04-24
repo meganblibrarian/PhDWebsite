@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Education on Megan E. Barnes</title>
+    <title>Education on Blowfish</title>
     <link>http://localhost:1313/tags/education/</link>
-    <description>Recent content in Education on Megan E. Barnes</description>
+    <description>Recent content in Education on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Megan E. Barnes</copyright>
-    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is-it-a-science-though</title>
+      <link>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</guid>
+      <description>Once again, let&amp;rsquo;s start with some definitions.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1713835356413-is-it-a-science-though/featured.png" />
+    </item>
+    
     <item>
       <title>A Word About Words</title>
       <link>http://localhost:1313/posts/1708055921449-a-word-about-words/</link>
@@ -24,7 +34,7 @@
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
-      <description>Ms. Barnes, I&amp;rsquo;m just gonna close my Chromebook # K is a 5th grader in my Introduction to Coding/Computer Science class this semester.</description>
+      <description>Ms.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/featured.png" />
     </item>
     
