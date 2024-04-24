@@ -1,6 +1,10 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
+baseurl = "https://meganebarnes.com" 
+title = "Universal"
+theme = "hugo-universal-theme"
+themesDir = "themes/hugo-universal-theme"
+languageCode = "en-us"
 
 # baseURL = "https://meganebarnes.com"
 defaultContentLanguage = "en"
