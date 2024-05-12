@@ -2,6 +2,3 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
-[submodule "/hugo"]
-	path = /hugo
-	url = "https://github.com/gohugoio/hugo.git"
