@@ -7,4 +7,4 @@
 	url = https://github.com/gohugoio/hugo.git
 [submodule "themes/hugoplate"]
 	path = themes/hugoplate
-	url = /zeon-studio/hugoplate
+	url = https://github.com/zeon-studio/hugoplate
