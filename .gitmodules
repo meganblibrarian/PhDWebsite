@@ -5,3 +5,6 @@
 [submodule "hugo"]
 	path = hugo
 	url = https://github.com/gohugoio/hugo.git
+[submodule "themes/hugoplate"]
+	path = themes/hugoplate
+	url = /zeon-studio/hugoplate
