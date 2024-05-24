@@ -1,66 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
-    <loc>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</loc>
+    <loc>https://www.meganebarnes.com/tags/education/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/hugo/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/posts/1713835356413-is-it-a-science-though/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1708055921449-a-word-about-words/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/phd/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/posts/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/social-science/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/categories/6010/</loc>
     <lastmod>2024-02-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/posts/1708055921449-a-word-about-words/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/blog-4/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/categories/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/philosophy/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/writing/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/6010/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1706848252285-how-we-learn/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/ed-tech/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/tags/technology/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/posts/1706848252285-how-we-learn/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/portfolio/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/portfolio/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/research/</loc>
+  </url><url>
+    <loc>https://www.meganebarnes.com/research/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.meganebarnes.com/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

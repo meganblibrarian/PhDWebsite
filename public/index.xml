@@ -2,101 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Megan E. Barnes</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.meganebarnes.com/</link>
     <description>Recent content on Megan E. Barnes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2024 Megan E. Barnes</copyright>
-    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.meganebarnes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is-it-a-science-though</title>
-      <link>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</link>
+      <link>https://www.meganebarnes.com/posts/1713835356413-is-it-a-science-though/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</guid>
+      <guid>https://www.meganebarnes.com/posts/1713835356413-is-it-a-science-though/</guid>
       <description>Once again, let&amp;rsquo;s start with some definitions.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1713835356413-is-it-a-science-though/featured.png" />
     </item>
-    
     <item>
       <title>A Word About Words</title>
-      <link>http://localhost:1313/posts/1708055921449-a-word-about-words/</link>
+      <link>https://www.meganebarnes.com/posts/1708055921449-a-word-about-words/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1708055921449-a-word-about-words/</guid>
+      <guid>https://www.meganebarnes.com/posts/1708055921449-a-word-about-words/</guid>
       <description>Earlier posts:</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1708055921449-a-word-about-words/featured.png" />
     </item>
-    
     <item>
       <title>Can you please just stop touching your Chromebook?</title>
-      <link>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
+      <link>https://www.meganebarnes.com/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
-      <description>Ms.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/featured.png" />
+      <guid>https://www.meganebarnes.com/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
+      <description>Ms. Barnes, I&amp;rsquo;m just gonna close my Chromebook K is a 5th grader in my Introduction to Coding/Computer Science class this semester.</description>
     </item>
-    
     <item>
       <title>How We Learn</title>
-      <link>http://localhost:1313/posts/1706848252285-how-we-learn/</link>
+      <link>https://www.meganebarnes.com/posts/1706848252285-how-we-learn/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1706848252285-how-we-learn/</guid>
+      <guid>https://www.meganebarnes.com/posts/1706848252285-how-we-learn/</guid>
       <description>My favorite moments are when a mental light bulb goes off, a smile lights up their face, and something like &amp;ldquo;OH!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1706848252285-how-we-learn/featured.png" />
     </item>
-    
     <item>
       <title>Power-Knowledge Wang &amp; Ball</title>
-      <link>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
+      <link>https://www.meganebarnes.com/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
-      <description>Welcome # First, welcome.</description>
-      
+      <guid>https://www.meganebarnes.com/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
+      <description>Welcome First, welcome.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://www.meganebarnes.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://www.meganebarnes.com/contact/</guid>
       <description>This site is a part of my journey as a Ph.</description>
-      
     </item>
-    
     <item>
       <title></title>
-      <link>http://localhost:1313/portfolio/</link>
+      <link>https://www.meganebarnes.com/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/portfolio/</guid>
+      <guid>https://www.meganebarnes.com/portfolio/</guid>
       <description>Portfolio of work coming soon</description>
-      
     </item>
-    
     <item>
       <title></title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://www.meganebarnes.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://www.meganebarnes.com/projects/</guid>
       <description>Coming soon: Research projects</description>
-      
     </item>
-    
     <item>
       <title></title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://www.meganebarnes.com/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/research/</guid>
+      <guid>https://www.meganebarnes.com/research/</guid>
       <description>Coming soon: Research activity</description>
-      
     </item>
-    
   </channel>
 </rss>
