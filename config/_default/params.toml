@@ -24,7 +24,7 @@ showRecent = "enable"
 showRecentItems = "5"
 showMoreLink = false
 showMoreLinkDest = "/posts"
-cardView = "disable"
+cardView = "enable"
 cardViewScreenWidth = "enable"
 layoutBackgroundBlur = false
 
