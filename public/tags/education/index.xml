@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on Megan E. Barnes</title>
-    <link>https://www.meganebarnes.com/tags/education/</link>
+    <link>http://localhost:1313/tags/education/</link>
     <description>Recent content in Education on Megan E. Barnes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.meganebarnes.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is-it-a-science-though</title>
-      <link>https://www.meganebarnes.com/posts/1713835356413-is-it-a-science-though/</link>
+      <link>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.meganebarnes.com/posts/1713835356413-is-it-a-science-though/</guid>
+      <guid>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</guid>
       <description>Once again, let&amp;rsquo;s start with some definitions.</description>
     </item>
     <item>
       <title>A Word About Words</title>
-      <link>https://www.meganebarnes.com/posts/1708055921449-a-word-about-words/</link>
+      <link>http://localhost:1313/posts/1708055921449-a-word-about-words/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.meganebarnes.com/posts/1708055921449-a-word-about-words/</guid>
+      <guid>http://localhost:1313/posts/1708055921449-a-word-about-words/</guid>
       <description>Earlier posts:</description>
     </item>
     <item>
       <title>Can you please just stop touching your Chromebook?</title>
-      <link>https://www.meganebarnes.com/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
+      <link>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.meganebarnes.com/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
+      <guid>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
       <description>Ms. Barnes, I&amp;rsquo;m just gonna close my Chromebook K is a 5th grader in my Introduction to Coding/Computer Science class this semester.</description>
     </item>
     <item>
       <title>How We Learn</title>
-      <link>https://www.meganebarnes.com/posts/1706848252285-how-we-learn/</link>
+      <link>http://localhost:1313/posts/1706848252285-how-we-learn/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.meganebarnes.com/posts/1706848252285-how-we-learn/</guid>
+      <guid>http://localhost:1313/posts/1706848252285-how-we-learn/</guid>
       <description>My favorite moments are when a mental light bulb goes off, a smile lights up their face, and something like &amp;ldquo;OH!</description>
     </item>
     <item>
       <title>Power-Knowledge Wang &amp; Ball</title>
-      <link>https://www.meganebarnes.com/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
+      <link>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.meganebarnes.com/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
+      <guid>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
       <description>Welcome First, welcome.</description>
     </item>
   </channel>
