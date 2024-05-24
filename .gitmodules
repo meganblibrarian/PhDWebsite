@@ -2,9 +2,4 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
-[submodule "hugo"]
-	path = hugo
-	url = https://github.com/gohugoio/hugo.git
-[submodule "themes/hugoplate"]
-	path = themes/hugoplate
-	url = https://github.com/zeon-studio/hugoplate
+
