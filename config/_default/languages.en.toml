@@ -8,6 +8,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
+description = "This website is for Ph.D. student Megan E. Barnes, studying Learning Technologies at the University of North Texas. "
 
 [author]
 name = "Megan E. Barnes"

@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Megan E. Barnes</title>
-    <link>https://www.meganebarnes.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Megan E. Barnes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Megan E. Barnes</copyright>
-    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.meganebarnes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>https://www.meganebarnes.com/tags/education/</link>
+      <link>http://localhost:1313/tags/education/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/education/</guid>
+      <guid>http://localhost:1313/tags/education/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://www.meganebarnes.com/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>PhD</title>
-      <link>https://www.meganebarnes.com/tags/phd/</link>
+      <link>http://localhost:1313/tags/phd/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/phd/</guid>
+      <guid>http://localhost:1313/tags/phd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Social Science</title>
-      <link>https://www.meganebarnes.com/tags/social-science/</link>
+      <link>http://localhost:1313/tags/social-science/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/social-science/</guid>
+      <guid>http://localhost:1313/tags/social-science/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Blog 4</title>
-      <link>https://www.meganebarnes.com/tags/blog-4/</link>
+      <link>http://localhost:1313/tags/blog-4/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/blog-4/</guid>
+      <guid>http://localhost:1313/tags/blog-4/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Philosophy</title>
-      <link>https://www.meganebarnes.com/tags/philosophy/</link>
+      <link>http://localhost:1313/tags/philosophy/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/philosophy/</guid>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Writing</title>
-      <link>https://www.meganebarnes.com/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>6010</title>
-      <link>https://www.meganebarnes.com/tags/6010/</link>
+      <link>http://localhost:1313/tags/6010/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/6010/</guid>
+      <guid>http://localhost:1313/tags/6010/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ed Tech</title>
-      <link>https://www.meganebarnes.com/tags/ed-tech/</link>
+      <link>http://localhost:1313/tags/ed-tech/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/ed-tech/</guid>
+      <guid>http://localhost:1313/tags/ed-tech/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://www.meganebarnes.com/tags/technology/</link>
+      <link>http://localhost:1313/tags/technology/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.meganebarnes.com/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
       
     </item>

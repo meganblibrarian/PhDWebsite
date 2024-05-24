@@ -13,7 +13,7 @@ layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
-showCopyright = true
+showCopyright = "show"
 showThemeAttribution = true
 showAppearanceSwitcher = true
 showScrollToTop = true
@@ -24,7 +24,7 @@ showRecent = "enable"
 showRecentItems = "5"
 showMoreLink = false
 showMoreLinkDest = "/posts"
-cardView = "enable"
+cardView = "disable"
 cardViewScreenWidth = "enable"
 layoutBackgroundBlur = false
 
@@ -52,6 +52,7 @@ showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+heroStyle = "big"
 
 [list]
 showHero = false
@@ -88,7 +89,7 @@ showLikes = false
 showTableOfContents = true
 groupByYear = false
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 heroStyle = "big"
 
 [firebase]
