@@ -19,6 +19,8 @@ buildFuture = false
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+
+
 [imaging]
   anchor = 'Center'
 
@@ -65,3 +67,4 @@ buildFuture = false
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+    
