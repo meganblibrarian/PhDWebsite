@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example on Megan E. Barnes</title>
+    <link>http://localhost:1313/tags/example/</link>
+    <description>Recent content in Example on Megan E. Barnes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Educational Systems</title>
+      <link>http://localhost:1313/posts/1717529880982-educational-systems/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/1717529880982-educational-systems/</guid>
+      <description>an example to get you started</description>
+    </item>
+  </channel>
+</rss>
