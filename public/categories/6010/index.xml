@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6010 on Megan E. Barnes</title>
-    <link>http://localhost:35173/categories/6010/</link>
+    <link>http://localhost:1313/categories/6010/</link>
     <description>Recent content in 6010 on Megan E. Barnes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:35173/categories/6010/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/6010/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Word About Words</title>
-      <link>http://localhost:35173/posts/1708055921449-a-word-about-words/</link>
+      <link>http://localhost:1313/posts/1708055921449-a-word-about-words/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35173/posts/1708055921449-a-word-about-words/</guid>
+      <guid>http://localhost:1313/posts/1708055921449-a-word-about-words/</guid>
       <description>Earlier posts:</description>
     </item>
     <item>
       <title>How We Learn</title>
-      <link>http://localhost:35173/posts/1706848252285-how-we-learn/</link>
+      <link>http://localhost:1313/posts/1706848252285-how-we-learn/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35173/posts/1706848252285-how-we-learn/</guid>
+      <guid>http://localhost:1313/posts/1706848252285-how-we-learn/</guid>
       <description>My favorite moments are when a mental light bulb goes off, a smile lights up their face, and something like &amp;ldquo;OH!</description>
     </item>
     <item>
       <title>Power-Knowledge Wang &amp; Ball</title>
-      <link>http://localhost:35173/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
+      <link>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35173/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
+      <guid>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
       <description>Welcome First, welcome.</description>
     </item>
   </channel>
