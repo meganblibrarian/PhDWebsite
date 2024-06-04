@@ -1,5 +1,5 @@
 ---
-title: "Is-it-a-science-though"
+title: "Is it a science though?"
 date: 2024-04-21
 draft: false
 description: "A discussion on if the social sciences are a science"
