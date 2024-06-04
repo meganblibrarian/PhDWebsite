@@ -19,7 +19,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "hero"
 showRecent = "enable"
 showRecentItems = "5"
 showMoreLink = false
@@ -88,7 +88,7 @@ showViews = false
 showLikes = false
 showTableOfContents = true
 groupByYear = false
-cardView = false
+cardView = "enable"
 cardViewScreenWidth = true
 heroStyle = "big"
 

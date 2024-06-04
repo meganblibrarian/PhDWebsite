@@ -2,6 +2,9 @@
 # Refer to the theme docs for more details about each of these parameters.
 baseurl = "https://meganebarnes.com" 
 
+theme = "blowfish" # UNCOMMENT THIS LINE
+# baseURL = "https://your_domain.com/"
+defaultContentLanguage = "en"
 languageCode = "en-us"
 
 # baseURL = "https://meganebarnes.com"
