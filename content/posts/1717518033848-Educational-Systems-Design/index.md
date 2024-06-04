@@ -1,16 +1,13 @@
-``` yaml
+---
 categories: ['6250']
-
 date: '2024-06-03'
-
 description: 'A medium description of the educational system I currently work in.'
-
 tags: ['systems design', 'education', 'Phd', 'course work']
-
+draft: false
 title: 'Pre-K3 - 12th Private School Educational System Design'
 include_toc: true
 show_comments: false
-```
+---
 
 I currently work in a Pre-K age 3 through 12th grade private school. From a system design lens, it's organized by functionality. Here is a breakdown of the departments that make sure the school is meeting its mission on a daily basis:
 
