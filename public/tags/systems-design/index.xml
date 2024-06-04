@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Systems Design on Megan E. Barnes</title>
-    <link>http://localhost:1313/tags/systems-design/</link>
+    <link>http://localhost:35173/tags/systems-design/</link>
     <description>Recent content in Systems Design on Megan E. Barnes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/systems-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:35173/tags/systems-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pre-K3 - 12th Private School Educational System Design</title>
-      <link>http://localhost:1313/posts/1717529880982-educational-systems/</link>
+      <link>http://localhost:35173/posts/1717529880982-educational-systems/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1717529880982-educational-systems/</guid>
+      <guid>http://localhost:35173/posts/1717529880982-educational-systems/</guid>
       <description>I currently work in a Pre-K age 3 through 12th grade private school.</description>
     </item>
   </channel>
