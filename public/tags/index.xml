@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Megan E. Barnes</title>
-    <link>http://localhost:44915/tags/</link>
+    <link>https://www.meganebarnes.com/tags/</link>
     <description>Recent content in Tags on Megan E. Barnes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44915/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.meganebarnes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Work</title>
-      <link>http://localhost:44915/tags/course-work/</link>
+      <link>https://www.meganebarnes.com/tags/course-work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/course-work/</guid>
+      <guid>https://www.meganebarnes.com/tags/course-work/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>http://localhost:44915/tags/education/</link>
+      <link>https://www.meganebarnes.com/tags/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/education/</guid>
+      <guid>https://www.meganebarnes.com/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Phd</title>
-      <link>http://localhost:44915/tags/phd/</link>
+      <link>https://www.meganebarnes.com/tags/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/phd/</guid>
+      <guid>https://www.meganebarnes.com/tags/phd/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems Design</title>
-      <link>http://localhost:44915/tags/systems-design/</link>
+      <link>https://www.meganebarnes.com/tags/systems-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/systems-design/</guid>
+      <guid>https://www.meganebarnes.com/tags/systems-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:44915/tags/hugo/</link>
+      <link>https://www.meganebarnes.com/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/hugo/</guid>
+      <guid>https://www.meganebarnes.com/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Social Science</title>
-      <link>http://localhost:44915/tags/social-science/</link>
+      <link>https://www.meganebarnes.com/tags/social-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/social-science/</guid>
+      <guid>https://www.meganebarnes.com/tags/social-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog 4</title>
-      <link>http://localhost:44915/tags/blog-4/</link>
+      <link>https://www.meganebarnes.com/tags/blog-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/blog-4/</guid>
+      <guid>https://www.meganebarnes.com/tags/blog-4/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>http://localhost:44915/tags/philosophy/</link>
+      <link>https://www.meganebarnes.com/tags/philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/philosophy/</guid>
+      <guid>https://www.meganebarnes.com/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:44915/tags/writing/</link>
+      <link>https://www.meganebarnes.com/tags/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/writing/</guid>
+      <guid>https://www.meganebarnes.com/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>6010</title>
-      <link>http://localhost:44915/tags/6010/</link>
+      <link>https://www.meganebarnes.com/tags/6010/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/6010/</guid>
+      <guid>https://www.meganebarnes.com/tags/6010/</guid>
       <description></description>
     </item>
     <item>
       <title>Ed Tech</title>
-      <link>http://localhost:44915/tags/ed-tech/</link>
+      <link>https://www.meganebarnes.com/tags/ed-tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/ed-tech/</guid>
+      <guid>https://www.meganebarnes.com/tags/ed-tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:44915/tags/technology/</link>
+      <link>https://www.meganebarnes.com/tags/technology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44915/tags/technology/</guid>
+      <guid>https://www.meganebarnes.com/tags/technology/</guid>
       <description></description>
     </item>
   </channel>
