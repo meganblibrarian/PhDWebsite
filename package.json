@@ -1,42 +1,42 @@
 {
    "license": "ISC",
-  "dependencies": {
-    "common-tags": "1.8.0",
-    "debug": "4.1.1",
-    "got": "11.8.6",
-    "local-web-server": "^4.2.1",
-    "puppeteer": "18.1.0",
-    "ramda": "0.28.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "devDependencies": {
-    "jest": "^24.9.0",
-    "netlify-cli": "17.11.1",
-    "prettier": "2.2.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-router-dom": "5.2.0",
-    "react-scripts": "5.0.1",
-    "semantic-release": "^20.0.2",
-    "serve": "14.2.0"
-  },
-  "release": {
-    "branches": [
-      {
-        "name": "master"
-      },
-      {
-        "name": "prepare-v2",
-        "prerelease": true
-      }
-    ]
-  },
-  "jest": {
-    "rootDir": "./src"
-  }
+   "dependencies": {
+      "common-tags": "1.8.0",
+      "debug": "^4.3.5",
+      "got": "11.8.6",
+      "local-web-server": "^5.3.3",
+      "puppeteer": "18.1.0",
+      "ramda": "0.28.0"
+   },
+   "publishConfig": {
+      "access": "public"
+   },
+   "engines": {
+      "node": ">=18"
+   },
+   "devDependencies": {
+      "jest": "^29.7.0",
+      "netlify-cli": "^17.25.0",
+      "prettier": "2.2.1",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-router-dom": "5.2.0",
+      "react-scripts": "^3.0.1",
+      "semantic-release": "^24.0.0",
+      "serve": "14.2.0"
+   },
+   "release": {
+      "branches": [
+         {
+            "name": "master"
+         },
+         {
+            "name": "prepare-v2",
+            "prerelease": true
+         }
+      ]
+   },
+   "jest": {
+      "rootDir": "./src"
+   }
 }
