@@ -1,4 +1,4 @@
-colorScheme = "default"
+colorScheme = "autumn"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
@@ -19,7 +19,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "hero"
+layout = "profile"
 showRecent = "enable"
 showRecentItems = "5"
 showMoreLink = false
