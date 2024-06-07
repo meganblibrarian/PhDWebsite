@@ -15,61 +15,61 @@ show_comments: false
 I currently work in a Pre-K age 3 through 12th grade private school. From a system design lens, it's organized by functionality. Here is a breakdown of the departments that make sure the school is meeting its mission on a daily basis:
 
 #### Teaching & Academics
-> - Divisional Staff
-  > - Teachers
-  > - Grade Level Teachers
-  > - Content Area Specialist Teachers
-  > - Substitutes
-  > - Assistants
-  > - Academic Support
-  > - Athletic Coaches
-  > - Librarians
-  > - Leadership
+- Divisional Staff
+  - Teachers
+    > - Grade Level Teachers
+    > - Content Area Specialist Teachers
+    > - Substitutes
+    > - Assistants
+    > - Academic Support
+ - Athletic Coaches
+ - Librarians
+ - Leadership
   > - Head of School
   > - Associate Head of School
-> - Division Heads
-> - Associate Division Heads
-> - Head Chaplain
-> - Educational Technology
-> - Board of Directors
-> - Special Programs/Departments
-> - Outdoor Education
-> - Community Service
-> - Diversity, Equity, and Inclusion
-> - Community Programming
+  > - Division Heads
+  > - Associate Division Heads
+  > - Head Chaplain
+  > - Educational Technology
+  > - Board of Directors
+- Special Programs/Departments
+  > - Outdoor Education
+  > - Community Service
+  > - Diversity, Equity, and Inclusion
+- Community Programming
   > - Summer School
   > - Summer Campus
   > - After School Programs
-> - Social Emotional Wellness
+- Social Emotional Wellness
   > - Counselors
   > - Social-emotional learning coordinators
 
 > #### Non-Teaching Staff
-> - Administrative Staff
+- Administrative Staff
   > - Divisional administrators
   > - Human Resources
   > - Business department
   > - Accounts Payable
   > - Accounts Receivable
   > - Comptroller
-> - Curriculum
+- Curriculum
   > - Academic Officers
   > - Deans
-> - Facilities
+- Facilities
   > - Maintenance team (includes repairs, updates, and grounds)
   > - Cleaning and snack delivery
   > - Facilities administration
-> - Externally-Focused Facing Divisions
+- Externally-Focused Facing Divisions
   > - Advancement
   > - Admissions
   > - Communications
   > - Alumni Relations
-> - Other
+- Other
   > - Information Technology (IT)
   > - Campus Safety
   > - School Store
   > - SAGE (contracted dining services)
-> - The Learning Community
+- The Learning Community
   > - Students
   > - Caregivers
 
