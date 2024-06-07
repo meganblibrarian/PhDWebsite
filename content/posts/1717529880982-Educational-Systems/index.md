@@ -1,20 +1,20 @@
-```yaml
+---
 categories: ['6250']
 
 date: '2024-06-03'
 
 description: 'A medium description of the educational system I currently work in.'
 
-tags: ['systems design', 'education', 'Phd', 'course work'\
+tags: ['systems design', 'education', 'Phd', 'course work']
 
 title: 'Pre-K3 - 12th Private School Educational System Design'
 include_toc: true
 show_comments: false
-```
+---
 
 I currently work in a Pre-K age 3 through 12th grade private school. From a system design lens, it's organized by functionality. Here is a breakdown of the departments that make sure the school is meeting its mission on a daily basis:
 
-> [!todo]+ Teaching & Academics
+#### Teaching & Academics
 > - Divisional Staff
 > - Teachers
 > - Grade Level Teachers
@@ -42,9 +42,9 @@ I currently work in a Pre-K age 3 through 12th grade private school. From a syst
 > - After School Programs
 > - Social Emotional Wellness
 > - Counselors
->  Social emotional learning coordinators
+>  Social-emotional learning coordinators
 
-> [!todo]+ Non-Teaching Staff
+> #### Non-Teaching Staff
 > - Administrative Staff
 > - Divisional administrators
 > - Human Resources
@@ -89,9 +89,5 @@ The day to day work of ensuring the delivery of the mission is done by the divis
 
 *The learning community* are who we are here to impact. The *caregivers* provide the extended learning environment to ensure learning outside of the physical building can continue, and deliver the *students* to the school each day. *Students* participate in the learning by being actively engaged, attending class, and exploring their interests and passions and they move through the student experience.
 
-<figure>
-<img src="[/featured.png](https://github.com/meganblibrarian/PhDWebsite/assets/148710817/55f53a68-87da-4cce-9ab3-7d473bf0ed75)" title="wikilink" alt="Mind Map - Educational System.png">
-<figcaption aria-hidden="true">Mind Map - Educational
-System.png</figcaption>
-</figure>
-![Mind Map - Educational System](https://github.com/meganblibrarian/PhDWebsite/assets/148710817/55f53a68-87da-4cce-9ab3-7d473bf0ed75)
+****![Mind Map - Educational System](https://github.com/meganblibrarian/PhDWebsite/assets/148710817/ed70a353-fc7d-4891-ad00-b33ac60f9340)
+
