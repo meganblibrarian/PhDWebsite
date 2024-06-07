@@ -1,3 +1,3 @@
 ## Cognitive Neuroscience, Ethics, and Educational Technology Frameworks - Presented at SITE 2024
 
-{{< carousel images="{PhDWebsite/edit/main/assets/EthicalConsiderations/1.png, PhDWebsite/edit/main/EthicalConsiderations/2.png, PhDWebsite/edit/main/EthicalConsiderations/3.png, PhDWebsite/edit/main/EthicalConsiderations/4.png, PhDWebsite/edit/main/EthicalConsiderations/5.png, PhDWebsite/edit/main/EthicalConsiderations/6.png, PhDWebsite/edit/main/EthicalConsiderations/7.png, PhDWebsite/edit/main/EthicalConsiderations/8.png, PhDWebsite/edit/main/EthicalConsiderations/9.png, PhDWebsite/edit/main/EthicalConsiderations/10.png, PhDWebsite/edit/main/EthicalConsiderations/11.png, PhDWebsite/edit/main/EthicalConsiderations/12.png}" >}}
+{{< carousel images="/assets/EthicalConsiderations/* interval = 3000}" >}}
