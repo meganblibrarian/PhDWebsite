@@ -65,7 +65,7 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 groupByYear = true
-cardView = false
+cardView = "enable"
 cardViewScreenWidth = false
 constrainItemsWidth = false
 
