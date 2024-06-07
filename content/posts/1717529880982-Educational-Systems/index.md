@@ -92,7 +92,7 @@ The day to day work of ensuring the delivery of the mission is done by the divis
 
 <figure>
 <img
-src="../Educational%20System%20Design/f781445987e0825e8a0de7e86dbb9a368d836832.png"
+src="../featured.png"
 title="wikilink" alt="Mind Map - Educational System.png" />
 <figcaption aria-hidden="true">Mind Map - Educational
 System.png</figcaption>
