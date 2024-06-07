@@ -19,13 +19,13 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = "enable"
 showRecentItems = "5"
 showMoreLink = "enable"
 showMoreLinkDest = "/posts"
-cardView = "enable"
-cardViewScreenWidth = "cardViewScreenWidth"
+cardView = "disable"
+cardViewScreenWidth = "enable"
 layoutBackgroundBlur = false
 
 [article]
