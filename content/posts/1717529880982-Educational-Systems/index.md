@@ -25,53 +25,53 @@ I currently work in a Pre-K age 3 through 12th grade private school. From a syst
  - Athletic Coaches
  - Librarians
  - Leadership
-  > - Head of School
-  > - Associate Head of School
-  > - Division Heads
-  > - Associate Division Heads
-  > - Head Chaplain
-  > - Educational Technology
-  > - Board of Directors
+    > - Head of School
+    > - Associate Head of School
+    > - Division Heads
+    > - Associate Division Heads
+    > - Head Chaplain
+    > - Educational Technology
+    > - Board of Directors
 - Special Programs/Departments
-  > - Outdoor Education
-  > - Community Service
-  > - Diversity, Equity, and Inclusion
+    > - Outdoor Education
+    > - Community Service
+    > - Diversity, Equity, and Inclusion
 - Community Programming
-  > - Summer School
-  > - Summer Campus
-  > - After School Programs
+    > - Summer School
+    > - Summer Campus
+    > - After School Programs
 - Social Emotional Wellness
-  > - Counselors
-  > - Social-emotional learning coordinators
+    > - Counselors
+    > - Social-emotional learning coordinators
 
 > #### Non-Teaching Staff
 - Administrative Staff
-  > - Divisional administrators
-  > - Human Resources
-  > - Business department
-  > - Accounts Payable
-  > - Accounts Receivable
-  > - Comptroller
+    > - Divisional administrators
+    > - Human Resources
+    > - Business department
+    > - Accounts Payable
+    > - Accounts Receivable
+    > - Comptroller
 - Curriculum
-  > - Academic Officers
-  > - Deans
+    > - Academic Officers
+    > - Deans
 - Facilities
-  > - Maintenance team (includes repairs, updates, and grounds)
-  > - Cleaning and snack delivery
-  > - Facilities administration
+    > - Maintenance team (includes repairs, updates, and grounds)
+    > - Cleaning and snack delivery
+    > - Facilities administration
 - Externally-Focused Facing Divisions
-  > - Advancement
-  > - Admissions
-  > - Communications
-  > - Alumni Relations
+    > - Advancement
+    > - Admissions
+    > - Communications
+    > - Alumni Relations
 - Other
-  > - Information Technology (IT)
-  > - Campus Safety
-  > - School Store
-  > - SAGE (contracted dining services)
+    > - Information Technology (IT)
+    > - Campus Safety
+    > - School Store
+    > - SAGE (contracted dining services)
 - The Learning Community
-  > - Students
-  > - Caregivers
+    > - Students
+    > - Caregivers
 
 External systems that impact our internal system: the National Association of Independent Schools, the Independent Schools Association of the Southwest, and the Episcopal Diocese of Dallas to name some.
 
