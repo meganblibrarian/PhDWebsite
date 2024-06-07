@@ -1,77 +1,70 @@
 ---
 categories: ['6250']
-
 date: '2024-06-03'
-
 description: 'A medium description of the educational system I currently work in.'
-
 tags: ['systems design', 'education', 'Phd', 'course work']
-
 title: 'Pre-K3 - 12th Private School Educational System Design'
 include_toc: true
 show_comments: false
+draft: false
 ---
-
 I currently work in a Pre-K age 3 through 12th grade private school. From a system design lens, it's organized by functionality. Here is a breakdown of the departments that make sure the school is meeting its mission on a daily basis:
 
-#### Teaching & Academics
 - Divisional Staff
   - Teachers
-    > - Grade Level Teachers
-    > - Content Area Specialist Teachers
-    > - Substitutes
-    > - Assistants
-    > - Academic Support
- - Athletic Coaches
- - Librarians
- - Leadership
-    > - Head of School
-    > - Associate Head of School
-    > - Division Heads
-    > - Associate Division Heads
-    > - Head Chaplain
-    > - Educational Technology
-    > - Board of Directors
+    - Grade Level Teachers
+    - Content Area Specialist Teachers
+    - Substitutes
+  - Assistants
+  - Academic Support
+  - Athletic Coaches
+  - Librarians
+- Leadership
+  - Head of School
+    - Associate Head of School
+  - Division Heads
+    - Associate Division Heads
+  - Head Chaplain
+  - Educational Technology
+  - Board of Directors
 - Special Programs/Departments
-    > - Outdoor Education
-    > - Community Service
-    > - Diversity, Equity, and Inclusion
-- Community Programming
-    > - Summer School
-    > - Summer Campus
-    > - After School Programs
+  - Outdoor Education
+  - Community Service
+  - Diversity, Equity, and Inclusion
+  - Community Programming
+    - Summer School
+    - Summer Campus
+    - After School Programs
 - Social Emotional Wellness
-    > - Counselors
-    > - Social-emotional learning coordinators
-
-> #### Non-Teaching Staff
+  - Counselors
+  - Social emotional learning coordinators
 - Administrative Staff
-    > - Divisional administrators
-    > - Human Resources
-    > - Business department
-    > - Accounts Payable
-    > - Accounts Receivable
-    > - Comptroller
-- Curriculum
-    > - Academic Officers
-    > - Deans
+  - Divisional administrators
+  - Human Resources
+  - Business department
+    - Accounts Payable
+    - Accounts Receivable
+    - Comptroller
+  - Curriculum
+    - Academic Officers
+    - Deans
 - Facilities
-    > - Maintenance team (includes repairs, updates, and grounds)
-    > - Cleaning and snack delivery
-    > - Facilities administration
+  - Maintenance team (includes repairs, updates, and grounds)
+  - Cleaning and snack delivery
+  - Facilities administration
 - Externally-Focused Facing Divisions
-    > - Advancement
-    > - Admissions
-    > - Communications
-    > - Alumni Relations
+  - Advancement
+  - Admissions
+  - Communications
+  - Alumni Relations
 - Other
-    > - Information Technology (IT)
-    > - Campus Safety
-    > - School Store
-    > - SAGE (contracted dining services)
+  - Information Technology (IT)
+  - Campus Safety
+  - School Store
+  - SAGE (contracted dining services)
 - The Learning Community
-    > - Students
-    > - Caregivers
+  - Students
+  - Caregivers
 
 External systems that impact our internal system: the National Association of Independent Schools, the Independent Schools Association of the Southwest, and the Episcopal Diocese of Dallas to name some.
 
@@ -88,6 +81,3 @@ The day to day work of ensuring the delivery of the mission is done by the divis
 *Facilities* ensures that our environment is safe, inviting, clean, and delivers the snacks our students enjoy each day. *IT* ensures that the infrastructure that allows us to connect to the digital world around us (and print!) is supporting our daily work. The *social-emotional wellness* team works to incorporate social-emotional wellness and growth into the classroom environment, but also support students on an individual basis in order to ensure they feel loved, welcome, seen, and supported at times when they need additional support to feel emotionally ready to learn. *Campus safety* ensures the physical safety of our entire community by checking that people entering campus have a reason to be there, and are not a threat to our community, as well as providing safety practices to keep our physical bodies safe from environmental harms. *SAGE* meets the nutritional needs so the whole school has their human need for food met to continue the hard work of education on a daily basis.
 
 *The learning community* are who we are here to impact. The *caregivers* provide the extended learning environment to ensure learning outside of the physical building can continue, and deliver the *students* to the school each day. *Students* participate in the learning by being actively engaged, attending class, and exploring their interests and passions and they move through the student experience.
-
-****![Mind Map - Educational System](https://github.com/meganblibrarian/PhDWebsite/assets/148710817/ed70a353-fc7d-4891-ad00-b33ac60f9340)
-
