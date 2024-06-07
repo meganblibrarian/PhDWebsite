@@ -31,5 +31,11 @@ pageRef = "cv"
 identifier = "MaWoN4zkUh"
 weight = 9999
 
+[[main]]
+name = "CV"
+pageRef = "cv"
+identifier = "F8063mySU4"
+weight = 9999
+
 [[footer]]
 none = "none"
