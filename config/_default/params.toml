@@ -22,10 +22,10 @@ showScrollToTop = true
 layout = "profile"
 showRecent = "enable"
 showRecentItems = "5"
-showMoreLink = false
+showMoreLink = "enable"
 showMoreLinkDest = "/posts"
 cardView = "enable"
-cardViewScreenWidth = "enable"
+cardViewScreenWidth = "cardViewScreenWidth"
 layoutBackgroundBlur = false
 
 [article]
@@ -55,7 +55,7 @@ showZenMode = false
 heroStyle = "big"
 
 [list]
-showHero = false
+showHero = "show"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -66,8 +66,9 @@ showTableOfContents = false
 showCards = false
 groupByYear = true
 cardView = "enable"
-cardViewScreenWidth = false
+cardViewScreenWidth = "enable"
 constrainItemsWidth = false
+heroStyle = "basic"
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]

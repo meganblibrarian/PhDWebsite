@@ -28,13 +28,7 @@ weight = 9999
 [[main]]
 name = "CV"
 pageRef = "cv"
-identifier = "MaWoN4zkUh"
-weight = 9999
-
-[[main]]
-name = "CV"
-pageRef = "cv"
-identifier = "F8063mySU4"
+identifier = "6MYepX4uhq"
 weight = 9999
 
 [[footer]]
