@@ -51,9 +51,10 @@ showTableOfContents = "show"
 showTaxonomies = "show"
 showAuthorsBadges = false
 showWordCount = true
-showZenMode = "show"
+showZenMode = "hide"
 heroStyle = "big"
-showRelatedContent = "hide"
+showRelatedContent = "show"
+relatedContentLimit = "5"
 
 [list]
 showHero = "show"
