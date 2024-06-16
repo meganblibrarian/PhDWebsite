@@ -29,13 +29,13 @@ cardViewScreenWidth = "enable"
 layoutBackgroundBlur = false
 
 [article]
-showDate = true
+showDate = "show"
 showViews = false
 showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = "show"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -47,12 +47,13 @@ showHeadingAnchors = true
 showPagination = true
 invertPagination = false
 showReadingTime = true
-showTableOfContents = false
-showTaxonomies = false
+showTableOfContents = "show"
+showTaxonomies = "show"
 showAuthorsBadges = false
 showWordCount = true
-showZenMode = false
+showZenMode = "show"
 heroStyle = "big"
+showRelatedContent = "show"
 
 [list]
 showHero = "show"

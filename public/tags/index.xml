@@ -9,6 +9,16 @@
     <copyright>© 2024 Megan E. Barnes</copyright>
     <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>6220</title>
+      <link>http://localhost:1313/tags/6220/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/6220/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>6250</title>
       <link>http://localhost:1313/tags/6250/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
@@ -19,11 +29,61 @@
     </item>
     
     <item>
+      <title>Education</title>
+      <link>http://localhost:1313/tags/education/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/education/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>http://localhost:1313/tags/implementation/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/implementation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>PhD</title>
       <link>http://localhost:1313/tags/phd/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/phd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>http://localhost:1313/tags/philosophy/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/philosophy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Professional Development</title>
+      <link>http://localhost:1313/tags/professional-development/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/professional-development/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Social Science</title>
+      <link>http://localhost:1313/tags/social-science/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/social-science/</guid>
       <description></description>
       
     </item>
@@ -49,16 +109,6 @@
     </item>
     
     <item>
-      <title>Education</title>
-      <link>http://localhost:1313/tags/education/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/education/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Systems Design</title>
       <link>http://localhost:1313/tags/systems-design/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
@@ -79,31 +129,11 @@
     </item>
     
     <item>
-      <title>Social Science</title>
-      <link>http://localhost:1313/tags/social-science/</link>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/social-science/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Blog 4</title>
       <link>http://localhost:1313/tags/blog-4/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/blog-4/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Philosophy</title>
-      <link>http://localhost:1313/tags/philosophy/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
       
     </item>
