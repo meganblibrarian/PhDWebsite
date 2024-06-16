@@ -53,7 +53,7 @@ showAuthorsBadges = false
 showWordCount = true
 showZenMode = "show"
 heroStyle = "big"
-showRelatedContent = "show"
+showRelatedContent = "hide"
 
 [list]
 showHero = "show"
