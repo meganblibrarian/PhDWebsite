@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Megan E. Barnes</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6250</title>
+      <link>http://localhost:1313/tags/6250/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/6250/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PhD</title>
+      <link>http://localhost:1313/tags/phd/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/phd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Systems Thinking</title>
+      <link>http://localhost:1313/tags/systems-thinking/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/systems-thinking/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Course Work</title>
       <link>http://localhost:1313/tags/course-work/</link>
@@ -24,16 +54,6 @@
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/education/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Phd</title>
-      <link>http://localhost:1313/tags/phd/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/phd/</guid>
       <description></description>
       
     </item>

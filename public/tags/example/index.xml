@@ -4,16 +4,19 @@
     <title>Example on Megan E. Barnes</title>
     <link>http://localhost:1313/tags/example/</link>
     <description>Recent content in Example on Megan E. Barnes</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Megan E. Barnes</copyright>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Educational Systems</title>
-      <link>http://localhost:1313/posts/1717529880982-educational-systems/</link>
-      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1717529880982-educational-systems/</guid>
+      <title>Theory of Planned Development</title>
+      <link>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</guid>
       <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718565259980-theory-of-planned-development/featured.png" />
     </item>
+    
   </channel>
 </rss>
