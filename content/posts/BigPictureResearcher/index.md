@@ -17,7 +17,7 @@ Context is everything, though. If this study took participants (a word that othe
 
 ### Reflection 
 
-This past semester I have been in a classes on technology implementation and systems design. Through the lens of soft systems methodology, I took the graphic of my <a href = "https://www.canva.com/design/DAF7MadgM2M/view">research design</a>  and the <a href = "https://meganebarnes.com/posts/1717529880982-educational-systems/">description of my work environment</a> and turned it into a systemigram that can be generalized across much of K-12 formal education. 
+This past semester I have been in a classes on technology implementation and systems design. Through the lens of soft systems methodology, I took the graphic of my <a href = "https://meganebarnes.com/posts/1719779935638-internal-and-external-systems/">research design</a>  and the <a href = "https://meganebarnes.com/posts/1717529880982-educational-systems/">description of my work environment</a> and turned it into a systemigram that can be generalized across much of K-12 formal education. 
 
 That systemigram is then being used to inform my implementation of a real product at my real job. No part of this has been theoretical, or at least, it's grounded in my professional experience. The tool in question zSpace is in the process of being implemented. We have them, and the context is important. I have had to stop writing on my final submission in order to take calls with my colleague about the tools, and our student who interned at the company was emailing us about implementation ideas during the writing process. 
 
