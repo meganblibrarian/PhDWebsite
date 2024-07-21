@@ -15,7 +15,14 @@ We try to plan for everything, it's typically not human intention to do harm (po
 
 ### Systems for Educational Technology Choice
 
-![](/assets/Research Concept Ma.png)
+<div style="position: relative; width: 100%; height: 0; padding-top: 75.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF7MadgM2M&#x2F;c_D4yck4xZMWezmUouT79g&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF7MadgM2M&#x2F;c_D4yck4xZMWezmUouT79g&#x2F;view?utm_content=DAF7MadgM2M&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Research Concept Map</a> 
 
 I built this starter model for my dissertation work. It started as a sketch and moved into a digital format. I am using it as a guide to start my thoughts, and provide starter questions to quickly jump start an educator's thinking in each domain, and provide an organization system for approaching the domains I need to research in order to build a robust thinking routine. Even creating this was more work than I expected, and there are overlaps. It's not a clear distinction between the concerns about how technology impacts a learner's brain and the classroom environment. Neuroscientist Chantel Prat (2022) defines learning as anything you experience "that changes the way you think, feel, or behave." The learning environment teaches us what is expected, or at least tolerated, in our educational institutions and from our peers. The tools we select impact the learning environment, which in and of itself teachers learners, even if its not the direct learning we are attempting to provide. 
 
