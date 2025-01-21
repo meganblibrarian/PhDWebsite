@@ -7,10 +7,6 @@ tags: ["Qualitative", "Reflection Posts", "6212", "PhD"]
 toc: true
 ---
 
-
-    What you think about qualitative research at this point starting out the semester.
-        Do you have a positive or negative view? Is this form of research interesting to you?
-
 ### Qualitative Research
 
 I have been waiting for this course since the beginning of my PhD journey. Stories are one of the oldest ways humans have used to educate each other, and I see qualitative research as a way of gathering stories to find underlying common themes. I appreciate the quantitative research's ability to give trends across groups of people and show us that something is happening, but do not feel it tells enough of the story to get to the actual root of what is happening, or why it is happening. Think of it like soft systems analysis: You can use reasoning for part of your analysis, but you do not have all the information until you have talked to all the stakeholders in order to understand not just what their perspective is, but why they have it so you can best meet everybody’s needs in a proposed solution. 
