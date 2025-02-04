@@ -1,5 +1,5 @@
 ---
-title: "Qualitative Research"
+title: "Research & Teaching Ethics of Technology Use with Children"
 date: 2025-02-03
 draft: false
 tags: ["Qualitative", "Reflection Posts", "6212", "PhD","technology"]
