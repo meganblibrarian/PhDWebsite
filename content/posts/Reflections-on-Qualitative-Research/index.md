@@ -3,7 +3,7 @@ title: "Reflections on Qualitative Research"
 date: 2025-05-06
 draft: false
 description: "a description"
-tags: ["#Phd", "#qualitative", "#LTEC6512", "#reflection"]
+tags: ["Phd", "qualitative", "LTEC6512", "reflection"]
 include_toc: true
 ---
 ### Reflection on Growth Area
