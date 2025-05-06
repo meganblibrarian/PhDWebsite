@@ -1,12 +1,8 @@
 ---
 categories: ['6010']
-
 date: '2024-02-01'
-
 description: 'A personal learning theory.'
-
 tags: ['philosophy', 'education', 'Phd']
-
 title: 'How We Learn'
 include_toc: true
 show_comments: false
