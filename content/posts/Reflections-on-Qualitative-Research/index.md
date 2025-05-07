@@ -8,7 +8,7 @@ include_toc: true
 ---
 ### Reflection on Growth Area
 
-I am looking forward to diving deeper into data analysis and different tools and methodologies to approach it. I got very in the weeds halfway through the semester and that information didn't stick as well as some of the rest. Additionally, this is the kind of thing that is harder for me to learn about just from reading, so it's great that the research proposal I sent in has already gotten IRB approval and I'm currently recruiting participants! I'll get that hands-on knowledge! 
+I am looking forward to diving deeper into data analysis and different tools and methodologies to approach it. I got very he weeds halfway through the semester and that information didn't stick as well as some of the rest. Additionally, this is the kind of thing that is harder for me to learn about just from reading, so it's great that the research proposal I sent in has already gotten IRB approval and I'm currently recruiting participants! I'll get that hands-on knowledge! 
 
 ### Here's the Plan
 
