@@ -1,5 +1,5 @@
 colorScheme = "autumn"
-defaultAppearance = "dark"
+defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
@@ -7,6 +7,11 @@ disableImageOptimization = false
 disableTextInHeader = false
 highlightCurrentMenuArea = "enable"
 smartTOC = "enable"
+firebase = { }
+fathomAnalytics = { }
+umamiAnalytics = { }
+buymeacoffee = { }
+verification = { }
 
 [header]
 layout = "fixed-fill-blur"
@@ -94,13 +99,3 @@ groupByYear = false
 cardView = "enable"
 cardViewScreenWidth = true
 heroStyle = "big"
-
-[firebase]
-
-[fathomAnalytics]
-
-[umamiAnalytics]
-
-[buymeacoffee]
-
-[verification]
