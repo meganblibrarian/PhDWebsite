@@ -23,4 +23,4 @@ This project serves 2 purposes: creating another interactive game that supports 
 
 It also served as an professional growth activity for AI Co-Lab activity. We are working together to test not only AI but investingating Canva's deployment of code. 
 
-<iframe width=600 height=400 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/"></iframe>
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" allowfullscreen="allowfullscreen" allow="fullscreen" src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/"></iframe> 
