@@ -15,3 +15,12 @@ This game is also an exploration of how to create with the newly-release Canva A
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGnz0h0iNs&#x2F;1x6GBl4-PR7GEpZasBOgTg&#x2F;view?utm_content=DAGnz0h0iNs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Library Shelving Ordering Game</a> by Megan Barnes
+
+
+## Figurive vs Literal Language
+
+This project serves 2 purposes: creating another interactive game that supports the emerging literacy skill of identifying literal versus figurative language. 
+
+It also served as an professional growth activity for AI Co-Lab activity. We are working together to test not only AI but investingating Canva's deployment of code. 
+
+<iframe width=600 height=400 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/"></iframe>
