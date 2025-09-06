@@ -32,3 +32,17 @@ It also served as an professional growth activity for AI Co-Lab activity. We are
 </div>
 
 <!-- this is my original iframe code iframe width=600 height=900 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/" iframe> 
+
+### Quick-deploy websites using AI 
+
+This project was prompted by a conversation I was having with another member of my Ph.D. cohort. We discussed how AI can generate websites very quickly, and I chatted with her about how to write a quick prompt to generate a website appropraite for a Ph.D. portfolio. She uses Claude, and shared the results with me. I decided to follow the same prompt and then we compared results, noticing that we received very different websites. Hers was a one-page site, mine was multi-page. Hers used a much more limited palate than mine as well. The results can be seen below.  
+
+Classmates: 
+<iframe src="https://claude.ai/public/artifacts/3850a866-aa74-436d-aefc-1f651b79fc67/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+
+Mine: 
+<iframe src="https://claude.site/public/artifacts/22879bf1-cadb-47f9-98cc-60090181c208/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+
+Next steps for this process will be to investigate how Gemini and ChatGPT generate these websites as well. This will be limited to more general tools versus site generation by tools that are more specifically used for design (such as Gamma, Canva, or Lucid). 
+
+
