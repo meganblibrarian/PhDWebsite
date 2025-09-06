@@ -31,7 +31,7 @@ It also served as an professional growth activity for AI Co-Lab activity. We are
   </iframe>
 </div>
 
-<!-- this is my original iframe code iframe width=600 height=900 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/" iframe> 
+<!-- this is my original iframe code iframe width=600 height=900 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/" iframe --> 
 
 ### Quick-deploy websites using AI 
 
