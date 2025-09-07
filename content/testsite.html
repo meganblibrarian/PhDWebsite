@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Chen - PhD Research Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #f1f5f9 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 50%, #1e293b 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 40px 40px;
+            animation: float 25s infinite linear;
+        }
+
+        @keyframes float {
+            0% { transform: translate(-30px, -30px); }
+            100% { transform: translate(30px, 30px); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid rgba(255,255,255,0.3);
+            object-fit: cover;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .header-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .contact-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.4rem 1rem;
+            background: rgba(255,255,255,0.15);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            font-size: 0.9rem;
+        }
+
+        .contact-link:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-1px);
+        }
+
+        nav {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            padding: 0.7rem 1.3rem;
+            background: transparent;
+            border: 2px solid #1e40af;
+            border-radius: 20px;
+            color: #1e40af;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            background: #1e40af;
+            color: white;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+        }
+
+        .content {
+            padding: 2.5rem 2rem;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.4s ease-in;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #1e40af, #0891b2, #0f172a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .about-content {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            border-left: 4px solid #0284c7;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-content::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, rgba(2, 132, 199, 0.1), transparent);
+            border-radius: 0 0 0 100px;
+        }
+
+        .about-text {
+            position: relative;
+            z-index: 2;
+            font-size: 1.05rem;
+            color: #475569;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Research Section */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .research-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            position: relative;
+            border-top: 4px solid;
+        }
+
+        .research-card:nth-child(1) { border-top-color: #1e40af; }
+        .research-card:nth-child(2) { border-top-color: #0891b2; }
+        .research-card:nth-child(3) { border-top-color: #0284c7; }
+        .research-card:nth-child(4) { border-top-color: #0369a1; }
+
+        .research-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+        }
+
+        .research-card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            color: #1e293b;
+        }
+
+        .research-card p {
+            color: #64748b;
+            line-height: 1.7;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: rgba(30, 64, 175, 0.1);
+            color: #1e40af;
+            padding: 0.3rem 0.8rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            font-weight: 500;
+        }
+
+        /* Blog Section */
+        .blog-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border-left: 4px solid #0891b2;
+        }
+
+        .blog-post:hover {
+            transform: translateX(5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+        }
+
+        .blog-post h3 {
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+            color: #1e293b;
+        }
+
+        .blog-meta {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .blog-tags {
+            display: flex;
+            gap: 0.5rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .blog-tag {
+            background: rgba(8, 145, 178, 0.1);
+            color: #0891b2;
+            padding: 0.2rem 0.6rem;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .blog-excerpt {
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        /* Publications */
+        .publications-list {
+            margin-top: 2rem;
+        }
+
+        .publication-item {
+            background: white;
+            margin: 1.5rem 0;
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid #0369a1;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .publication-item:hover {
+            transform: translateX(8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+        }
+
+        .publication-title {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        .publication-details {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .publication-abstract {
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-top: 2rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            border-top: 4px solid #0284c7;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            background: #f8fafc;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #0284c7;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #1e40af 0%, #0891b2 100%);
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(30, 64, 175, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; gap: 1.5rem; }
+            .header-text h1 { font-size: 2rem; }
+            .nav-container { gap: 1rem; }
+            .research-grid { grid-template-columns: 1fr; }
+            .contact-links { gap: 1rem; }
+            .about-content, .contact-form { padding: 2rem; }
+            .profile-image { width: 120px; height: 120px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="profile-image">👨‍🎓</div>
+                <div class="header-text">
+                    <h1>Alex Chen</h1>
+                    <div class="subtitle">PhD Candidate in Computer Science</div>
+                    <div class="subtitle">Stanford University • AI Research Lab</div>
+                    <div class="contact-links">
+                        <a href="mailto:alex.chen@stanford.edu" class="contact-link">📧 Email</a>
+                        <a href="#" class="contact-link">🎓 Google Scholar</a>
+                        <a href="#" class="contact-link">💼 LinkedIn</a>
+                        <a href="#" class="contact-link">📋 CV</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="nav-container">
+                <button class="nav-btn active" onclick="showSection('about')">About</button>
+                <button class="nav-btn" onclick="showSection('research')">Research</button>
+                <button class="nav-btn" onclick="showSection('blog')">Blog & Reflections</button>
+                <button class="nav-btn" onclick="showSection('publications')">Publications</button>
+                <button class="nav-btn" onclick="showSection('contact')">Contact</button>
+            </div>
+        </nav>
+
+        <div class="content">
+            <section id="about" class="section active">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Exploring the intersection of AI, ethics, and human-centered design</p>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>I am a PhD candidate in Computer Science at Stanford University, working under the supervision of Dr. Jane Smith in the AI Research Lab. My research focuses on developing ethical AI systems that can learn efficiently from limited data, with particular emphasis on transparency, fairness, and human-interpretable machine learning.</p>
+                            
+                            <p>My work sits at the intersection of technical innovation and social responsibility. I'm passionate about creating AI systems that not only perform well but also provide meaningful explanations for their decisions, especially in high-stakes domains like healthcare and criminal justice.</p>
+                            
+                            <p>Prior to my doctoral studies, I completed my Master's degree in Machine Learning at MIT, where I first became interested in the ethical implications of algorithmic decision-making. My undergraduate work was in Mathematics and Computer Science at UC Berkeley, with a minor in Philosophy.</p>
+                            
+                            <p>Beyond research, I'm actively involved in science communication and policy discussions around AI governance. I frequently write about the challenges and opportunities in responsible AI development, and I mentor undergraduate students who are interested in pursuing research at the intersection of technology and society.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="research" class="section">
+                <h2 class="section-title">Research Projects</h2>
+                <p class="section-subtitle">Current investigations in responsible AI and machine learning</p>
+                <div class="research-grid">
+                    <div class="research-card">
+                        <h3>Explainable AI for Healthcare</h3>
+                        <p>Developing interpretable deep learning models for medical diagnosis that provide clinically meaningful explanations. This work aims to build trust between AI systems and healthcare professionals while maintaining diagnostic accuracy.</p>
+                        <span class="status-badge">Active Research</span>
+                    </div>
+                    <div class="research-card">
+                        <h3>Fairness in Algorithmic Decision-Making</h3>
+                        <p>Investigating bias detection and mitigation techniques in machine learning systems used for consequential decisions. Focus on developing frameworks that balance accuracy with fairness across different demographic groups.</p>
+                        <span class="status-badge">Under Review</span>
+                    </div>
+                    <div class="research-card">
+                        <h3>Privacy-Preserving Federated Learning</h3>
+                        <p>Creating protocols for collaborative machine learning that maintain strong privacy guarantees while enabling knowledge sharing across institutions, particularly in sensitive domains like healthcare and finance.</p>
+                        <span class="status-badge">Collaboration</span>
+                    </div>
+                    <div class="research-card">
+                        <h3>Human-AI Interaction Design</h3>
+                        <p>Exploring how to design AI interfaces that support human decision-making rather than replacing it. This includes work on explanation design, trust calibration, and human-in-the-loop systems.</p>
+                        <span class="status-badge">Early Stage</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog" class="section">
+                <h2 class="section-title">Blog & Reflections</h2>
+                <p class="section-subtitle">Thoughts on AI research, academia, and the PhD journey</p>
+                <div class="blog-grid">
+                    <div class="blog-post">
+                        <h3>Reflections on Responsible AI Research</h3>
+                        <div class="blog-meta">
+                            <span>📅 March 15, 2024</span>
+                            <span>⏱️ 6 min read</span>
+                            <span>💭 Research Ethics</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="blog-tag">AI Ethics</span>
+                            <span class="blog-tag">Research</span>
+                            <span class="blog-tag">PhD Life</span>
+                        </div>
+                        <p class="blog-excerpt">As AI systems become more prevalent in society, the responsibility of researchers to consider the broader implications of their work has never been more critical. In this post, I reflect on the challenges and opportunities in conducting responsible AI research...</p>
+                    </div>
+                    <div class="blog-post">
+                        <h3>The Interpretability-Performance Trade-off: A False Dichotomy?</h3>
+                        <div class="blog-meta">
+                            <span>📅 February 28, 2024</span>
+                            <span>⏱️ 8 min read</span>
+                            <span>💭 Technical Deep-dive</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Interpretability</span>
+                            <span class="blog-tag">Machine Learning</span>
+                            <span class="blog-tag">Theory</span>
+                        </div>
+                        <p class="blog-excerpt">The common assumption that we must choose between model performance and interpretability may be outdated. Recent advances in explainable AI suggest we can have both, but it requires rethinking how we approach model design and evaluation...</p>
+                    </div>
+                    <div class="blog-post">
+                        <h3>Navigating the Third Year: Lessons from the PhD Trenches</h3>
+                        <div class="blog-meta">
+                            <span>📅 January 20, 2024</span>
+                            <span>⏱️ 4 min read</span>
+                            <span>💭 Personal</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="blog-tag">PhD Journey</span>
+                            <span class="blog-tag">Academia</span>
+                            <span class="blog-tag">Personal Growth</span>
+                        </div>
+                        <p class="blog-excerpt">The third year of a PhD is often described as the most challenging. Having recently emerged from this phase, I want to share some reflections on impostor syndrome, research pivots, and finding your voice as a researcher...</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="publications" class="section">
+                <h2 class="section-title">Publications</h2>
+                <p class="section-subtitle">Peer-reviewed papers and preprints</p>
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <div class="publication-title">Towards Trustworthy AI: A Framework for Explainable Medical Diagnosis</div>
+                        <div class="publication-details">A. Chen, J. Smith, K. Williams | Conference on Neural Information Processing Systems (NeurIPS) 2024</div>
+                        <p class="publication-abstract">We propose a novel framework for developing explainable AI systems in medical diagnosis that balances accuracy with interpretability. Our approach uses attention mechanisms and concept activation vectors to provide clinically relevant explanations while maintaining state-of-the-art performance on diagnostic tasks.</p>
+                    </div>
+                    <div class="publication-item">
+                        <div class="publication-title">Fairness-Aware Meta-Learning for Few-Shot Classification</div>
+                        <div class="publication-details">A. Chen, M. Johnson, R. Davis | International Conference on Machine Learning (ICML) 2024</div>
+                        <p class="publication-abstract">This paper addresses the challenge of maintaining fairness across demographic groups in few-shot learning scenarios. We introduce a meta-learning algorithm that explicitly optimizes for both accuracy and fairness metrics, demonstrating improved equity without significant performance degradation.</p>
+                    </div>
+                    <div class="publication-item">
+                        <div class="publication-title">Privacy-Preserving Federated Learning with Differential Privacy Guarantees</div>
+                        <div class="publication-details">A. Chen, S. Lee, T. Brown | arXiv preprint 2024 (Under Review at ICLR)</div>
+                        <p class="publication-abstract">We develop a federated learning protocol that provides formal differential privacy guarantees while maintaining competitive performance. Our approach uses novel noise injection and aggregation techniques to enable collaborative learning across sensitive datasets.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">I'm always interested in discussing research collaborations and ideas</p>
+                <div class="contact-form">
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Remove active class from all nav buttons
+            const navButtons = document.querySelectorAll('.nav-btn');
+            navButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+
+            // Add active class to clicked nav button
+            event.target.classList.add('active');
+        }
+
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            event.target.reset();
+        }
+
+        // Smooth scrolling for better UX
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
