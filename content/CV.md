@@ -29,7 +29,8 @@
 
 ## Conference Activity
 ---
-
+Barnes, M., Rivera, B. M. , Russel, G. S., Milburn, S., & Brooks, B. (2024, October). Stepping into the Spotlight: Librarians as Techonlogy Leaders. [Conference Presentation]. /Association for Educational Communications and Technology/. Kansas City, MO, United States.
+Eutsler, L., Rivera, B. M., Barnes, M., & Cummings, J. (2024, October). AI District Policy Analysis: Informing Educational Technology Policy for Tomorrow's Needs [Confernece Presentation]. /Association for Educational Communications and Technology/. Kansas City, MO, United States.
 Society for 
 Multidisciplinary Information Research Symposium, Denton, TX (December, 2023)
 * Ethical Considerations on the Adoption of Educational Technology
