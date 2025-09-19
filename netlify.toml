@@ -4,9 +4,9 @@
  # publish = "public"
 
 # [build.environment]
- # HUGO_VERSION = "0.127.0"
+ # HUGO_VERSION = "0.50.0"
 [build.environment]
-HUGO_VERSION = "0.125.7"
+HUGO_VERSION = "0.150.0"
 DART_SASS_VERSION = "1.77.1"
 TZ = "America/Los_Angeles"
 
