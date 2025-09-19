@@ -3,19 +3,3 @@
   # functions = "netlify/functions"
  # publish = "public"
 
-# [build.environment]
- # HUGO_VERSION = "0.150.0"
-[build.environment]
-HUGO_VERSION = "0.150.0"
-DART_SASS_VERSION = "1.77.1"
-TZ = "America/Los_Angeles"
-
-[build]
-publish = "public"
-command = """\
-  curl -LJO https://github.com/sass/dart-sass/releases/download/$1.77.1/dart-sass-$1.77.1-linux-x64.tar.gz && \
-  tar -xf dart-sass-$1.77.1-linux-x64.tar.gz && \
-  rm dart-sass-$1.77.1-linux-x64.tar.gz && \
-  export PATH=/opt/build/repo/dart-sass:$PATH && \
-  hugo --gc --minify \
-  """
