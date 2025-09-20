@@ -10,7 +10,7 @@ TZ = "Europe/Oslo"
 # Uncomment if you use Netlify Functions
  functions = "netlify/functions"
 
- Optional: Redirects
+ # Optional: Redirects
  [[redirects]]
    from = "/*"
    to = "/index.html"
