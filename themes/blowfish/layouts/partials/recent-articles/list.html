@@ -2,7 +2,7 @@
 {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
 
 <section class="space-y-10 w-full">
-  {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages
+  {{ range first $recentArticles (.Pagination.pagerSize (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages
   }}
   {{ partial "article-link/simple.html" . }}
   {{ end }}
