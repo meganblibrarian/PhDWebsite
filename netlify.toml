@@ -1,22 +1,7 @@
-
-[build.environment]
-DART_SASS_VERSION = "1.92.1"
-GO_VERSION = "1.25.1"
-HUGO_VERSION = "0.150.0"
-NODE_VERSION = "22.18.0"
-TZ = "US/Chicago"
-
 [build]
 publish = "public"
-command = "hugo"
-# functions = "netlify/functions"
+command = "yarn project-setup; yarn build"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
+[build.environment]
+HUGO_VERSION = "0.150.3"
+GO_VERSION = "1.24.2"
