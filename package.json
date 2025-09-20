@@ -37,6 +37,6 @@
       ]
    },
    "jest": {
-      "rootDir": "./src"
+      "rootDir": "."
    }
 }
