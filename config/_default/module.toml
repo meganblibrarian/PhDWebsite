@@ -3,4 +3,4 @@
   min = "0.150.0"
 
 [[imports]]
-  path = "github.com/nunocoracao/blowfish/v2"
+  path = "https://github.com/zeon-studio/hugoplate"

@@ -1,8 +1,8 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
+# https://blowfish.page/docs/getting-started/ this is the old theme
 
-theme = "blowfish" # UNCOMMENT THIS LINE
+theme = "hugoplate" # UNCOMMENT THIS LINE
  baseURL = "https://www.meganebarnes.com"
 defaultContentLanguage = "en"
 
