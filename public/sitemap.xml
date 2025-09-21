@@ -3,146 +3,146 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:43989/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>//localhost:43989/posts/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/reflections-on-qualitative-research/</loc>
+    <loc>//localhost:43989/posts/reflections-on-qualitative-research/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/research-and-teaching-with-technology/</loc>
+    <loc>//localhost:43989/posts/research-and-teaching-with-technology/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/qualitativeresearchdata/</loc>
+    <loc>//localhost:43989/posts/qualitativeresearchdata/</loc>
     <lastmod>2025-01-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/qualitative-research/</loc>
+    <loc>//localhost:43989/posts/qualitative-research/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/bigpictureresearcher/</loc>
+    <loc>//localhost:43989/posts/bigpictureresearcher/</loc>
     <lastmod>2024-07-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/systemsreflection/</loc>
+    <loc>//localhost:43989/posts/systemsreflection/</loc>
     <lastmod>2024-07-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1719779935638-internal-and-external-systems/</loc>
+    <loc>//localhost:43989/posts/1719779935638-internal-and-external-systems/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1719690467318-systems-and-education/</loc>
+    <loc>//localhost:43989/posts/1719690467318-systems-and-education/</loc>
     <lastmod>2024-06-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1718682043861-presentation-reflection/</loc>
+    <loc>//localhost:43989/posts/1718682043861-presentation-reflection/</loc>
     <lastmod>2024-06-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1718565259980-theory-of-planned-development/</loc>
+    <loc>//localhost:43989/posts/1718565259980-theory-of-planned-development/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1718459257037-systems-intersect/</loc>
+    <loc>//localhost:43989/posts/1718459257037-systems-intersect/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1717529880982-educational-systems/</loc>
+    <loc>//localhost:43989/posts/1717529880982-educational-systems/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1713835356413-is-it-a-science-though/</loc>
+    <loc>//localhost:43989/posts/1713835356413-is-it-a-science-though/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1708055921449-a-word-about-words/</loc>
+    <loc>//localhost:43989/posts/1708055921449-a-word-about-words/</loc>
     <lastmod>2024-02-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</loc>
+    <loc>//localhost:43989/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1706848252285-how-we-learn/</loc>
+    <loc>//localhost:43989/posts/1706848252285-how-we-learn/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
+    <loc>//localhost:43989/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>//localhost:43989/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/cv/</loc>
+    <loc>//localhost:43989/cv/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>//localhost:43989/portfolio/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>//localhost:43989/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/research/</loc>
+    <loc>//localhost:43989/research/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/testsite/</loc>
+    <loc>//localhost:43989/testsite/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Implementation on Megan E. Barnes</title>
-    <link>//localhost:1313/tags/implementation/</link>
+    <link>//localhost:43989/tags/implementation/</link>
     <description>Recent content in Implementation on Megan E. Barnes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Megan E. Barnes</copyright>
-    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:43989/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I May Not Be a Big Picture Researcher</title>
-      <link>//localhost:1313/posts/bigpictureresearcher/</link>
+      <link>//localhost:43989/posts/bigpictureresearcher/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/bigpictureresearcher/</guid>
+      <guid>//localhost:43989/posts/bigpictureresearcher/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/bigpictureresearcher/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:43989/posts/bigpictureresearcher/featured.png" />
     </item>
     
     <item>
       <title>Reflections on 6250 Analysis Tasks</title>
-      <link>//localhost:1313/posts/systemsreflection/</link>
+      <link>//localhost:43989/posts/systemsreflection/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/systemsreflection/</guid>
+      <guid>//localhost:43989/posts/systemsreflection/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/systemsreflection/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:43989/posts/systemsreflection/featured.png" />
     </item>
     
     <item>
       <title>Applied Theory of Planned Behavior: Professional Development Implementation</title>
-      <link>//localhost:1313/posts/1718565259980-theory-of-planned-development/</link>
+      <link>//localhost:43989/posts/1718565259980-theory-of-planned-development/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/1718565259980-theory-of-planned-development/</guid>
+      <guid>//localhost:43989/posts/1718565259980-theory-of-planned-development/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/1718565259980-theory-of-planned-development/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:43989/posts/1718565259980-theory-of-planned-development/featured.png" />
     </item>
     
   </channel>
