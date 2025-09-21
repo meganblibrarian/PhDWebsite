@@ -42,7 +42,7 @@ cardView = false
 cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
-homepageImage = "barnesprofesh_hu_4db0e1ff39e82f6b.png"
+homepageImage = "presenting.jpg"
 
 [article]
 showDate = true
