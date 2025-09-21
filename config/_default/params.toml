@@ -1,4 +1,4 @@
-colorScheme = "blowfish"
+colorScheme = "autumn"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 enableA11y = false
@@ -19,6 +19,8 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
+highlightCurrentMenuArea = true
+defaultFeaturedImage = "barnesprofesh_hu_5b6e03c1db71f9a3.png"
 
 [header]
 layout = "basic"
@@ -31,13 +33,13 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
-showRecent = false
+layout = "card"
+showRecent = true
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts/"
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
 
@@ -80,7 +82,7 @@ showTableOfContents = false
 showCards = false
 orderByWeight = false
 groupByYear = true
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
 
