@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philosphy on Megan E. Barnes</title>
-    <link>//localhost:42435/tags/philosphy/</link>
+    <link>//localhost:37887/tags/philosphy/</link>
     <description>Recent content in Philosphy on Megan E. Barnes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Megan E. Barnes</copyright>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:42435/tags/philosphy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:37887/tags/philosphy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Internal and External Systems</title>
-      <link>//localhost:42435/posts/1719779935638-internal-and-external-systems/</link>
+      <link>//localhost:37887/posts/1719779935638-internal-and-external-systems/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:42435/posts/1719779935638-internal-and-external-systems/</guid>
+      <guid>//localhost:37887/posts/1719779935638-internal-and-external-systems/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:42435/posts/1719779935638-internal-and-external-systems/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:37887/posts/1719779935638-internal-and-external-systems/featured.png" />
     </item>
     
   </channel>
