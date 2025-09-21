@@ -1,3 +1,3 @@
 go 1.25.1
 
-module github.com/zeon-studio/hugoplate
+module github.com/nunocoracao/blowfish/v2
