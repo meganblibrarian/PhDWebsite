@@ -8,6 +8,7 @@
     <language>en</language>
     <copyright>© 2025 Megan E. Barnes</copyright>
     <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Reflections on Qualitative Research</title>
       <link>http://localhost:1313/posts/reflections-on-qualitative-research/</link>
@@ -16,16 +17,6 @@
       <guid>http://localhost:1313/posts/reflections-on-qualitative-research/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/reflections-on-qualitative-research/featured.png" />
-    </item>
-    
-    <item>
-      <title>bookcreatortest</title>
-      <link>http://localhost:1313/posts/bookcreatortest/</link>
-      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/bookcreatortest/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/bookcreatortest/featured.png" />
     </item>
     
     <item>
@@ -234,6 +225,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/research/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/testsite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/testsite/</guid>
       <description></description>
       
     </item>
