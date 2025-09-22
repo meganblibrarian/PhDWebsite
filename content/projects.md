@@ -1,5 +1,5 @@
 
-### Customizable Shelving Order Game
+## Customizable Shelving Order Game
 
 This game is based on the game Order in the Library game (a Flash-based game) and the <a href="https://shelver.mrs-lodges-library.com/"> Shelve-It game by Mrs. Lodge's Library</a>. 
 
@@ -34,7 +34,7 @@ It also served as an professional growth activity for AI Co-Lab activity. We are
 
 <!-- this is my original iframe code iframe width=600 height=900 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/" iframe --> 
 
-### Quick-deploy websites using AI 
+## Quick-deploy websites using AI 
 
 This project was prompted by a conversation I was having with another member of my Ph.D. cohort. We discussed how AI can generate websites very quickly, and I chatted with her about how to write a quick prompt to generate a website appropraite for a Ph.D. portfolio. She uses Claude, and shared the results with me. I decided to follow the same prompt and then we compared results, noticing that we received very different websites. Hers was a one-page site, mine was multi-page. Hers used a much more limited palate than mine as well. The results can be seen below.  
 
