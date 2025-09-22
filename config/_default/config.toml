@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 baseurl = "meganebarnes.com" 
 
-theme = "blowfish" # UNCOMMENT THIS LINE
+ # theme = "blowfish" # UNCOMMENT THIS LINE
 
 # baseURL = "meganebarnes.com"
 defaultContentLanguage = "en"
