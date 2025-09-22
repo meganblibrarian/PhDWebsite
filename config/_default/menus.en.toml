@@ -1,5 +1,3 @@
-[[main]]
-none = "none"
 
 [[main]]
 name = "CV"
@@ -36,4 +34,3 @@ identifier = "QLeGfmwGZB"
 weight = 5
 
 [[footer]]
-none = "none"
