@@ -33,7 +33,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "card"
+layout = "hero"
 showRecent = true
 showRecentItems = 5
 showMoreLink = true
