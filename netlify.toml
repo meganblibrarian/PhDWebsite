@@ -7,3 +7,5 @@ publish = "public"
 HUGO_VERSION = "0.150.0"
 GO_VERSION = "1.24.2"
 HUGO_ENABLEGITINFO = "true"
+[build.environment]
+HUGO_MODULE_REPLACE = "github.com/nunocoracao/blowfish/v2"
