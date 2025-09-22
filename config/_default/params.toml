@@ -31,7 +31,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "card"
+layout = "profile"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
