@@ -1,10 +1,10 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
-baseurl = "https://meganebarnes.com" 
+baseurl = "meganebarnes.com" 
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 
-# baseURL = "https://meganebarnes.com"
+# baseURL = "meganebarnes.com"
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
