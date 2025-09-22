@@ -66,7 +66,7 @@ showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
-showRelatedContent = true
+showRelatedContent = false
 
 [list]
 showHero = false
