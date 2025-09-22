@@ -40,8 +40,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.990ff91fba57c01cf8ad18ff6861f3310a2550c8928cced44448e9817e5a7d21a79ac4cb2ad7209d29e87b518525f36b6da8b54aff10aac06d8eff1d6dc21b6c.css"
-    integrity="sha512-mQ/5H7pXwBz4rRj/aGHzMQolUMiSjM7UREjpgX5afSGnmsTLKtcgnSnoe1GFJfNrbai1Sv8QqsBtjv8dbcIbbA==">
+    href="/css/main.bundle.min.b74eabdf2752b266515a96f8c74a16413497bc0eb41f712328e704c3b4ae5871993f8ae4519097c216dae0ac8a5784ba8bc150c07d2a1d3a2ba631aa4bbd3e94.css"
+    integrity="sha512-t06r3ydSsmZRWpb4x0oWQTSXvA60H3EjKOcEw7SuWHGZP4rkUZCXwhba4KyKV4S6i8FQwH0qHTorpjGqS70&#43;lA==">
 
   
   
@@ -791,7 +791,7 @@
       
       
         <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8">
-          <div class="toc ps-5 print:hidden lg:sticky lg:top-10">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
             
               <details
   open
@@ -831,6 +831,88 @@
   </div>
 </details>
 
+
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = false
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
 
 
             
