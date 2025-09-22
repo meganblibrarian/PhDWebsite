@@ -1,0 +1,8 @@
+[build]
+  command = "cd exampleSite && hugo --gc --minify -D -b https://blowfish.page"
+  publish = "exampleSite/public"
+
+HUGO_VERSION = "0.150.0"
+GO_VERSION = "1.24.2"
+HUGO_ENABLEGITINFO = "true"
+HUGO_MODULE_REPLACE = "github.com/nunocoracao/blowfish/v2"
