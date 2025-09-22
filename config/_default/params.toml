@@ -21,9 +21,10 @@ rssnext = { }
 advertisement = { }
 highlightCurrentMenuArea = true
 defaultFeaturedImage = "barnesprofesh_hu_5b6e03c1db71f9a3.png"
+smartTOC = true
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blue"
 
 [footer]
 showMenu = true
