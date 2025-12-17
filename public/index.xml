@@ -10,13 +10,13 @@
     <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>new-article</title>
-      <link>http://localhost:1313/posts/1765999482090-new-article/</link>
+      <title>Color By Number</title>
+      <link>http://localhost:1313/color-by-number/1766000147403-colorbynumber/</link>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1765999482090-new-article/</guid>
+      <guid>http://localhost:1313/color-by-number/1766000147403-colorbynumber/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1765999482090-new-article/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/color-by-number/1766000147403-colorbynumber/featured.png" />
     </item>
     
     <item>
