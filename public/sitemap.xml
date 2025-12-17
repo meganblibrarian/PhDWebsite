@@ -3,13 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/color-by-number/1766000147403-colorbynumber/</loc>
-    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/color-by-number/</loc>
+    <loc>http://localhost:1313/colorbynumber/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -117,12 +111,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/1706848252285-how-we-learn/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -140,6 +128,11 @@
   </url>
   <url>
     <loc>http://localhost:1313/portfolio/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/1706848252285-how-we-learn/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

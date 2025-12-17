@@ -37,7 +37,7 @@ showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts/"
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
 
@@ -57,7 +57,7 @@ showEdit = false
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
-showPagination = true
+showPagination = false
 invertPagination = false
 showReadingTime = true
 showTableOfContents = false
