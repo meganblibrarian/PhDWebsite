@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Systems Design on Megan E. Barnes, Ph.D. Student</title>
-    <link>//localhost:1313/tags/systems-design/</link>
+    <link>http://localhost:1313/tags/systems-design/</link>
     <description>Recent content in Systems Design on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Megan E. Barnes</copyright>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/systems-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/systems-design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Internal and External Systems</title>
-      <link>//localhost:1313/posts/1719779935638-internal-and-external-systems/</link>
+      <link>http://localhost:1313/posts/1719779935638-internal-and-external-systems/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/1719779935638-internal-and-external-systems/</guid>
+      <guid>http://localhost:1313/posts/1719779935638-internal-and-external-systems/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/1719779935638-internal-and-external-systems/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1719779935638-internal-and-external-systems/featured.png" />
     </item>
     
     <item>
       <title>Pre-K3 - 12th Private School Educational System Design</title>
-      <link>//localhost:1313/posts/1717529880982-educational-systems/</link>
+      <link>http://localhost:1313/posts/1717529880982-educational-systems/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/1717529880982-educational-systems/</guid>
+      <guid>http://localhost:1313/posts/1717529880982-educational-systems/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/1717529880982-educational-systems/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1717529880982-educational-systems/featured.png" />
     </item>
     
   </channel>

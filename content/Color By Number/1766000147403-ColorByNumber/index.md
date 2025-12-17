@@ -1,0 +1,8 @@
+---
+title: "Color By Number"
+date: 2025-12-17
+draft: false
+description: "A Vibe-Coded Platform for Generating 8.5X11 or 24" Posters for Student Color by Number Activities"
+tags: ["coding", "ai", "projects", "creativity"]
+---
+<iframe src="https://claude.site/public/artifacts/9dcf5cff-1f8a-4410-9dd0-a70fb9879369/embed" title="Claude Artifact" width="100%" height="800" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
