@@ -1,10 +1,10 @@
 ---
 title: "Online Distance Distributed Education"
 date: 2026-01-21
-draft: true
-description: "Reflection on online, distance, and distributed education at the start of the Spring 2026 Semester"
-tags: ["PhD", "6040", "education", "Distance", "Online", "Distributed"]
-toc: true
+draft: false
+description: 'Reflection on online, distance, and distributed education at the start of the Spring 2026 Semester.'
+tags: ['PhD', '6040', 'education', 'distance', 'online', 'distributed']
+include_toc: true
 ---
 When I think about distance education, I must reflect on my role as an early childhood educator, a higher education student, and as a person who provides support and training for teachers in the classroom. Each of these provides a distinct perspective and has unique needs. 
 As an early childhood educator, I don’t focus on distance education but rather showcasing how online resources can be incorporated int teaching that fosters inquiry and creativity. I taught during the Covid-19 pandemic, including fully online classes completely asynchronously as well as hybrid classes for the 2020-2021 school year. Homeroom teachers did have daily synchronous Zoom calls to start the day, to check in, and continue the classroom relationships, but I was not part of that process. The relationship building part of quality distance education discussed in Minds Online was missing for me. 
