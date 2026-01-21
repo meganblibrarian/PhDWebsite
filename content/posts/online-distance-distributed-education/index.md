@@ -1,6 +1,6 @@
 ---
 title: "Online Distance Distributed Education"
-date: 2026-01-21T04:39:02Z
+date: 2026-01-21
 draft: true
 description: "Reflection on online, distance, and distributed education at the start of the Spring 2026 Semester"
 tags: ["PhD", "6040", "education", "Distance", "Online", "Distributed"]
