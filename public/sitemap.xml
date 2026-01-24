@@ -3,20 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/colorbynumber/</loc>
-    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/online-distance-distributed-education/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/colorbynumber/</loc>
+    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -123,6 +129,11 @@
   </url>
   <url>
     <loc>http://localhost:1313/cv/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/cvoriginal/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
