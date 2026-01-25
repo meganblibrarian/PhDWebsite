@@ -1,1 +1,1 @@
-<iframe src="https://gamma.app/embed/j3zk2lwl22l9lan" style=""100%" and height="100%" allow="fullscreen" title="Megan E. Barnes"></iframe>
+<iframe src="https://gamma.app/embed/j3zk2lwl22l9lan" style="width="100%" and height="100%" allow="fullscreen" title="Megan E. Barnes"></iframe>
