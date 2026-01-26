@@ -31,21 +31,21 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "cards"
 showRecent = false
 showRecentItems = 5
-showMoreLink = false
+showMoreLink = true
 showMoreLinkDest = "/posts/"
-cardView = false
+cardView = true
 cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
 
 [article]
-showDate = true
+showDate = false
 showViews = false
 showLikes = false
-showDateOnlyInArticle = false
+showDateOnlyInArticle = true
 showDateUpdated = false
 showAuthor = true
 showHero = false
@@ -60,11 +60,11 @@ showHeadingAnchors = true
 showPagination = false
 invertPagination = false
 showReadingTime = true
-showTableOfContents = false
-showTaxonomies = false
+showTableOfContents = true
+showTaxonomies = true
 showCategoryOnly = false
 showAuthorsBadges = false
-showWordCount = true
+showWordCount = false
 showZenMode = false
 showRelatedContent = false
 
