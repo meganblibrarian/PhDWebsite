@@ -1,8 +1,9 @@
 ---
 title: "Library Games"
-date: 2026-01-26
-draft: true
-description: ""
+date: 2025-05-26
+draft: false
+description: "Library activities for showing how learning activities can be developed using AI and human partnerships."
+toc: true
 ---
 ## Customizable Shelving Order Game
 
@@ -38,3 +39,9 @@ It also served as an professional growth activity for AI Co-Lab activity. We are
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGn75vVRcc&#x2F;LDK66hz8DcpfQ0pQur8MAg&#x2F;view?utm_content=DAGn75vVRcc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Operation: Literal Loot - A Game to Decode Language</a> by Megan Barnes
 
 <!-- this is my original iframe code iframe width=600 height=900 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/" iframe --> 
+
+## AI Letter Detective 
+
+AI letter detective was used in a library lesson on the development of AI, what it does, and a small overview of how it works. It's an adaptation of hangman that allows reinforcement of computational thinking terminology (algorithm, statistics) and applies it in a hands on, guessing game format. Basic information is included in the game, and reinforced through library reading activities. 
+
+<iframe src="https://claude.site/public/artifacts/8c6df25d-14b0-4122-8ac9-d51483e2b710/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
