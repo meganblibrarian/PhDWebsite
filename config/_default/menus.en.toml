@@ -1,26 +1,32 @@
-
 [[main]]
 name = "CV"
 pageRef = "cv"
 identifier = "BzDOMbjRbZ"
-weight = 9_999
+weight = 1
 
 [[main]]
 name = "Creative Projects"
 pageRef = "projects"
 identifier = "ZhYccHtvhS"
-weight = 9_999
+weight = 4
 
 [[main]]
 name = "Research"
 pageRef = "research"
 identifier = "GdrdyZuJAQ"
-weight = 9_999
+weight = 2
 
 [[main]]
 name = "Blog"
 pageRef = "posts"
 identifier = "v3ciWYJHyh"
-weight = 9_999
+weight = 5
+
+[[main]]
+name = "Creative Works"
+pre = "pencil"
+pageRef = "Creative Works"
+identifier = "CPtnwPFWjA"
+weight = 3
 
 [[footer]]
