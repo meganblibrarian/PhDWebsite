@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Online Distance Distributed Education</title>
@@ -27,6 +27,16 @@
       <guid>http://localhost:1313/creative-works/colorbynumber/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/colorbynumber/feature.png.png" />
+    </item>
+    
+    <item>
+      <title>Library Games</title>
+      <link>http://localhost:1313/creative-works/library-games/</link>
+      <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/creative-works/library-games/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/feature.png" />
     </item>
     
     <item>
