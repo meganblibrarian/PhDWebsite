@@ -44,4 +44,4 @@ It also served as an professional growth activity for AI Co-Lab activity. We are
 
 AI letter detective was used in a library lesson on the development of AI, what it does, and a small overview of how it works. It's an adaptation of hangman that allows reinforcement of computational thinking terminology (algorithm, statistics) and applies it in a hands on, guessing game format. Basic information is included in the game, and reinforced through library reading activities. 
 
-<iframe src="https://claude.site/public/artifacts/8c6df25d-14b0-4122-8ac9-d51483e2b710/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+ <iframe src="https://claude.site/public/artifacts/8c6df25d-14b0-4122-8ac9-d51483e2b710/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
