@@ -1,7 +1,7 @@
 ---
-layout = 'contact'
+layout: 'Contact'
 date: '2026-01-26'
-description: 'GanmmaAI render CV for Megan E. Barnes.'
+description: 'GammaAI render CV for Megan E. Barnes.'
 title: 'Megan E. Barnes CV'
 include_toc: false
 show_comments: false
