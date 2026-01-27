@@ -21,7 +21,7 @@ rssnext = { }
 advertisement = { }
 
 [header]
-layout = "basic"
+layout = "fixed-fill"
 
 [footer]
 showMenu = true

@@ -3,6 +3,7 @@ title: "Research"
 date: 2026-01-26
 draft: false
 description: "Academic Writing and Conference Presentation"
+toc: true
 ---
 
 {{< lead >}}
@@ -33,7 +34,7 @@ Published
 
 {{< alert "pencil" >}}
 ### Soft Systems Analysis: Digital Tool Selection in the Classroom
-{{ /alert }}
+{{< /alert >}}
 
 <iframe src="https://docs.google.com/document/d/1n0peEry6b1bgQz1rQADVVwVKvxg1V-d_/preview" 
         width="100%" 
@@ -51,7 +52,6 @@ Course Work
 
 ---
 
-
 {{< alert "pencil" >}}
 ### Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
 {{< /alert >}}
@@ -62,9 +62,6 @@ Password-protected link. [Committee members: please check your email.]
 {{< badge >}}
 Under Review
 {{< /badge >}}
-
-
-
 ---
 
 ## Conference Presentations

@@ -5,12 +5,6 @@ identifier = "BzDOMbjRbZ"
 weight = 1
 
 [[main]]
-name = "Creative Projects"
-pageRef = "projects"
-identifier = "ZhYccHtvhS"
-weight = 4
-
-[[main]]
 name = "Research"
 pageRef = "research"
 identifier = "GdrdyZuJAQ"
