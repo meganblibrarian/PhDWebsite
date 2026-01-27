@@ -87,12 +87,6 @@ Best-practices presentation using a modeled inforamtion literacy library lesson 
 
 ---
 
-## Citation Metrics
-
-{{< katex >}}
-h\text{-index} = 1 \quad 
-{{< /katex >}}
-
 {{< button href="https://scholar.google.com/citations?user=_mklPBgAAAAJ&hl=en" target="_blank" >}}
 Google Scholar Profile
 {{< /button >}}
