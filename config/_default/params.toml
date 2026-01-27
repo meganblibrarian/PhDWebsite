@@ -19,6 +19,8 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
+highlightCurrentMenuArea = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
 layout = "fixed-fill"
@@ -80,9 +82,9 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 orderByWeight = false
-groupByYear = true
+groupByYear = false
 cardView = true
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 constrainItemsWidth = false
 
 [sitemap]
@@ -104,5 +106,5 @@ showViews = false
 showLikes = false
 showTableOfContents = true
 groupByYear = false
-cardView = false
-cardViewScreenWidth = false
+cardView = true
+cardViewScreenWidth = true

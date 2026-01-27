@@ -2,13 +2,19 @@
 title: "Research"
 date: 2026-01-26
 draft: false
-description: "Academic Writing and Conference Presentation"
+description: "Academic Writing and Conference Presentations"
 toc: true
+layout: simple
 ---
+
 
 {{< lead >}}
 Exploring the intersection of information science, K-12 education, and technology through rigorous empirical research.
 {{< /lead >}}
+
+{{< button href=r#featured target="_self">}} Featured Writing* {{< /button >}} 
+
+{{< button >}}  Featured Presentations {{< /button >}}
 
 ---
 # Featured Writing
