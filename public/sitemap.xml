@@ -3,8 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/creative-works/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/creative-works/summer-reading/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/cv/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/research/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -22,12 +46,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/creative-works/colorbynumber/</loc>
-    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/creative-works/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -140,17 +158,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/cv/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/cvoriginal/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/portfolio/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -161,11 +169,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/projects/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/research/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

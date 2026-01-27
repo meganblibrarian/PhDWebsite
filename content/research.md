@@ -2,11 +2,7 @@
 title: "Research"
 date: 2026-01-26
 draft: false
-description: "Academic Writing"
-showDate: false
-showAuthor: false
-showReadingTime: false
-showEdit: false
+description: "Academic Writing and Conference Presentation"
 ---
 
 {{< lead >}}
@@ -17,16 +13,13 @@ Exploring the intersection of information science, K-12 education, and technolog
 
 ## Featured Writing
 
-{{< card >}}
+{{< alert "pencil" >}}
 ### Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy
+{{< /alert >}}
 
 Eutsler, L., Rivera, B., **Barnes, M.**, & Cummings, J. (2025). Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy. *Journal of Research on Technology in Education*, 1–25. https://doi.org/10.1080/15391523.2025.2476589
 
-
-
-This longitudinal study examines how artificial intelligence tools are transforming creative workflows across multiple industries. Through interviews with 150 professionals and quantitative analysis of productivity metrics, we uncover both opportunities and challenges in AI-augmented creativity.
-
-<iframe src="https://docs.google.com/document/d/YOUR_DOC_ID/preview" 
+<iframe src="https://doi.org/10.1080/15391523.2025.2476589" 
         width="100%" 
         height="600px" 
         frameborder="0">
@@ -36,13 +29,11 @@ This longitudinal study examines how artificial intelligence tools are transform
 Published
 {{< /badge >}}
 
-{{< /card >}}
-
 ---
 
-{{< card >}}
+{{< alert "pencil" >}}
 ### Soft Systems Analysis: Digital Tool Selection in the Classroom
-**Written for:** LTEC 6250
+{{ /alert }}
 
 <iframe src="https://docs.google.com/document/d/1n0peEry6b1bgQz1rQADVVwVKvxg1V-d_/preview" 
         width="100%" 
@@ -54,23 +45,25 @@ Published
 Course Work
 {{< /badge >}} 
 
-{{< /card >}}
+{{< badge >}}
+6250
+{{< /badge >}} 
 
 ---
 
 
-{{< card >}}
-### Social Media Use and Political Polarization: A Causal Analysis
-**Status:** Manuscript in Preparation  
-**Expected Submission:** Spring 2026
+{{< alert "pencil" >}}
+### Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
+{{< /alert >}}
+Eutsler, L., Hayes, A., Heap, T., Knapp, E., Cockerham, D., **Barnes, M.**, Strickland, J., Mohammad, N. (Under Review). Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump. *Journal Blinded for Review*. 
 
-Using instrumental variable techniques and panel data from multiple countries, this project examines the causal relationship between social media consumption patterns and political attitude polarization.
+Password-protected link. [Committee members: please check your email.]
 
 {{< badge >}}
-In Progress
+Under Review
 {{< /badge >}}
 
-{{< /card >}}
+
 
 ---
 
@@ -78,19 +71,18 @@ In Progress
 
 {{< timeline >}}
 
-{{< timelineItem icon="microphone" header="CHI 2025" badge="May 2025" subheader="Yokohama, Japan" >}}
-**Talk:** "Designing for Digital Wellbeing: Lessons from Field Studies"  
-Presented findings from three-year research program on workplace technology design.
+{{< timelineItem icon="comment" header="AECT 2025" badge="October 2025" badge="President's Award" subheader="Kansas City, MO" >}}
+**Paper Presentation:** "AI Policies in K12"  
 {{< /timelineItem >}}
 
-{{< timelineItem icon="microphone" header="CSCW 2024" badge="November 2024" subheader="Austin, Texas" >}}
-**Poster:** "Collaborative AI in Creative Teams"  
-Interactive poster session exploring team dynamics when AI tools join creative workflows.
+{{< timelineItem icon="comment" header="AECT 2025" badge="October 2025" subheader="Kansas City, MO" >}}
+**Panel Presentation:** "Stepping Into the Spotlight: Librarians as Technology Leaders"  
+Panel discussion on the role of libraries as technology leaders in K-12 education. Role: Moderator.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="microphone" header="ICA 2024" badge="June 2024" subheader="Gold Coast, Australia" >}}
-**Panel Discussion:** "The Future of Human-AI Collaboration"  
-Moderated panel with industry leaders and academics discussing emerging research questions.
+{{< timelineItem icon="comment" header="SITE 2024" badge="March 2024" subheader="Las Vegas, NV" >}}
+**Best Practices Presentation:** "Information Literacy for Elementary"  
+Best-practices presentation using a modeled inforamtion literacy library lesson for early childhood students. 
 {{< /timelineItem >}}
 
 {{< /timeline >}}
