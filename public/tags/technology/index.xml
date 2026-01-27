@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Megan E. Barnes, Ph.D. Student</title>
-    <link>http://localhost:1313/tags/technology/</link>
+    <link>http://localhost:45371/tags/technology/</link>
     <description>Recent content in Technology on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45371/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Research &amp; Teaching Ethics of Technology Use with Children</title>
-      <link>http://localhost:1313/posts/research-and-teaching-with-technology/</link>
+      <link>http://localhost:45371/posts/research-and-teaching-with-technology/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/research-and-teaching-with-technology/</guid>
+      <guid>http://localhost:45371/posts/research-and-teaching-with-technology/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Can you please just stop touching your Chromebook?</title>
-      <link>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
+      <link>http://localhost:45371/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
+      <guid>http://localhost:45371/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/featured.png" />
     </item>
     
   </channel>
