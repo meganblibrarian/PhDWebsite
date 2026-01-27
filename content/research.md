@@ -53,7 +53,7 @@ Course Work
 {{< alert "pencil" >}}
 ## Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
 {{< /alert >}}
-Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, Strickland, J., & Mohammad, N. (revision 1 submitted). Closing the gap: Co-designing immersive literacy to tackle the fourth-grade slump. Blinded
+Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, Strickland, J., & Mohammad, N. (revision 1 submitted). Closing the gap: Co-designing immersive literacy to tackle the fourth-grade slump. *Blinded*
 
 Password-protected link. [Committee members: please check your email.]
 
