@@ -1,7 +1,7 @@
 colorScheme = "blowfish"
 defaultAppearance = "light"
 autoSwitchAppearance = true
-enableA11y = false
+enableA11y = true
 enableSearch = false
 enableCodeCopy = false
 replyByEmail = false
@@ -46,7 +46,7 @@ homepageImage = "presenting.jpg"
 showDate = false
 showViews = false
 showLikes = false
-showDateOnlyInArticle = true
+showDateOnlyInArticle = "t"
 showDateUpdated = false
 showAuthor = true
 showHero = false
