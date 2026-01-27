@@ -1,5 +1,4 @@
 ---
-layout: 'Contact'
 date: '2026-01-26'
 description: 'GammaAI render CV for Megan E. Barnes.'
 title: 'Megan E. Barnes CV'
