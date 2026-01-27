@@ -11,20 +11,15 @@ Exploring the intersection of information science, K-12 education, and technolog
 {{< /lead >}}
 
 ---
-
-## Featured Writing
+# Featured Writing
 
 {{< alert "pencil" >}}
-### Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy
+## Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy
 {{< /alert >}}
 
 Eutsler, L., Rivera, B., **Barnes, M.**, & Cummings, J. (2025). Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy. *Journal of Research on Technology in Education*, 1–25. https://doi.org/10.1080/15391523.2025.2476589
 
-<iframe src="https://doi.org/10.1080/15391523.2025.2476589" 
-        width="100%" 
-        height="600px" 
-        frameborder="0">
-</iframe>
+
 
 {{< badge >}}
 Published
@@ -33,7 +28,7 @@ Published
 ---
 
 {{< alert "pencil" >}}
-### Soft Systems Analysis: Digital Tool Selection in the Classroom
+## Soft Systems Analysis: Digital Tool Selection in the Classroom
 {{< /alert >}}
 
 <iframe src="https://docs.google.com/document/d/1n0peEry6b1bgQz1rQADVVwVKvxg1V-d_/preview" 
@@ -42,9 +37,12 @@ Published
         frameborder="0">
 </iframe>
 
+
+
 {{< badge >}}
 Course Work
 {{< /badge >}} 
+
 
 {{< badge >}}
 6250
@@ -53,18 +51,21 @@ Course Work
 ---
 
 {{< alert "pencil" >}}
-### Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
+## Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
 {{< /alert >}}
-Eutsler, L., Hayes, A., Heap, T., Knapp, E., Cockerham, D., **Barnes, M.**, Strickland, J., Mohammad, N. (Under Review). Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump. *Journal Blinded for Review*. 
+Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, Strickland, J., & Mohammad, N. (revision 1 submitted). Closing the gap: Co-designing immersive literacy to tackle the fourth-grade slump. Blinded
 
 Password-protected link. [Committee members: please check your email.]
+
+
 
 {{< badge >}}
 Under Review
 {{< /badge >}}
+
 ---
 
-## Conference Presentations
+# Conference Presentations
 
 {{< timeline >}}
 

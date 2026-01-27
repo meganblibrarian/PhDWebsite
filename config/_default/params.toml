@@ -31,7 +31,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "cards"
+layout = "hero"
 showRecent = true
 showRecentItems = 5
 showMoreLink = true
@@ -40,6 +40,7 @@ cardView = true
 cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
+homepageImage = "presenting.jpg"
 
 [article]
 showDate = false
