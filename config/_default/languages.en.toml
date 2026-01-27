@@ -10,7 +10,11 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 
+  [params.author]
+  links = [ ]
+
 ["params.author"]
 name = "Megan E. Barnes"
 image = "barnesprofesh_hu_5b6e03c1db71f9a3.png"
 bio = "Megan E. Barnes is a Ph.D. student at the University of North Texas studying Learning Technologies. A passionate elementary school librarian and technology integration specialist, she believes in the power of stories, knowledge, and curiousity. "
+email = "meganbarnes2@my.unt.edu"

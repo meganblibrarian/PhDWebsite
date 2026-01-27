@@ -2,21 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on Megan E. Barnes, Ph.D. Student</title>
-    <link>http://localhost:45371/tags/coding/</link>
+    <link>http://localhost:1313/tags/coding/</link>
     <description>Recent content in Coding on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
+    <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45371/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Color By Number</title>
-      <link>http://localhost:45371/creative-works/colorbynumber/</link>
+      <link>http://localhost:1313/creative-works/colorbynumber/</link>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/creative-works/colorbynumber/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/creative-works/colorbynumber/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/creative-works/colorbynumber/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/colorbynumber/feature.png" />
     </item>
     
   </channel>

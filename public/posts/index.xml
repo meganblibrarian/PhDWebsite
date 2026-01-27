@@ -2,191 +2,193 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Megan E. Barnes, Ph.D. Student</title>
-    <link>http://localhost:45371/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
+    <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:45371/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Online Distance Distributed Education</title>
-      <link>http://localhost:45371/posts/online-distance-distributed-education/</link>
+      <link>http://localhost:1313/posts/online-distance-distributed-education/</link>
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/online-distance-distributed-education/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/online-distance-distributed-education/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/online-distance-distributed-education/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/online-distance-distributed-education/featured.png" />
     </item>
     
     <item>
       <title>Reflections on Qualitative Research</title>
-      <link>http://localhost:45371/posts/reflections-on-qualitative-research/</link>
+      <link>http://localhost:1313/posts/reflections-on-qualitative-research/</link>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/reflections-on-qualitative-research/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/reflections-on-qualitative-research/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/reflections-on-qualitative-research/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/reflections-on-qualitative-research/featured.png" />
     </item>
     
     <item>
       <title>Research &amp; Teaching Ethics of Technology Use with Children</title>
-      <link>http://localhost:45371/posts/research-and-teaching-with-technology/</link>
+      <link>http://localhost:1313/posts/research-and-teaching-with-technology/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/research-and-teaching-with-technology/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/research-and-teaching-with-technology/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Qualitative Data Validity and the Reflexive Lens</title>
-      <link>http://localhost:45371/posts/qualitativeresearchdata/</link>
+      <link>http://localhost:1313/posts/qualitativeresearchdata/</link>
       <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/qualitativeresearchdata/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/qualitativeresearchdata/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/qualitativeresearchdata/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/qualitativeresearchdata/featured.png" />
     </item>
     
     <item>
       <title>Qualitative Research</title>
-      <link>http://localhost:45371/posts/qualitative-research/</link>
+      <link>http://localhost:1313/posts/qualitative-research/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/qualitative-research/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/qualitative-research/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>I May Not Be a Big Picture Researcher</title>
-      <link>http://localhost:45371/posts/bigpictureresearcher/</link>
+      <link>http://localhost:1313/posts/bigpictureresearcher/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/bigpictureresearcher/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/bigpictureresearcher/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/bigpictureresearcher/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/bigpictureresearcher/featured.png" />
     </item>
     
     <item>
       <title>Reflections on 6250 Analysis Tasks</title>
-      <link>http://localhost:45371/posts/systemsreflection/</link>
+      <link>http://localhost:1313/posts/systemsreflection/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/systemsreflection/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/systemsreflection/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/systemsreflection/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/systemsreflection/featured.png" />
     </item>
     
     <item>
       <title>Internal and External Systems</title>
-      <link>http://localhost:45371/posts/1719779935638-internal-and-external-systems/</link>
+      <link>http://localhost:1313/posts/1719779935638-internal-and-external-systems/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1719779935638-internal-and-external-systems/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1719779935638-internal-and-external-systems/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1719779935638-internal-and-external-systems/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1719779935638-internal-and-external-systems/featured.png" />
     </item>
     
     <item>
       <title>Systems and Education</title>
-      <link>http://localhost:45371/posts/1719690467318-systems-and-education/</link>
+      <link>http://localhost:1313/posts/1719690467318-systems-and-education/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1719690467318-systems-and-education/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1719690467318-systems-and-education/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1719690467318-systems-and-education/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1719690467318-systems-and-education/featured.png" />
     </item>
     
     <item>
       <title>Presentation-Reflection</title>
-      <link>http://localhost:45371/posts/1718682043861-presentation-reflection/</link>
+      <link>http://localhost:1313/posts/1718682043861-presentation-reflection/</link>
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1718682043861-presentation-reflection/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1718682043861-presentation-reflection/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1718682043861-presentation-reflection/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718682043861-presentation-reflection/featured.png" />
     </item>
     
     <item>
       <title>Applied Theory of Planned Behavior: Professional Development Implementation</title>
-      <link>http://localhost:45371/posts/1718565259980-theory-of-planned-development/</link>
+      <link>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1718565259980-theory-of-planned-development/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1718565259980-theory-of-planned-development/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718565259980-theory-of-planned-development/featured.png" />
     </item>
     
     <item>
       <title>Systems-Intersect</title>
-      <link>http://localhost:45371/posts/1718459257037-systems-intersect/</link>
+      <link>http://localhost:1313/posts/1718459257037-systems-intersect/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1718459257037-systems-intersect/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1718459257037-systems-intersect/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1718459257037-systems-intersect/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718459257037-systems-intersect/featured.png" />
     </item>
     
     <item>
       <title>Pre-K3 - 12th Private School Educational System Design</title>
-      <link>http://localhost:45371/posts/1717529880982-educational-systems/</link>
+      <link>http://localhost:1313/posts/1717529880982-educational-systems/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1717529880982-educational-systems/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1717529880982-educational-systems/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1717529880982-educational-systems/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1717529880982-educational-systems/featured.png" />
     </item>
     
     <item>
       <title>Is it a science though?</title>
-      <link>http://localhost:45371/posts/1713835356413-is-it-a-science-though/</link>
+      <link>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1713835356413-is-it-a-science-though/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1713835356413-is-it-a-science-though/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1713835356413-is-it-a-science-though/featured.png" />
     </item>
     
     <item>
       <title>A Word About Words</title>
-      <link>http://localhost:45371/posts/1708055921449-a-word-about-words/</link>
+      <link>http://localhost:1313/posts/1708055921449-a-word-about-words/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1708055921449-a-word-about-words/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1708055921449-a-word-about-words/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1708055921449-a-word-about-words/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1708055921449-a-word-about-words/featured.png" />
     </item>
     
     <item>
       <title>Can you please just stop touching your Chromebook?</title>
-      <link>http://localhost:45371/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
+      <link>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/featured.png" />
     </item>
     
     <item>
       <title>Power-Knowledge Wang &amp; Ball</title>
-      <link>http://localhost:45371/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
+      <link>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:45371/posts/1706848252285-how-we-learn/</link>
+      <link>http://localhost:1313/posts/1706848252285-how-we-learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:45371/posts/1706848252285-how-we-learn/</guid>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/1706848252285-how-we-learn/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:45371/posts/1706848252285-how-we-learn/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1706848252285-how-we-learn/featured.png" />
     </item>
     
   </channel>
