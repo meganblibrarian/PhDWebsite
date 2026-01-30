@@ -10,13 +10,13 @@ layout: simple
 
 {{< lead >}}
 Exploring the intersection of information science, K-12 education, and technology through rigorous empirical research.
-{{< /lead >}}
+{{< /lead >}}        {{< button href="#featured-writing">}} Featured Writing {{< /button >}} 
 
-{{< button href=r#featured target="_self">}} Featured Writing* {{< /button >}} 
+{{< button href="#conference-presentations">}}  Featured Presentations {{< /button >}}
 
-{{< button >}}  Featured Presentations {{< /button >}}
 
 ---
+
 # Featured Writing
 
 {{< alert "pencil" >}}

@@ -2,41 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Megan E. Barnes, Ph.D. Student</title>
-    <link>http://localhost:38217/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38217/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:38217/categories/projects/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:38217/categories/projects/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>6250</title>
-      <link>http://localhost:38217/categories/6250/</link>
+      <link>http://localhost:1313/categories/6250/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:38217/categories/6250/</guid>
+      <guid>http://localhost:1313/categories/6250/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>6010</title>
-      <link>http://localhost:38217/categories/6010/</link>
+      <link>http://localhost:1313/categories/6010/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:38217/categories/6010/</guid>
+      <guid>http://localhost:1313/categories/6010/</guid>
       <description></description>
       
     </item>

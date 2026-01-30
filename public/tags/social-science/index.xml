@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Science on Megan E. Barnes, Ph.D. Student</title>
-    <link>http://localhost:38217/tags/social-science/</link>
+    <link>http://localhost:1313/tags/social-science/</link>
     <description>Recent content in Social Science on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38217/tags/social-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/social-science/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Applied Theory of Planned Behavior: Professional Development Implementation</title>
-      <link>http://localhost:38217/posts/1718565259980-theory-of-planned-development/</link>
+      <link>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:38217/posts/1718565259980-theory-of-planned-development/</guid>
+      <guid>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:38217/posts/1718565259980-theory-of-planned-development/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718565259980-theory-of-planned-development/featured.png" />
     </item>
     
     <item>
       <title>Is it a science though?</title>
-      <link>http://localhost:38217/posts/1713835356413-is-it-a-science-though/</link>
+      <link>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:38217/posts/1713835356413-is-it-a-science-though/</guid>
+      <guid>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:38217/posts/1713835356413-is-it-a-science-though/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1713835356413-is-it-a-science-though/featured.png" />
     </item>
     
   </channel>
