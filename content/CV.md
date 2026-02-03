@@ -85,14 +85,13 @@ Megan E. Barnes-->
 
 {{< timeline >}}
 
-{{< timelineItem icon="check" header="Research Assistant" badge="April 2025 - Present" subheader="AHA: AI Hardware Adventures, University of North Texas">}}
+{{< timelineItem icon="check" header="Research Assistant" badge="April 2025 - Present" subheader="AHA: AI Hardware Adventures University of North Texas">}}
 <ul class="space-y-1 text-md leading-relaxed mt-2">
 
 <li>Facilitate teacher professional development workshops to train educators in implementing hardware-based AI curriculum</li>
 <li>Coordinate teachers and research team to facilitate participatory design processes</li>
 <li>Perform field-based data collection for curriculum implementation
 <li>
-
 </ul>
 {{< /timelineItem>}}
 
@@ -107,6 +106,8 @@ Megan E. Barnes-->
 <li>Increased utilization of Canva for Education for both faculty and students</li>
 <li>Piloted new device release strategy for rising 5th graders</li>
 </ul>
+
+{{< /timelineItem >}}
 
 
 {{< timelineItem icon="check" header="Lower School Library Media Director" badge="August 2016 - Present" subheader="The Episcopal School of Dallas • Dallas, TX" >}}
