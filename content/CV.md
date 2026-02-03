@@ -78,23 +78,38 @@ Megan E. Barnes-->
 ---
 
 <div class="mb-16">
- 
+ {{< alert icon="check">}}
 ## Experience 
+{{< /alert >}}
+
 
 {{< timeline >}}
 
-{{< timelineItem header="Research Assistant" badge="April 2025 - Present" subheader="University of North Texas" >}}
+{{< timelineItem icon="check" header="Research Assistant" badge="April 2025 - Present" subheader="AHA: AI Hardware Adventures, University of North Texas">}}
+<ul class="space-y-1 text-md leading-relaxed mt-2">
+
+<li>Facilitate teacher professional development workshops to train educators in implementing hardware-based AI curriculum</li>
+<li>Coordinate teachers and research team to facilitate participatory design processes</li>
+<li>Perform field-based data collection for curriculum implementation
+<li>
+
+</ul>
+{{< /timelineItem>}}
+
+{{< timelineItem icon="check" header="Director of Educational Technology" badge="July 2023 - Present" subheader="The Episcopal School of Dallas • Early Childhood through Grade 6" >}}
+
 <ul class="space-y-1 text-md leading-relaxed mt-2">
 <li>Lead introduction to AI professional development sessions for faculty</li>
 <li>Increased utilization of Canva for Education for both faculty and students</li>
 <li>Piloted new device release strategy for rising 5th graders</li>
+<li>Facilitate Education Technology Curriculum Development Team
+<li>Partner with teachers to match curriculum, pedagogy, and technology in their practice
+<li>Increased utilization of Canva for Education for both faculty and students</li>
+<li>Piloted new device release strategy for rising 5th graders</li>
 </ul>
-{{< /timelineItem>}}
 
-{{< timelineItem icon="laptop" header="Director of Educational Technology" badge="July 2023 - Present" subheader="The Episcopal School of Dallas • Early Childhood through Grade 6" >}}
-{{< /timelineItem >}}
 
-{{< timelineItem icon="book" header="Lower School Library Media Director" badge="August 2016 - July 2023" subheader="The Episcopal School of Dallas • Dallas, TX" >}}
+{{< timelineItem icon="check" header="Lower School Library Media Director" badge="August 2016 - Present" subheader="The Episcopal School of Dallas • Dallas, TX" >}}
 <ul class="space-y-1 text-md leading-relaxed mt-2">
 <li>Educational Technology team member</li>
 <li>Technology Advisory Committee member</li>
@@ -106,19 +121,19 @@ Megan E. Barnes-->
 </ul>
 {{< /timelineItem >}}
 
-{{< timelineItem icon="users" header="Substitute Teacher" badge="August 2015 - July 2016" subheader="Kelly Educational Services • Kansas City, MO" >}}
+{{< timelineItem header="Substitute Teacher" badge="August 2015 - July 2016" subheader="Kelly Educational Services • Kansas City, MO" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="book-open" header="Assistant Librarian" badge="October 2014 - June 2015" subheader="Ingraham International High School • Seattle, WA" >}}
+{{< timelineItem header="Assistant Librarian" badge="October 2014 - June 2015" subheader="Ingraham International High School • Seattle, WA" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Teacher-Librarian Intern" badge="January 2015 - March 2015" subheader="Sanislo Elementary School • Seattle, WA" >}}
+{{< timelineItem header="Teacher-Librarian Intern" badge="January 2015 - March 2015" subheader="Sanislo Elementary School • Seattle, WA" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="heart" header="Library Volunteer" badge="September 2013 - June 2014" subheader="Hamlin Robinson School • Seattle, WA" >}}
+{{< timelineItem header="Library Volunteer" badge="September 2013 - June 2014" subheader="Hamlin Robinson School • Seattle, WA" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="library" header="Library Paraprofessional" badge="August 2012 - May 2013" subheader="North Kansas City School District • Gladstone, MO" >}}
+{{< timelineItem header="Library Paraprofessional" badge="August 2012 - May 2013" subheader="North Kansas City School District • Gladstone, MO" >}}
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -126,46 +141,69 @@ Megan E. Barnes-->
 </div>
 
 ---
+{{< alert icon="graduation-cap">}}
+## Publications and Presentations
+{{< /alert >}}
 
-<div class="mb-16">
 
-## Publications
+### **Publications**
 
-<div class="space-y-4 mt-6 text-md leading-relaxed">
+Eutsler, L., Rivera, B., **Barnes, M.**, & Cummings, J. (2025). Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy. _Journal of Research on Technology in Education_, 1–25. [https://doi.org/10.1080/15391523.2025.2476589](https://doi.org/10.1080/15391523.2025.2476589)
 
-<p class="pl-6 -indent-6">*Barnes, M.* Ethical considerations on the adoption of educational technology. <em>Forthcoming</em>.</p>
+Eutsler, L., Hayes, A., Heap, T., Knapp, E., Cockerham, D., **Barnes, M.**, Strickland, J., Mohammad, N. (Under Review). Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump. *Journal Blinded for Review*. 
 
-<p class="pl-6 -indent-6">*Barnes M*.* Cognitive Neuroscience, Educational Technology, and Ethics: Ethical Considerations on the Adoption of Educational Technology Using Cognitive Neuroscience. <em>Forthcoming, 2024</em>.</p>
 
-</div>
+Musgrave Rivera, B., **Barnes, M.**, Eutsler, L. (Under Review) Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. *Journal Blinded for Review*. 
 
-</div>
+### **Presentations**
+
+**2026**
+
+Ambarwati, Y. E., Ramirez-Salgado, A., Hwang, W., Terzian, T., Sharma, A., Eutsler, L., **Barnes, M.**, Dominguez, N., Donihue, D., Bhunia, S., Chatterjee, B., & Antonenko, P. (June 21–24, 2026). _Fostering situational interest in microelectronics and edge AI among middle schoolers in a museum program._ In 2026 American Society of Engineering Education (ASEE) Annual Conference & Exposition, Charlotte, NC.
+
+Hwang, W., Perez-Medina, C., Ambarwati, Y. E., Terzian, T., Sharma, A., **Barnes, M.**, Ramirez-Salgado, A., Eutsler, L., Bhunia, S., & Antonenko, P. (June 2026). _In-Service STEM teachers' AI conceptual change through hardware-based edge intelligence activities._ In 2026 American Society of Engineering Education (ASEE) Annual Conference & Exposition, Charlotte, NC.
+
+Hwang, W., Perez-Medina, C., Ambarwati, Y. E., Terzian, T., Sharma, A., **Barnes, M.**, Ramirez-Salgado, A., Eutsler, L., Bhunia, S., & Antonenko, P. (June 2026). _WIP: Leveraging Embedded System and Edge Intelligence to Foster High School Students' AI Conceptual Change._ In 2026 American Society of Engineering Education (ASEE) Annual Conference & Exposition, Charlotte, NC.
+
+Ambarwati, Y. E., Ramirez-Salgado, A., Hwang, W., Terzian, T., Sharma, A., Eutsler, L., **Barnes, M.**, Dominguez, N., Donihue, D., Bhunia, S., Chatterjee, B., & Antonenko, P. (April 19–22, 2026). _Scaffolding teenagers' AI career aspirations in a microelectronics and edge intelligence museum summer program._ National Association for Research in Science Teaching (NARST), Seattle, WA.
+
+Ramirez-Salgado, A., Eutsler, L., Sharma, A., Hwang, W., Ambarwati, Y. E., Terzian, T., **Barnes, M.**, Dominguez, N., Donihue, D., Bhunia, S., Hoque, T., & Antonenko, P. (April 8–12, 2026). _Engaging teenagers in community-centered edge AI projects._ At the Annual Meeting of the American Educational Research Association (AERA), Los Angeles, CA.
+
+Eutsler, L., **Barnes, M.**, Ramirez-Salgado, A., Ambarwati, Y., Hwang, W., Terzian, T., Sharma, A., Hoque, T., Bhunia, S., & Antonenko, P. (April 8–12, 2026). _Listening to teachers: Adapting a microelectronics curriculum through participatory design_. At the Annual Meeting of the American Educational Research Association (AERA), Los Angeles, CA.
+
+**2025**
+
+Terzian, T., Perez-Medina, C., Hwang, W., Ambarwati, Y. E., Sharma, A., Eutsler, L., **Barnes, M.**, Koroly, M.J., Davey, B., Bhunia, S., Hossain, T., Hoque, T., Ramirez-Salgado, A., & Antonenko, P. (October 24, 2025). _The AHA Project: AI Hardware Adventures_ [Poster presentation]. 2025 AI Days, University of Florida, Gainesville, FL.
+
+Ambarwati, Y. E., Ramirez-Salgado, A., Hwang, W., Terzian, T., Perez-Medina, C., Sharma, A., Eutsler, L., **Barnes, M.**, Dominguez, N., Donihue, D., Bhunia, S., Chatterjee, B., & Antonenko, P. (December 4–5, 2025). _Fostering situational interest in microelectronics and edge AI among middle schoolers in a museum program_ [Poster presentation]. 2025 IoT Conference, Gainesville, FL.
+
+**2024**
+
+**Barnes, M.**, Rivera, B. M., Russel, G. S., Milburn, S., & Brooks, B. (October 2024). _Stepping into the Spotlight: Librarians as Technology Leaders._ [Conference Presentation]. Association for Educational Communications and Technology, Kansas City, MO, United States.
+
+Eutsler, L., Rivera, B. M., **Barnes, M.**, & Cummings, J. (October 2024). _AI District Policy Analysis: Informing Educational Technology Policy for Tomorrow's Needs._ Association for Educational Communications and Technology, Kansas City, MO, United States.
+
+**Barnes, M.**, Musgrave Rivera, B., James-Avalos, G. (September 16, 2024). _Robots, VR and AI: Librarians as Emerging Technology Leaders_ [Round Table]. Educational Research Exchange (ERE), University of North Texas, Denton, TX.
+
+**Barnes, M.**, Musgrave Rivera, B., James-Avalos, G. (September 16, 2024). _Soft Systems Analysis: Digital Tool Selection in K-12 Classrooms._ Educational Research Exchange (ERE), University of North Texas, Denton, TX.
+
+**2023**
+
+**Barnes, M.** (December 1, 2023). _Ethical Considerations on the Adoption of Educational Technology_. Multidisciplinary Information Research Symposium (MIRS), University of North Texas, Denton, TX.
+
+**Barnes, M.** (December 2023). _Ethical Considerations on the Adoption of Educational Technology._ [Conference Presentation]. Society for Multidisciplinary Information Research Symposium, Denton, TX, United States.
+
+**2020**
+
+**Barnes, M.** (February 2020). _Increasing Schoology Usage in Elementary Classrooms: A Librarian's PD Journey_ [Vendor Booth Presentation]. Texas Computer Education Association Conference, Austin, TX, United States.
 
 ---
 
 <div class="mb-16">
 
-## Conference Activity
-
-<div class="space-y-4 mt-6 text-md leading-relaxed">
-
-<p class="pl-6 -indent-6">Barnes, M. (2020, February). Increasing Schoology Usage in Elementary Classrooms: A Librarian's PD Journey [Conference Presentation]. <em>Texas Computer Education Association Conference</em>. Austin, TX, United States.</p>
-
-<p class="pl-6 -indent-6">Barnes, M. (2023, December). Ethical Considerations on the Adoption of Educational Technology. [Conference Presentation]. <em>Society for Multidisciplinary Information Research Symposium</em>. Denton, TX, United States.</p>
-
-<p class="pl-6 -indent-6">Barnes, M., Rivera, B. M., Russel, G. S., Milburn, S., & Brooks, B. (2024, October). Stepping into the Spotlight: Librarians as Technology Leaders. [Conference Presentation]. <em>Association for Educational Communications and Technology</em>. Kansas City, MO, United States.</p>
-
-<p class="pl-6 -indent-6">Eutsler, L., Rivera, B. M., Barnes, M., & Cummings, J. (2024, October). AI District Policy Analysis: Informing Educational Technology Policy for Tomorrow's Needs [Conference Presentation]. <em>Association for Educational Communications and Technology</em>. Kansas City, MO, United States.</p>
-
-</div>
-
-</div>
-
----
-
-<div class="mb-16">
-
-## Technology Tools
+{{< alert icon="graduation-cap">}}
+## Technology Administration & Support
+{{< /alert >}}
 
 {{< gallery >}}
 <div class="grid-w50 md:grid-w50 p-8 rounded-xl border-2 border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-800 shadow-lg">
