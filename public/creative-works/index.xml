@@ -31,5 +31,15 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/feature.png" />
     </item>
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/creative-works/ai_letter_detective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/creative-works/ai_letter_detective/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
