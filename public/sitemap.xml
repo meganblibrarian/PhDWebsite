@@ -176,4 +176,9 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>http://localhost:1313/aboutme/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

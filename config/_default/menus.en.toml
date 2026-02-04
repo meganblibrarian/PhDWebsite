@@ -25,9 +25,8 @@ weight = 3
 
 [[main]]
 name = "About Me"
-pre = "scale-balanced"
 pageRef = "/aboutme/"
-identifier = "hqk6a5e2yw"
+identifier = "HFHEcrYg6d"
 weight = 9_999
 
 [[footer]]
