@@ -143,7 +143,7 @@ Learning Technologies</p>
 </div>
 
 ---
-{{< alert icon="graduation-cap">}}
+{{< alert icon="speech_balloon">}}
 ## Publications and Presentations
 {{< /alert >}}
 

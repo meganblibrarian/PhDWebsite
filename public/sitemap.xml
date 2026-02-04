@@ -4,7 +4,7 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -143,11 +143,6 @@
   <url>
     <loc>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/aboutme/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

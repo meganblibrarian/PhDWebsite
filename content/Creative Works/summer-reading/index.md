@@ -8,7 +8,7 @@ toc: false
 
 # Summer Reading Brochure - 2025
 
-This work is the culumnation of several years of revision the sumemr reading offerings at my school. Each year the items get customzized to cater to emerging reading trends and new <a href = "https://txla.org/reading-lists/texas-bluebonnet-award/">Texas Library Association Bluebonnet Award books</a>. It has gone from a simple list of book suggestions, to a PDf with clickable links.
+This work is the culumnation of several years of revision the summer reading offerings at my school. Each year the items get customzized to cater to emerging reading trends and new <a href = "https://txla.org/reading-lists/texas-bluebonnet-award/">Texas Library Association Bluebonnet Award books</a>. It has gone from a simple list of book suggestions, to a PDf with clickable links.
 
 This represents a novel change: a summer reading catalog, complete with clickable links, organization by grade and by fiction and non-fiction, as well as newly added items tailored for increasing background knowledge that helps with the grade the student is entering. 
 

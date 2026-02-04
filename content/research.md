@@ -10,17 +10,10 @@ layout: simple
 
 {{< lead >}}
 Exploring the intersection of information science, K-12 education, and technology through rigorous empirical research.
-{{< /lead >}}        {{< button href="#featured-writing">}} Featured Writing {{< /button >}} 
+{{< /lead >}}       <br> {{< button href="#featured-writing">}} Featured Writing {{< /button >}} 
 
 {{< button href="#conference-presentations">}}  Featured Presentations {{< /button >}}
 
-[!TIP]
-Tip type admonition.
-
-[!TIP]+ Custom Title + Custom Icon
-A collapsible admonition with custom title.
-
-{icon="twitter"}
 ---
 
 # Featured Writing
