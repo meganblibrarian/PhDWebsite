@@ -47,8 +47,7 @@ Published
 {{< badge >}}
 Course Work
 {{< /badge >}} 
-
-
+<br>
 {{< badge >}}
 6250
 {{< /badge >}} 
@@ -84,6 +83,37 @@ Under Review
 
 {{< badge >}}
 Course Work
+{{< /badge >}}<br>
+{{< badge >}}
+6511
+{{< /badge >}}<br>
+{{< badge >}}
+Quantitative Analysis
+{{< /badge >}}<br>
+
+---
+
+{{< alert "pencil" >}}
+## Exploring Media Literacy through Hands-On Exploration: Art Assemblage
+{{< /alert >}}
+**Barnes, M.** (2024). *Exploring Media Literacy through Hands-On Exploration: Art Assemblage*. 
+
+<iframe src="https://docs.google.com/document/d/1LFNfHg0L_5HZ9baS_crx5FVXMSyj0VmLOP4nWKhImz4/preview " 
+        width="100%" 
+        height="600px" 
+        frameborder="0">
+</iframe>
+
+
+
+{{< badge >}}
+Course Work
+{{< /badge >}}<br>
+{{< badge >}}
+6020
+{{< /badge >}}<br>
+{{< badge >}}
+Lesson Plan
 {{< /badge >}}
 
 ---
