@@ -62,10 +62,27 @@ Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, St
 
 Password-protected link. [Committee members: please check your email.]
 
-
+---
 
 {{< badge >}}
 Under Review
+{{< /badge >}}
+
+{{< alert "pencil" >}}
+## Semantic Differential Survey on the New Texas Essential Knowledge and Skills for Computer Applications (TEKS)
+{{< /alert >}}
+**Barnes, M.**, Cummings, J., & James, S. (2024). *Semantic Differential Survey on the New Texas Essential Knowledge and Skills for Computer Applications (TEKS)*. 
+
+<iframe src="https://docs.google.com/document/d/1EFfjRQLyKXubqmdtPkxhWE403uaJ5Nis/preview " 
+        width="100%" 
+        height="600px" 
+        frameborder="0">
+</iframe>
+
+
+
+{{< badge >}}
+Course Work
 {{< /badge >}}
 
 ---
