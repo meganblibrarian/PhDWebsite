@@ -118,8 +118,6 @@ Lesson Plan
 
 ---
 
-https://docs.google.com/document/d/1W0Hhzs4h31BQO0anQJNAjwgLAHSuAYAB/edit?usp=sharing&ouid=109635018500980240341&rtpof=true&sd=true
-
 {{< alert "pencil" >}}
 ## Ethical Considerations on the Adoption of Educational Technology
 {{< /alert >}}

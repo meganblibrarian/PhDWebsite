@@ -1,7 +1,7 @@
 ---
 title: "AI Letter Detective"
 date: 2026-02-04
-draft: true
+draft: false
 description: "Game to Replicate Informed Guessing Like AI Does"
 ---
 <!DOCTYPE html>
