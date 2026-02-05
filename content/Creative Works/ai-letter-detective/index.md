@@ -3,7 +3,6 @@ title: "AI Letter Detective"
 date: 2026-02-04
 draft: true
 description: "Game to Replicate Informed Guessing Like AI Does"
-layout: "simple"
 ---
 <!DOCTYPE html>
 <html lang="en">

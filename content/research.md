@@ -118,6 +118,33 @@ Lesson Plan
 
 ---
 
+https://docs.google.com/document/d/1W0Hhzs4h31BQO0anQJNAjwgLAHSuAYAB/edit?usp=sharing&ouid=109635018500980240341&rtpof=true&sd=true
+
+{{< alert "pencil" >}}
+## Ethical Considerations on the Adoption of Educational Technology
+{{< /alert >}}
+**Barnes, M.** (2024). *Ethical Considerations on the Adoption of Educational Technology*. 
+
+<iframe src="https://docs.google.com/document/d/1W0Hhzs4h31BQO0anQJNAjwgLAHSuAYAB/preview" 
+        width="100%" 
+        height="600px" 
+        frameborder="0">
+</iframe>
+
+
+
+{{< badge >}}
+Course Work
+{{< /badge >}}<br>
+{{< badge >}}
+6000
+{{< /badge >}}<br>
+{{< badge >}}
+Position Paper
+{{< /badge >}}
+
+---
+
 # Conference Presentations
 
 {{< timeline >}}
