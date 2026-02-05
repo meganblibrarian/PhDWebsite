@@ -4,7 +4,13 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/creative-works/ai-letter-detective/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -147,12 +153,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/ai_letter_detective/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/creative-works/ai_letter_detective/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

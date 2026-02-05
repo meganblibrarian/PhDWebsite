@@ -12,6 +12,16 @@
     <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/creative-works/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>AI Letter Detective</title>
+      <link>http://localhost:1313/creative-works/ai-letter-detective/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/creative-works/ai-letter-detective/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Summer Reading</title>
       <link>http://localhost:1313/creative-works/summer-reading/</link>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
@@ -28,17 +38,7 @@
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
       <guid>http://localhost:1313/creative-works/library-games/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/feature.png" />
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/creative-works/ai_letter_detective/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:1313/creative-works/ai_letter_detective/</guid>
-      <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/featured.png" />
     </item>
     
   </channel>
