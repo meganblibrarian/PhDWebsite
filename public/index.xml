@@ -9,7 +9,17 @@
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AI Letter Detective</title>
+      <link>http://localhost:1313/creative-works/ai-letter-detective/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/creative-works/ai-letter-detective/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/ai-letter-detective/featured.png" />
+    </item>
     
     <item>
       <title>Summer Reading</title>
@@ -18,7 +28,7 @@
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
       <guid>http://localhost:1313/creative-works/summer-reading/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/summer-reading/featured.png" />
     </item>
     
     <item>
@@ -58,7 +68,7 @@
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
       <guid>http://localhost:1313/creative-works/library-games/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/featured.png" />
     </item>
     
     <item>
@@ -223,20 +233,20 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:1313/ai_letter_detective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/ai_letter_detective/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/creative-works/ai_letter_detective/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>http://localhost:1313/creative-works/ai_letter_detective/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description></description>
       
     </item>

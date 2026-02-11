@@ -7,7 +7,7 @@ toc: true
 ---
 ## Customizable Shelving Order Game
 
-This game is based on the game Order in the Library game (a Flash-based game) and the <a href="https://shelver.mrs-lodges-library.com/"> Shelve-It game by Mrs. Lodge's Library</a>. 
+This game is based on the game Order in the Library  game (a Flash-based game) and the <a href="https://shelver.mrs-lodges-library.com/"> Shelve-It game by Mrs. Lodge's Library</a>. 
 
 The biggest modification to the play of the game is the ability to customize the books being put in order by providing your own list of tiles and call numbers. This means you can highlight titles in your own library collection, like the most popular titles, new titles, or practice with your specific shelf order. 
 
@@ -39,9 +39,3 @@ It also served as an professional growth activity for AI Co-Lab activity. We are
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGn75vVRcc&#x2F;LDK66hz8DcpfQ0pQur8MAg&#x2F;view?utm_content=DAGn75vVRcc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Operation: Literal Loot - A Game to Decode Language</a> by Megan Barnes
 
 <!-- this is my original iframe code iframe width=600 height=900 src="https://bbvghrxk2rvfm5my.canva-hosted-embed.com/codelet/AAEAEGJidmdocnhrMnJ2Zm01bXkAAAAAAZcC1bc6Mu3EtQgKLhBGFk22iqcNft-KbY8xc1oxCq587hUmgZ8/" iframe --> 
-
-## AI Letter Detective 
-
-AI letter detective was used in a library lesson on the development of AI, what it does, and a small overview of how it works. It's an adaptation of hangman that allows reinforcement of computational thinking terminology (algorithm, statistics) and applies it in a hands on, guessing game format. Basic information is included in the game, and reinforced through library reading activities. 
-
-<iframe src="/ai_letter_detective/></iframe>
