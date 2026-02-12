@@ -7,9 +7,6 @@ show_comments: false
 layout: "simple"
 ---
 
-<!--<iframe src="https://gamma.app/embed/j3zk2lwl22l9lan" style="width: 1000px; max-width: 100%; height: 800px" allow="fullscreen" title="Megan E. Barnes"></iframe>{{/* a comment */}}
-Megan E. Barnes-->
-
 <div class="text-xl leading-relaxed mb-12 max-w-4xl">
 <strong>Director of Educational Technology and Library Media Specialist</strong> with expertise in educational technology integration, digital literacy instruction, and professional development.
 </div>
@@ -87,13 +84,13 @@ Learning Technologies</p>
 
 {{< timeline >}}
 
-{{< timelineItem icon="check" header="Research Assistant" badge="April 2025 - Present" subheader="AHA: AI Hardware Adventures University of North Texas">}}
+{{< timelineItem icon="check" header="Research Assistant" badge="April 2025 - Present" subheader="AHA!: AI Hardware Adventures University of North Texas">}}
 <ul class="space-y-1 text-md leading-relaxed mt-2">
 
-<li>Facilitate teacher professional development workshops to train educators in implementing hardware-based AI curriculum</li>
-<li>Coordinate teachers and research team to facilitate participatory design processes</li>
-<li>Perform field-based data collection for curriculum implementation
-</ul>
+<li>Participated in the co-design and development of research-based curricular interventions.</li>
+<li>Contributed to the delivery of structured professional development programs for K–12 educators.</li>
+<li>Supported the design, refinement, and documentation of professional development training materials aligned with project objectives.</li>
+
 {{< /timelineItem>}}
 
 {{< timelineItem icon="check" header="Director of Educational Technology" badge="July 2023 - Present" subheader="The Episcopal School of Dallas • Early Childhood through Grade 6" >}}
@@ -151,6 +148,8 @@ Learning Technologies</p>
 ### **Publications**
 
 Eutsler, L., Rivera, B., **Barnes, M.**, & Cummings, J. (2025). Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy. _Journal of Research on Technology in Education_, 1–25. [https://doi.org/10.1080/15391523.2025.2476589](https://doi.org/10.1080/15391523.2025.2476589)
+
+#### **Under Review** 
 
 Eutsler, L., Hayes, A., Heap, T., Knapp, E., Cockerham, D., **Barnes, M.**, Strickland, J., Mohammad, N. (Under Review). Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump. *Journal Blinded for Review*. 
 
