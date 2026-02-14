@@ -9,13 +9,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/creative-works/ai-letter-detective/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/creative-works/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/creative-works/</loc>
+    <loc>http://localhost:1313/creative-works/portfolio-planning-whiteboard/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/creative-works/ai-letter-detective/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
