@@ -21,7 +21,7 @@ Exploring the intersection of information science, K-12 education, and technolog
 ### Published
 
 {{< alert "pencil" >}}
-#### <a href="https://doi.org/10.1080/15391523.2025.2476589" target=_new>Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy</a>
+#### Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy</a>
 {{< /alert >}}
 
 Eutsler, L., Rivera, B., **Barnes, M.**, & Cummings, J. (2025). Artificial intelligence policies in K-12 school districts in the United States: A content analysis shaping education policy. *Journal of Research on Technology in Education*, 1–25. https://doi.org/10.1080/15391523.2025.2476589
@@ -39,6 +39,7 @@ Generative artificial intelligence (AI) has been embraced by educators and stude
 {{< alert "pencil" >}}
 #### Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
 {{< /alert >}}
+
 Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, Strickland, J., & Mohammad, N. (revision 1 submitted). Closing the gap: Co-designing immersive literacy to tackle the fourth-grade slump. *Blinded*
 
 Paper provided to committee using limited-access folders.
@@ -54,8 +55,10 @@ This study examined third-grade teachers’ perspectives on the integration of a
 ### Publishable
 
 {{< alert "pencil" >}}
-Rivera, B., **Barnes, M.**, Eutsler, L. (2025). Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. 
+#### Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. 
 {{< /alert >}}
+
+Rivera, B., **Barnes, M.**, Eutsler, L. (2025). Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. 
 
 *Abstract*
 
@@ -86,8 +89,9 @@ Paper provided to committee using limited-access folders.3
 ### Class Work
 
 {{< alert "pencil" >}}
-#### <a href="https://docs.google.com/document/d/1EFfjRQLyKXubqmdtPkxhWE403uaJ5Nis/preview " target=_blank>Semantic Differential Survey on the New Texas Essential Knowledge and Skills for Computer Applications (TEKS)</a>
+#### Semantic Differential Survey on the New Texas Essential Knowledge and Skills for Computer Applications (TEKS)
 {{< /alert >}}
+
 **Barnes, M.**, Cummings, J., & James, S. (2024). *Semantic Differential Survey on the New Texas Essential Knowledge and Skills for Computer Applications (TEKS)*. <a href="https://docs.google.com/document/d/1EFfjRQLyKXubqmdtPkxhWE403uaJ5Nis/preview " target=_blank>Click here to read</a>
 
 {{< badge >}}Course Work{{< /badge >}}{{< badge >}}6511{{< /badge >}}{{< badge >}}Quantitative Analysis{{< /badge >}}
@@ -99,8 +103,9 @@ Texas implemented new Texas Essential Knowledge and Skills (TEKS) for technology
 ---
 
 {{< alert "pencil" >}}
-#### <a href="https://docs.google.com/document/d/1LFNfHg0L_5HZ9baS_crx5FVXMSyj0VmLOP4nWKhImz4/preview " target=_blank>Exploring Media Literacy through Hands-On Exploration: Art Assemblage</a>
+#### Exploring Media Literacy through Hands-On Exploration: Art Assemblage
 {{< /alert >}}
+
 **Barnes, M.** (2024). *Exploring Media Literacy through Hands-On Exploration: Art Assemblage*. <a href="https://docs.google.com/document/d/1LFNfHg0L_5HZ9baS_crx5FVXMSyj0VmLOP4nWKhImz4/preview " target=_blank>Click here to read</a>
 
 {{< badge >}}Course Work{{< /badge >}}{{< badge >}}6020{{< /badge >}}{{< badge >}}Lesson Plan{{< /badge >}}
@@ -110,9 +115,11 @@ Texas implemented new Texas Essential Knowledge and Skills (TEKS) for technology
 This library lesson provided a hands-on opportunity to explore how perspective impacts visual messaging. Students watched a video of author-illustrator Aaron Reynolds discussing his inspiration for the illustrations in Creepy Carrots and how he used perspective in the illustrations of the book to enhance the readers’ emotional engagement. After this, the students rotated through stations where they checked out books, looked at a deconstructed copy of the book hung in the library, or built art assemblages out of found materials and documented 2 images of their creation – one from above and one from any other chosen angle. The images are collected in a digital book creation platform for whole-group review at the end of class. 
 
 ---
+
 {{< alert "pencil" >}}
-#### <a href="https://docs.google.com/document/d/1Ub48uKWLA2xQqD4h2fZovlWNzlNn24Oo/preview" target=_blank>Soft Systems Analysis: Digital Tool Selection in the Classroom</a>
+#### Soft Systems Analysis: Digital Tool Selection in the Classroom
 {{< /alert >}}
+
 {{< badge >}}Course Work{{< /badge >}} {{< badge >}}6250{{< /badge >}} 
 
 Barnes, M. (2024). Soft systems analysis: Digital tool selection in the Classroom. <a href="https://docs.google.com/document/d/1Ub48uKWLA2xQqD4h2fZovlWNzlNn24Oo/preview" target=_blank>Click here to read</a>
@@ -124,8 +131,9 @@ Every student is the center of a multi-tier educational system which makes decis
 ---
 
 {{< alert "pencil" >}}
-#### <a href="https://docs.google.com/document/d/1W0Hhzs4h31BQO0anQJNAjwgLAHSuAYAB/preview" target=_blank>Ethical Considerations on the Adoption of Educational Technology</a>
+#### Ethical Considerations on the Adoption of Educational Technology
 {{< /alert >}}
+
 **Barnes, M.** (2024). *Ethical Considerations on the Adoption of Educational Technology*. <a href="https://docs.google.com/document/d/1W0Hhzs4h31BQO0anQJNAjwgLAHSuAYAB/preview" target=_blank>Click here to read</a>
 
 *Abstract*
@@ -142,7 +150,7 @@ This paper looks at the intersection of cognitive neuroscience, educational tech
 {{< timeline >}}
 
 {{< timelineItem icon="comment" header="AECT 2025" badge="October 2025" badge="President's Award" subheader="Kansas City, MO" >}}
-**Paper Presentation:** "AI Policies in K12"  
+**Paper Presentation:** "AI District Policy Analysis: Informing Educational Technology Policy for Tomorrow’s Needs."  
 {{< /timelineItem >}}
 
 {{< timelineItem icon="comment" header="AECT 2025" badge="October 2025" subheader="Kansas City, MO" >}}
