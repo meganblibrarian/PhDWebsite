@@ -84,7 +84,7 @@ showCards = false
 orderByWeight = false
 groupByYear = false
 cardView = true
-cardViewScreenWidth = true
+cardViewScreenWidth = false
 constrainItemsWidth = false
 
 [sitemap]

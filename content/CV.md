@@ -1,6 +1,6 @@
 ---
 date: '2026-01-26'
-description: 'GammaAI render CV for Megan E. Barnes.'
+description: 'CV for Megan Barnes, Ph.D. student at the University of North Texas'
 title: 'Megan E. Barnes CV'
 toc: false
 show_comments: false
@@ -74,6 +74,37 @@ Learning Technologies</p>
 {{< /gallery >}}
 </div>
 
+<div class="mb-16">
+
+{{< alert>}}
+### Service & Awards
+{{< /alert >}}
+
+{{< gallery >}}
+<div class="grid-w50 md:grid-w50 p-8 rounded-xl border-2 border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-800 shadow-lg">
+<h3 class="text-xl font-bold mb-4 text-center pb-3 border-b-2 border-neutral-300 dark:border-neutral-600">Professional Service</h3>
+<ul class="space-y-2 text-md">
+<li>Reviewer - Journal of Technology-Integrated Learning and Teaching</li>
+<li>Senator - Graduate Student Council</li>
+<li>UNT Representative - AECT 2024</li>+
+<li>AECT 2024 - Presidential Session "AI District Policy Analysis: Informing Education Policy for Tomorrow's Needs</li>
+<li>Global Competency Committee Member</li>
+<li>Ed Tech Mentor</li>
+<li>Technology Advisory Committee</li>
+
+</ul>
+</div>
+<div class="grid-w50 md:grid-w50 p-8 rounded-xl border-2 border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-800 shadow-lg">
+<h3 class="text-xl font-bold mb-4 text-center pb-3 border-b-2 border-neutral-300 dark:border-neutral-600">Awards & Recognition</h3>
+<ul class="space-y-2 text-md">
+<li>Kathleen White Scholarship</li>
+<li>Social Media Furthest Natural Reach Recognition</li>
+<li>Britannica School</li>
+<li>iMovie</li>
+</ul>
+</div>
+{{< /gallery >}}
+</div>
 ---
 
 <div class="mb-16">
