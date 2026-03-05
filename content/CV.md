@@ -86,6 +86,7 @@ Learning Technologies</p>
 <ul class="space-y-2 text-md">
 <li>Reviewer - Journal of Technology-Integrated Learning and Teaching</li>
 <li>Senator - Graduate Student Council</li>
+<li>Student Ambassador - MIRS 2026 Conference
 <li>UNT Representative - AECT 2024</li>
 <li>Global Competency Committee Member</li>
 <li>Ed Tech Mentor</li>
@@ -96,6 +97,7 @@ Learning Technologies</p>
 <div class="grid-w50 md:grid-w50 p-8 rounded-xl border-2 border-neutral-300 dark:border-neutral-600 bg-white dark:bg-neutral-800 shadow-lg">
 <h3 class="text-xl font-bold mb-4 text-center pb-3 border-b-2 border-neutral-300 dark:border-neutral-600">Awards & Recognition</h3>
 <ul class="space-y-2 text-md">
+<li>Nominee: UNT Outstanding Student Employee: Marvelous Multitasker Award
 <li>Kathleen White Scholarship</li>
 <li>AECT 2024 - Presidential Session "AI District Policy Analysis: Informing Education Policy for Tomorrow's Needs</li>
 <li>Social Media Furthest Natural Reach Recognition</li>
