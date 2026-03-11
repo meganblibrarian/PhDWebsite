@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Series on Megan E. Barnes, Ph.D. Student</title>
-    <link>http://localhost:1313/series/</link>
-    <description>Recent content in Series on Megan E. Barnes, Ph.D. Student</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
-    <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
-    <copyright>© 2026 Megan E. Barnes</copyright>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Series on Megan E. Barnes, Ph.D. Student</title><link>https://meganebarnes.com/series/</link><description>Recent content in Series on Megan E. Barnes, Ph.D. Student</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor><webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster><copyright>© 2026 Megan E. Barnes</copyright><atom:link href="https://meganebarnes.com/series/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

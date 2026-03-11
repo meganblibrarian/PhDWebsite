@@ -1,5 +1,5 @@
 ---
-date: '2026-3-11'
+date: '2026-03-11'
 title: 'My Research Game'
 toc: false
 show_comments: false
