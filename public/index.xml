@@ -9,7 +9,17 @@
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/notupdatingaboutme/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/notupdatingaboutme/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Portfolio Planning Whiteboard</title>
@@ -307,6 +317,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
       <guid>http://localhost:1313/aboutme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My Research Game</title>
+      <link>http://localhost:1313/pathfinder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/pathfinder/</guid>
       <description></description>
       
     </item>
