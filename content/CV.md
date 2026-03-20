@@ -205,6 +205,8 @@ Ramirez-Salgado, A., Eutsler, L., Sharma, A., Hwang, W., Ambarwati, Y. E., Terzi
 
 Eutsler, L., **Barnes, M.**, Ramirez-Salgado, A., Ambarwati, Y., Hwang, W., Terzian, T., Sharma, A., Hoque, T., Bhunia, S., & Antonenko, P. (April 8–12, 2026). _Listening to teachers: Adapting a microelectronics curriculum through participatory design_. At the Annual Meeting of the American Educational Research Association (AERA), Los Angeles, CA.
 
+**Barnes, M.**, Milburn, S., Rivera, B. (March 27, 2026). _Cybersecurity for children: Protecting students' PII online_ [Webinar]. Texas Computer Education Association. 
+
 **2025**
 
 Terzian, T., Perez-Medina, C., Hwang, W., Ambarwati, Y. E., Sharma, A., Eutsler, L., **Barnes, M.**, Koroly, M.J., Davey, B., Bhunia, S., Hossain, T., Hoque, T., Ramirez-Salgado, A., & Antonenko, P. (October 24, 2025). _The AHA Project: AI Hardware Adventures_ [Poster presentation]. 2025 AI Days, University of Florida, Gainesville, FL.
