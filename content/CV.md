@@ -187,6 +187,8 @@ Eutsler, L., Hayes, A., Heap, T., Knapp, E., Cockerham, D., **Barnes, M.**, Stri
 
 Musgrave Rivera, B., **Barnes, M.**, Eutsler, L. (Under Review) Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. *Journal Blinded for Review*. 
 
+Musgrave Rivera, B., **Barnes, M.**, Milburn, S., Eutsler, L. (Under Review) Exploring Librarians’ AI Acceptance and Concerns Through the Stages of Concern and TAM Models. *Journal Blinded for Review*. 
+
 ### **Presentations**
 
 **2026**

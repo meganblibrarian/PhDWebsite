@@ -40,7 +40,7 @@ Generative artificial intelligence (AI) has been embraced by educators and stude
 #### Closing the Gap: Co-Designing an Immersive Literacy Prototype to Tackle the Fourth-Grade Slump.
 {{< /alert >}}
 
-Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, Strickland, J., & Mohammad, N. (revision 1 submitted). Closing the gap: Co-designing immersive literacy to tackle the fourth-grade slump. *Blinded*
+Eutsler, L., Hayes, A. Heap, T., Knapp, E. J., Cockerham, D., **Barnes, M.**, Strickland, J., & Mohammad, N. (Under Review). Closing the gap: Co-designing immersive literacy to tackle the fourth-grade slump. *Blinded*
 
 Paper provided to committee using limited-access folders.
 
@@ -50,15 +50,11 @@ This study examined third-grade teachers’ perspectives on the integration of a
 
 {{< badge >}}Under Review{{< /badge >}}
 
----
-
-### Publishable
-
 {{< alert "pencil" >}}
 #### Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. 
 {{< /alert >}}
 
-Rivera, B., **Barnes, M.**, Eutsler, L. (2025). Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. 
+Rivera, B., **Barnes, M.**, Eutsler, L. (Under Review). Artificial Intelligence Tools, Implementation, and Data Security in K-12 Education: A Scoping Review. *Blinded*
 
 *Abstract*
 
@@ -66,15 +62,13 @@ This scoping review broadly evaluates the current research on Artificial Intelli
 
 Paper provided to committee using limited-access folders.
 
-{{< badge >}} Dissertation Paper - Mustgraves {{< /badge>}}
-
----
+{{< badge >}} Dissertation Paper - Mustgraves {{< /badge>}} {{< badge >}}Under Review{{< /badge >}}
 
 {{< alert "pencil" >}}
 #### Exploring Librarians' AI Acceptance and Concerns Through the Stages of Concern and TAM Models. 
 {{< /alert >}}
 
-Rivera, B., **Barnes, M.**, Eutsler, L. (2025). Exploring Librarians' AI Acceptance and Concerns Through the Stages of Concern and TAM Models. 
+Rivera, B., **Barnes, M.**, Milburn, S., Eutsler, L. (Under Review). Exploring Librarians' AI Acceptance and Concerns Through the Stages of Concern and TAM Models.  *Blinded*
 
 *Abstract*
 
@@ -82,7 +76,7 @@ The digital landscape is rapidly evolving, creating new ways to access and gener
 
 Paper provided to committee using limited-access folders.3
 
-{{< badge >}} Dissertation Paper - Mustgraves {{< /badge>}}
+{{< badge >}} Dissertation Paper - Mustgraves {{< /badge>}} {{< badge >}}Under Review{{< /badge >}}
 
 ---
 
