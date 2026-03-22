@@ -132,7 +132,7 @@
     </div>
 
     <script>
-        const apiKey = "";
+        const apiKey = "AIzaSyBIwlAmzq89LkuSsjy05eHrhIc6Mhc8Xhg";
 
         function formatMarkdown(text) {
             return text
