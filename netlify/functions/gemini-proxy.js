@@ -17,7 +17,7 @@ exports.handler = async (event, context) => {
     // 4. Call Gemini
     const result = await model.generateContent(prompt);
     const response = await result.response;
-    const text = response.text();
+    const text = await response.text();
 
     return {
       statusCode: 200,

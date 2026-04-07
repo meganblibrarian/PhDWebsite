@@ -83,7 +83,10 @@
                 body: JSON.stringify({ prompt: userPrompt }),
             });
 
-            if (!response.ok) throw new Error("Proxy error");
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`Proxy error ${response.status}: ${errorText}`);
+            }
             const data = await response.json();
             return data.reply;
         }
