@@ -203,7 +203,7 @@
                 const feedback = document.getElementById('feedback');
                 feedback.innerHTML += `<div class="mt-4 pt-4 border-t border-slate-200"><p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">Technical Analysis</p><div class="text-slate-700 text-xs">${formatMarkdown(response)}</div></div>`;
                 aiDeepDiveBtn.classList.add('hidden');
-            } catch (err) { showMessage("Proxy function error."); } finally { toggleLoading(false); }
+            } catch (err) { showMessage(err.message || "Proxy function error."); } finally { toggleLoading(false); }
         };
 
         nextBtn.onclick = () => {
@@ -219,7 +219,7 @@
                 document.getElementById('scenario-prompt').innerHTML = formatMarkdown(scenario);
                 document.getElementById('generate-scenario-btn').classList.add('hidden');
                 document.getElementById('scenario-active-area').classList.remove('hidden');
-            } catch (err) { showMessage("Proxy error."); } finally { toggleLoading(false); }
+            } catch (err) { showMessage(err.message || "Proxy error."); } finally { toggleLoading(false); }
         };
 
         document.getElementById('critique-scenario-btn').onclick = async () => {
@@ -234,7 +234,7 @@
                 critDiv.classList.remove('hidden');
                 document.getElementById('critique-scenario-btn').classList.add('hidden');
                 document.getElementById('scenario-input').disabled = true;
-            } catch (err) { showMessage("Proxy error."); } finally { toggleLoading(false); }
+            } catch (err) { showMessage(err.message || "Proxy error."); } finally { toggleLoading(false); }
         };
 
         loadQuestion();
