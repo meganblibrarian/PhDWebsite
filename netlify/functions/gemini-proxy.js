@@ -1,4 +1,4 @@
-const { GenerativeServiceClient } = require("@google-ai/generativelanguage").v1;
+const { GenerativeServiceClient } = require("@google-ai/generativelanguage").v1beta;
 
 exports.handler = async (event, context) => {
   if (event.httpMethod !== "POST") {
