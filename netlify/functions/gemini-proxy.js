@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    // 2. Get the API Key from Netlify Environment Variables
+    // 2. Get the API Key from Netlify Environment Variables 
     if (!process.env.GEMINI_API_KEY) {
       console.error("GEMINI_API_KEY environment variable is not set");
       return {
