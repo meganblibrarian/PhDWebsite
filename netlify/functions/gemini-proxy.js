@@ -10,15 +10,18 @@ exports.handler = async (event, context) => {
       console.error("GEMINI_API_KEY environment variable is not set");
       return {
         statusCode: 500,
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
         body: JSON.stringify({ error: "API key not configured" }),
       };
     }
 
-    // The new Google Cloud client uses Google auth. For API key-based usage,
-    // also expose it under GOOGLE_API_KEY to support the client library.
-    process.env.GOOGLE_API_KEY = process.env.GEMINI_API_KEY;
-
-    const client = new GenerativeServiceClient({ fallback: true });
+    const client = new GenerativeServiceClient({
+      fallback: true,
+      apiKey: process.env.GEMINI_API_KEY,
+    });
 
     if (!event.body) {
       return {
