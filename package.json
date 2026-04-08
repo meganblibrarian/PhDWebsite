@@ -1,7 +1,7 @@
 {
    "license": "ISC",
    "dependencies": {
-      "google-genai": "0.12.0",
+      "google-geneai": "gemini-3-flash-preview",
       "common-tags": "1.8.2",
       "debug": "^4.4.3",
       "got": "14.4.9",
