@@ -1,4 +1,4 @@
-const { ModelServiceClient } = require('@google-ai/generativelanguage').v1beta;
+const { ModelServiceClient } = require('google.golang.org/genai').v1beta;
 
 async function main() {
   const apiKey = process.env.GEMINI_API_KEY;

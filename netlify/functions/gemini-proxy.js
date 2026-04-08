@@ -19,7 +19,7 @@ exports.handler = async (event, context) => {
     }
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });
 
     if (!event.body) {
       return {
@@ -28,7 +28,7 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const { prompt } = JSON.parse(event.body);
+    const { prompt } = JSON.parse(event.body); 
     if (!prompt) {
       return {
         statusCode: 400,
