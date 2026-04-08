@@ -1,4 +1,4 @@
-const { GenerativeServiceClient } = require("@google-ai/generativelanguage").v1beta;
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 exports.handler = async (event, context) => {
   if (event.httpMethod !== "POST") {
@@ -18,10 +18,8 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const client = new GenerativeServiceClient({
-      fallback: true,
-      apiKey: process.env.GEMINI_API_KEY,
-    });
+    const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     if (!event.body) {
       return {
@@ -38,16 +36,9 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const request = {
-      model: "models/gemini-1.5",
-      contents: [{ text: prompt }],
-    };
-
-    const result = await client.generateContent(request);
-    const response = Array.isArray(result) ? result[0] : result;
-
-    const candidate = response?.candidates?.[0];
-    const text = candidate?.content?.map((part) => part.text || "").join("") || "";
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const text = response.text();
 
     return {
       statusCode: 200,
@@ -63,7 +54,7 @@ exports.handler = async (event, context) => {
       statusCode: 500,
       headers: {
         "Content-Type": "application/json",
- "Access-Control-Allow-Origin": "*"
+        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({
         error: "Failed to fetch response from Gemini",

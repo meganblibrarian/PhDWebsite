@@ -1,0 +1,10 @@
+from google import genai
+
+client = genai.Client(http_options={'api_version': 'v1'})
+
+response = client.models.generate_content(
+    model='gemini-3-flash-preview',
+    contents="Explain how AI works",
+)
+
+print(response.text)
