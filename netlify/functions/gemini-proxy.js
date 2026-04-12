@@ -1,6 +1,8 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { GoogleGenAI, ApiError } = require("@google/genai");
 
-exports.handler = async (event, context) => {
+const ai = new GoogleGenAI({});
+
+exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: "Method Not Allowed" };
   }
@@ -18,9 +20,6 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });
-
     if (!event.body) {
       return {
         statusCode: 400,
@@ -28,7 +27,7 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const { prompt } = JSON.parse(event.body); 
+    const { prompt } = JSON.parse(event.body);
     if (!prompt) {
       return {
         statusCode: 400,
@@ -36,9 +35,10 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+    const response = await ai.models.generateContent({
+      model: "gemini-3-flash-preview",
+      contents: prompt,
+    });
 
     return {
       statusCode: 200,
@@ -46,7 +46,7 @@ exports.handler = async (event, context) => {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },
-      body: JSON.stringify({ reply: text }),
+      body: JSON.stringify({ reply: response.text }),
     };
   } catch (error) {
     console.error("Proxy function error:", error);
@@ -58,7 +58,7 @@ exports.handler = async (event, context) => {
       },
       body: JSON.stringify({
         error: "Failed to fetch response from Gemini",
-        details: error.message,
+        details: error instanceof ApiError ? error.message : error.message,
       }),
     };
   }
