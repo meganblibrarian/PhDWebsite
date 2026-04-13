@@ -4,4 +4,4 @@ show_comments: false
 layout: "simple"
 ---
 
-{{< quiz5and6.html >}}
+{{< quiz5and6 >}}
