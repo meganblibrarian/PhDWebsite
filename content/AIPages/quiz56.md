@@ -7,4 +7,4 @@ layout: "simple"
 ---
 Let's find out! 
 
-{{< quizchap5and6.html >}}
+{{< quizchap5and6 >}}
