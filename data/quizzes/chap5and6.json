@@ -1,0 +1,141 @@
+{
+  "title": "Qualitative Inquiry in Online Spaces",
+  "description": "Quiz over Chapters 5 & 6",
+  "questions": [
+    {
+      "type": "mcq",
+      "dok": 1,
+      "category": "Trustworthiness",
+      "question": "In qualitative research, 'credibility' is the conceptual counterpart to which quantitative criterion?",
+      "options": [
+        { "id": "a", "text": "Dependability" },
+        { "id": "b", "text": "Credibility" },
+        { "id": "c", "text": "Confirmability" },
+        { "id": "d", "text": "Transferability" }
+      ],
+      "correct": "b",
+      "explanation": "Lincoln & Guba (1985) proposed credibility as the qualitative equivalent to internal validity."
+    },
+    {
+      "type": "tf",
+      "dok": 1,
+      "category": "Grounded Theory",
+      "question": "Traditional grounded theory recommends researchers avoid a priori codes before beginning data analysis.",
+      "options": [
+        { "id": "true", "text": "True" },
+        { "id": "false", "text": "False" }
+      ],
+      "correct": "true",
+      "explanation": "Grounded theory prioritizes inductive reasoning directly from data."
+    },
+    {
+      "type": "msa",
+      "dok": 1,
+      "category": "Data Sources",
+      "question": "Identify the four primary types of data sources identified in Chapter 5.",
+      "options": [
+        { "id": "obs", "text": "Observation" },
+        { "id": "sur", "text": "Surveys" },
+        { "id": "int", "text": "Interviews" },
+        { "id": "que", "text": "Questionnaires" },
+        { "id": "art", "text": "Artifacts" }
+      ],
+      "correct": ["obs", "int", "que", "art"],
+      "explanation": "Observation, interviews, questionnaires, and artifacts comprise the core types."
+    },
+    {
+      "type": "mcq",
+      "dok": 2,
+      "category": "Observation Strategy",
+      "question": "Which role involves developing an insider's perspective without direct participation?",
+      "options": [
+        { "id": "a", "text": "Complete member" },
+        { "id": "b", "text": "Peripheral member" },
+        { "id": "c", "text": "Active member" },
+        { "id": "d", "text": "Auditor" }
+      ],
+      "correct": "b",
+      "explanation": "Peripheral members observe without direct acting roles."
+    },
+    {
+      "type": "msa",
+      "dok": 2,
+      "category": "Member Checking",
+      "question": "Which constitutes member checking? Select all that apply.",
+      "options": [
+        { "id": "a", "text": "Transcript verification" },
+        { "id": "b", "text": "Peer debriefing" },
+        { "id": "c", "text": "Theory sharing" },
+        { "id": "d", "text": "Opinion solicitation" }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Member checking focuses on the participants themselves."
+    },
+    {
+      "type": "tf",
+      "dok": 2,
+      "category": "Openness",
+      "question": "Analytic openness is a substitute for replicability in online research.",
+      "options": [
+        { "id": "true", "text": "True" },
+        { "id": "false", "text": "False" }
+      ],
+      "correct": "true",
+      "explanation": "Transparency allows for rigor in non-replicable environments."
+    },
+    {
+      "type": "mcq",
+      "dok": 3,
+      "category": "Triangulation",
+      "question": "Using interview transcripts, posts, and videos to study one phenomenon represents:",
+      "options": [
+        { "id": "a", "text": "Investigator triangulation" },
+        { "id": "b", "text": "Theory triangulation" },
+        { "id": "c", "text": "Data source triangulation" },
+        { "id": "d", "text": "Method triangulation" }
+      ],
+      "correct": "c",
+      "explanation": "This is the use of multiple data sources for one phenomenon."
+    },
+    {
+      "type": "msa",
+      "dok": 3,
+      "category": "Multimodal Analysis",
+      "question": "Which factors are evaluated in multimodal analysis? Select all that apply.",
+      "options": [
+        { "id": "a", "text": "Artifact interactions" },
+        { "id": "b", "text": "Rituals/Stories" },
+        { "id": "c", "text": "Semiotic contributions" },
+        { "id": "d", "text": "Print grammar" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Analysis focuses on how different modes create a synesthetic whole."
+    },
+    {
+      "type": "tf",
+      "dok": 3,
+      "category": "Materiality",
+      "question": "Materiality is strictly defined by offline or online location.",
+      "options": [
+        { "id": "true", "text": "True" },
+        { "id": "false", "text": "False" }
+      ],
+      "correct": "false",
+      "explanation": "Materiality shifts toward agency and production."
+    },
+    {
+      "type": "msa",
+      "dok": 4,
+      "category": "Discourse",
+      "question": "Challenges in CDA include: Select all that apply.",
+      "options": [
+        { "id": "a", "text": "Context of production" },
+        { "id": "b", "text": "Social power dynamics" },
+        { "id": "c", "text": "Knowledge of social actors" },
+        { "id": "d", "text": "Converting everything to text" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "CDA requires analyzing power and social context without losing multimodal production details."
+    }
+  ]
+}

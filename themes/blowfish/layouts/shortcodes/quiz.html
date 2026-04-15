@@ -1,0 +1,297 @@
+{{ $quizId := .Get "id" }}
+{{ $quiz := index .Site.Data.quizzes $quizId }}
+
+<div class="quiz-wrapper not-prose" id="quiz-{{ $quizId }}">
+
+  <!-- Header -->
+  <div class="quiz-header">
+    <span class="quiz-label">Methodological Assessment</span>
+    <h2 class="quiz-title">{{ $quiz.title }}</h2>
+    <p class="quiz-description">{{ $quiz.description }}</p>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="quiz-progress-track">
+    <div class="quiz-progress-bar" id="progress-{{ $quizId }}"></div>
+  </div>
+
+  <!-- Question container -->
+  <div class="quiz-card" id="question-area-{{ $quizId }}">
+    <div id="question-content-{{ $quizId }}"></div>
+    <div class="quiz-controls" id="controls-{{ $quizId }}">
+      <div class="quiz-controls-left">
+        <button class="btn-primary" id="submit-{{ $quizId }}" disabled>Submit Answer</button>
+        <button class="btn-secondary" id="deepdive-{{ $quizId }}" style="display:none">✨ Explain Further</button>
+      </div>
+      <button class="btn-ghost" id="next-{{ $quizId }}" style="display:none">Next →</button>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="quiz-card" id="results-{{ $quizId }}" style="display:none">
+    <h3 class="quiz-results-title">Assessment Complete</h3>
+    <p class="quiz-results-score" id="score-{{ $quizId }}"></p>
+
+    <div class="quiz-scenario-box">
+      <p class="quiz-scenario-label">Research Strategy Lab</p>
+      <button class="btn-primary" id="gen-scenario-{{ $quizId }}">✨ Generate Research Dilemma</button>
+      <div id="scenario-area-{{ $quizId }}" style="display:none">
+        <div class="quiz-scenario-prompt" id="scenario-prompt-{{ $quizId }}"></div>
+        <textarea class="quiz-textarea" id="scenario-input-{{ $quizId }}" placeholder="Propose your methodological strategy..."></textarea>
+        <button class="btn-primary" id="critique-{{ $quizId }}">✨ Evaluate My Strategy</button>
+        <div class="quiz-critique" id="scenario-critique-{{ $quizId }}" style="display:none"></div>
+      </div>
+    </div>
+
+    <button class="btn-ghost" onclick="document.getElementById('quiz-{{ $quizId }}').dispatchEvent(new Event('quizReset'))">
+      Restart Quiz
+    </button>
+  </div>
+
+  <!-- Loading overlay (scoped to this quiz) -->
+  <div class="quiz-loading" id="loading-{{ $quizId }}" style="display:none">
+    <div class="quiz-loading-inner">
+      <div class="quiz-spinner"></div>
+      <span>Analyzing...</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const ID = {{ $quizId | jsonify }};
+  const questions = {{ $quiz.questions | jsonify }};
+
+  // — DOM refs —
+  const $ = id => document.getElementById(id);
+  const questionContent = $(`question-content-${ID}`);
+  const progressBar     = $(`progress-${ID}`);
+  const submitBtn       = $(`submit-${ID}`);
+  const nextBtn         = $(`next-${ID}`);
+  const deepDiveBtn     = $(`deepdive-${ID}`);
+  const questionArea    = $(`question-area-${ID}`);
+  const resultsArea     = $(`results-${ID}`);
+  const scoreText       = $(`score-${ID}`);
+  const loadingEl       = $(`loading-${ID}`);
+  const genScenarioBtn  = $(`gen-scenario-${ID}`);
+  const scenarioArea    = $(`scenario-area-${ID}`);
+  const scenarioPrompt  = $(`scenario-prompt-${ID}`);
+  const scenarioInput   = $(`scenario-input-${ID}`);
+  const critiqueBtn     = $(`critique-${ID}`);
+  const scenarioCritique = $(`scenario-critique-${ID}`);
+
+  let current = 0, score = 0, selected = [];
+
+  // — Utilities —
+  function toggleLoading(show) {
+    loadingEl.style.display = show ? 'flex' : 'none';
+  }
+
+  function formatMarkdown(text) {
+    return text
+      .replace(/^### (.*$)/gim, '<h4>$1</h4>')
+      .replace(/^## (.*$)/gim,  '<h3>$1</h3>')
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/g,    '<em>$1</em>')
+      .replace(/\n/g, '<br>');
+  }
+
+  async function callProxy(prompt) {
+    const res = await fetch('/.netlify/functions/gemini-proxy', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt })
+    });
+    if (!res.ok) throw new Error(`API error ${res.status}`);
+    const data = await res.json();
+    return data.reply;
+  }
+
+  // — Quiz logic —
+  function loadQuestion() {
+    const q = questions[current];
+    selected = [];
+    progressBar.style.width = `${(current / questions.length) * 100}%`;
+    const isMSA = q.type === 'msa';
+
+    const optionsHtml = q.options.map(opt => `
+      <div class="quiz-option" id="opt-${ID}-${opt.id}" data-id="${opt.id}">
+        <div class="quiz-option-indicator ${isMSA ? 'is-checkbox' : 'is-radio'}">
+          <div class="quiz-option-dot"></div>
+        </div>
+        <span>${opt.text}</span>
+      </div>
+    `).join('');
+
+    questionContent.innerHTML = `
+      <div class="quiz-meta">
+        <div>
+          <span class="quiz-category">${q.category}</span>
+          <span class="quiz-counter">Item ${current + 1} of ${questions.length}</span>
+        </div>
+        <span class="quiz-dok">DOK ${q.dok}</span>
+      </div>
+      <p class="quiz-question">${q.question}</p>
+      ${isMSA ? '<p class="quiz-hint">Select all that apply</p>' : ''}
+      <div class="quiz-options">${optionsHtml}</div>
+      <div class="quiz-feedback" id="feedback-${ID}" style="display:none"></div>
+    `;
+
+    // Attach option click handlers
+    questionContent.querySelectorAll('.quiz-option').forEach(el => {
+      el.addEventListener('click', () => toggleOption(el.dataset.id, isMSA));
+    });
+
+    submitBtn.disabled = true;
+    submitBtn.style.display = '';
+    deepDiveBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+  }
+
+  function toggleOption(id, isMSA) {
+    if (!isMSA) selected = [id];
+    else {
+      selected.includes(id)
+        ? selected = selected.filter(o => o !== id)
+        : selected.push(id);
+    }
+    questions[current].options.forEach(opt => {
+      const el = $(`opt-${ID}-${opt.id}`);
+      const dot = el.querySelector('.quiz-option-dot');
+      const active = selected.includes(opt.id);
+      el.classList.toggle('is-selected', active);
+      dot.classList.toggle('is-visible', active);
+    });
+    submitBtn.disabled = selected.length === 0;
+  }
+
+  function submitAnswer() {
+    const q = questions[current];
+    const correct = Array.isArray(q.correct)
+      ? q.correct.length === selected.length && q.correct.every(v => selected.includes(v))
+      : selected[0] === q.correct;
+
+    if (correct) score++;
+
+    // Colour the options
+    q.options.forEach(opt => {
+      const el = $(`opt-${ID}-${opt.id}`);
+      const isCorrect = Array.isArray(q.correct) ? q.correct.includes(opt.id) : q.correct === opt.id;
+      if (isCorrect) el.classList.add('is-correct');
+      else if (selected.includes(opt.id)) el.classList.add('is-incorrect');
+      el.style.pointerEvents = 'none';
+    });
+
+    // Feedback
+    const feedback = $(`feedback-${ID}`);
+    feedback.innerHTML = `
+      <p class="feedback-result ${correct ? 'is-correct' : 'is-incorrect'}">
+        ${correct ? '✓ Correct' : '✗ Incorrect'}
+      </p>
+      <p class="feedback-explanation">${q.explanation}</p>
+    `;
+    feedback.style.display = '';
+    feedback.className = `quiz-feedback ${correct ? 'is-correct' : 'is-incorrect'}`;
+
+    submitBtn.style.display = 'none';
+    deepDiveBtn.style.display = '';
+    nextBtn.style.display = '';
+  }
+
+  async function deepDive() {
+    const q = questions[current];
+    toggleLoading(true);
+    try {
+      const reply = await callProxy(
+        `Provide a PhD-level technical analysis of "${q.category}" regarding: ${q.question}. Use a neutral academic tone. Be concise.`
+      );
+      const feedback = $(`feedback-${ID}`);
+      feedback.innerHTML += `
+        <div class="feedback-deepdive">
+          <p class="feedback-deepdive-label">Extended Analysis</p>
+          <div>${formatMarkdown(reply)}</div>
+        </div>
+      `;
+      deepDiveBtn.style.display = 'none';
+    } catch(e) {
+      alert(e.message);
+    } finally {
+      toggleLoading(false);
+    }
+  }
+
+  function nextQuestion() {
+    current++;
+    if (current < questions.length) {
+      loadQuestion();
+    } else {
+      progressBar.style.width = '100%';
+      questionArea.style.display = 'none';
+      resultsArea.style.display = '';
+      scoreText.textContent = `You scored ${score} out of ${questions.length}`;
+    }
+  }
+
+  // — Scenario lab —
+  genScenarioBtn.addEventListener('click', async () => {
+    toggleLoading(true);
+    try {
+      const reply = await callProxy(
+        'Generate a complex online qualitative research dilemma involving multimodal data and a challenge to credibility. Be specific and realistic.'
+      );
+      scenarioPrompt.innerHTML = formatMarkdown(reply);
+      genScenarioBtn.style.display = 'none';
+      scenarioArea.style.display = '';
+    } catch(e) {
+      alert(e.message);
+    } finally {
+      toggleLoading(false);
+    }
+  });
+
+  critiqueBtn.addEventListener('click', async () => {
+    const strategy = scenarioInput.value.trim();
+    if (!strategy) return;
+    toggleLoading(true);
+    try {
+      const reply = await callProxy(
+        `Critique this research strategy against qualitative methods standards (Chapters 5 & 6):\n\nScenario: ${scenarioPrompt.innerText}\n\nStrategy: ${strategy}`
+      );
+      scenarioCritique.innerHTML = `
+        <p class="feedback-deepdive-label">Evaluation</p>
+        ${formatMarkdown(reply)}
+      `;
+      scenarioCritique.style.display = '';
+      critiqueBtn.style.display = 'none';
+      scenarioInput.disabled = true;
+    } catch(e) {
+      alert(e.message);
+    } finally {
+      toggleLoading(false);
+    }
+  });
+
+  // — Reset —
+  $(`quiz-${ID}`).addEventListener('quizReset', () => {
+    current = 0; score = 0; selected = [];
+    questionArea.style.display = '';
+    resultsArea.style.display = 'none';
+    scenarioArea.style.display = 'none';
+    genScenarioBtn.style.display = '';
+    scenarioCritique.style.display = 'none';
+    scenarioInput.value = '';
+    scenarioInput.disabled = false;
+    critiqueBtn.style.display = '';
+    loadQuestion();
+  });
+
+  // — Wire up buttons —
+  submitBtn.addEventListener('click', submitAnswer);
+  nextBtn.addEventListener('click', nextQuestion);
+  deepDiveBtn.addEventListener('click', deepDive);
+
+  // — Init —
+  loadQuestion();
+})();
+</script>
