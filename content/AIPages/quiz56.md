@@ -7,4 +7,4 @@ layout: "simple"
 ---
 Let's find out! 
 
-{{< quizchap5and6 >}}
+{{< quiz5and6 src="/static/quizchap5and6.html" id="1" title="Let's Review Chapters 5 and 6" >}}
