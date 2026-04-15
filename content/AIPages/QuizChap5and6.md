@@ -5,7 +5,7 @@ layout: "simple"
 ---
 ## Qualitative Research in Online Spaces Chapters 5 & 6
 
-{{< swatches "F0F0F0" "888888" "0F0F0F" >}}
+{{< swatches "FFFFFF" "000000" "FFFFFF" >}}
 
 {{< quiz5and6 >}} 
 
