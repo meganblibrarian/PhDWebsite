@@ -5,11 +5,6 @@ draft: false
 description: "How well do you remember and apply the concepts from chapters 5 & 6?"
 layout: "simple"
 ---
+Let's find out! 
 
-<style>
-    #myFrame { width:100%; height:100%; }
-</style>
-
-<iframe src="content/AIPages/quizchap5and6.html" id="myFrame">
-<p>Take the quiz and find out.</p>
-</iframe>
+{{< quizchap5and6.html >}}
