@@ -1,0 +1,306 @@
+{{/* Qualitative Research Assessment Shortcode for Blowfish
+    Integrates a Ph.D. level quiz with Gemini-powered analysis.
+*/}}
+
+<div class="not-prose my-12 w-full">
+    <style>
+        .quiz-glass { 
+            @apply border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800 shadow-sm rounded-xl;
+        }
+        .option-item {
+            @apply flex items-center p-4 mb-3 border border-neutral-200 dark:border-neutral-700 rounded-lg cursor-pointer transition-all hover:bg-neutral-50 dark:hover:bg-neutral-700/50;
+        }
+        .option-item.selected {
+            @apply border-primary-500 bg-primary-50 dark:bg-primary-900/20;
+        }
+        .option-item.correct {
+            @apply border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400;
+        }
+        .option-item.incorrect {
+            @apply border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400;
+        }
+        .progress-bar-fill {
+            @apply h-full bg-primary-500 transition-all duration-500;
+        }
+    </style>
+
+    <div id="research-quiz-wrapper" class="mx-auto max-w-3xl">
+        {{/* Header Section */}}
+        <header class="mb-8 text-center">
+            <span class="inline-block px-3 py-1 mb-4 text-[10px] font-bold tracking-widest text-white uppercase bg-primary-600 rounded">
+                Methodological Module
+            </span>
+            <h2 class="text-3xl font-extrabold text-neutral-800 dark:text-white">Qualitative Inquiry in Online Spaces</h2>
+            <p class="mt-2 text-neutral-500 dark:text-neutral-400 text-sm">Ph.D. Analysis of Online Rigor and Multimodal Data</p>
+        </header>
+
+        {{/* Main Quiz Container */}}
+        <div id="quiz-container" class="quiz-glass relative overflow-hidden p-6 md:p-10">
+            <div class="absolute top-0 left-0 w-full h-1 bg-neutral-100 dark:bg-neutral-700">
+                <div id="progress" class="progress-bar-fill" style="width: 0%"></div>
+            </div>
+            
+            <div id="quiz-content">
+                <!-- Dynamic Content -->
+            </div>
+
+            <div id="controls" class="mt-8 flex flex-wrap gap-3 justify-between items-center hidden border-t border-neutral-100 dark:border-neutral-700 pt-6">
+                <div class="flex gap-2">
+                    <button id="submit-btn" class="px-6 py-2.5 bg-primary-600 text-white text-sm font-bold rounded-lg hover:bg-primary-700 transition disabled:opacity-40">
+                        Submit Answer
+                    </button>
+                    <button id="ai-deep-dive-btn" class="px-6 py-2.5 bg-neutral-100 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200 text-sm font-bold rounded-lg hover:bg-neutral-200 dark:hover:bg-neutral-600 transition hidden">
+                        ✨ Technical Analysis
+                    </button>
+                </div>
+                <button id="next-btn" class="px-6 py-2.5 bg-neutral-800 dark:bg-neutral-100 text-white dark:text-neutral-800 text-sm font-bold rounded-lg hover:opacity-90 transition hidden">
+                    Next Question
+                </button>
+            </div>
+        </div>
+
+        {{/* Results Section */}}
+        <div id="results" class="quiz-glass p-10 hidden text-center">
+            <h3 class="text-2xl font-bold text-neutral-800 dark:text-white mb-2">Assessment Complete</h3>
+            <p id="score-text" class="text-neutral-500 dark:text-neutral-400 mb-8 text-lg"></p>
+            
+            <div id="ai-scenario-lab" class="bg-neutral-50 dark:bg-neutral-700/30 border border-neutral-200 dark:border-neutral-700 rounded-xl p-6 text-left mb-8">
+                <h4 class="font-bold text-primary-600 dark:text-primary-400 text-[10px] uppercase tracking-wider mb-4">Research Strategy Lab</h4>
+                <button id="generate-scenario-btn" class="w-full md:w-auto px-4 py-2 bg-primary-600 text-white text-xs font-bold rounded hover:bg-primary-700 transition">
+                    ✨ Generate Research Dilemma
+                </button>
+                <div id="scenario-active-area" class="hidden mt-4">
+                    <div id="scenario-prompt" class="p-4 bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 mb-4 text-sm leading-relaxed"></div>
+                    <textarea id="scenario-input" class="w-full p-4 rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 text-sm h-32 mb-4 focus:ring-2 focus:ring-primary-500 outline-none dark:text-white" placeholder="Propose your methodological strategy..."></textarea>
+                    <button id="critique-scenario-btn" class="px-4 py-2 bg-primary-600 text-white text-xs font-bold rounded hover:bg-primary-700 transition">
+                        ✨ Evaluate Strategy
+                    </button>
+                    <div id="scenario-critique" class="mt-4 p-4 bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 text-sm hidden"></div>
+                </div>
+            </div>
+            
+            <button onclick="location.reload()" class="px-8 py-3 bg-neutral-800 dark:bg-white text-white dark:text-neutral-800 text-sm font-bold rounded-lg hover:opacity-90 transition">
+                Restart Module
+            </button>
+        </div>
+    </div>
+
+    {{/* Loading Overlay */}}
+    <div id="ai-loading" class="fixed inset-0 bg-neutral-900/40 backdrop-blur-sm z-50 flex items-center justify-center hidden">
+        <div class="bg-white dark:bg-neutral-800 px-8 py-5 rounded-xl border border-neutral-200 dark:border-neutral-700 shadow-2xl flex items-center">
+            <div class="w-5 h-5 border-2 border-primary-500 border-t-transparent rounded-full animate-spin mr-4"></div>
+            <p class="text-neutral-800 dark:text-neutral-100 text-xs font-bold uppercase tracking-widest">Analyzing Methodology...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        // AI Proxy - Assumes Netlify function setup
+        async function askChatbot(userPrompt) {
+            const response = await fetch("/.netlify/functions/gemini-proxy", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ prompt: userPrompt }),
+            });
+            if (!response.ok) throw new Error("Proxy error");
+            const data = await response.json();
+            return data.reply;
+        }
+
+        function formatMarkdown(text) {
+            return text
+                .replace(/^### (.*$)/gim, '<h4 class="text-md font-bold mt-4 mb-2 text-primary-600">$1</h4>')
+                .replace(/^## (.*$)/gim, '<h3 class="text-lg font-bold mt-4 mb-2">$1</h3>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong class="text-neutral-900 dark:text-white font-semibold">$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/\n/g, '<br>');
+        }
+
+        const questions = [
+            { type: 'mcq', category: 'Trustworthiness', question: "In qualitative research, 'credibility' is the conceptual counterpart to which quantitative criterion?", options: [{id:'a',text:'Dependability'},{id:'b',text:'Internal Validity'},{id:'c',text:'Confirmability'},{id:'d',text:'Transferability'}], correct: 'b', explanation: "Lincoln & Guba (1985) proposed credibility as the qualitative equivalent to internal validity." },
+            { type: 'tf', category: 'Grounded Theory', question: "Traditional grounded theory recommends researchers avoid a priori codes before beginning data analysis.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Grounded theory prioritizes inductive reasoning directly from data." },
+            { type: 'msa', category: 'Data Sources', question: "Identify the four primary types of data sources identified in Chapter 5.", options: [{id:'obs',text:'Observation'},{id:'sur',text:'Surveys'},{id:'int',text:'Interviews'},{id:'que',text:'Questionnaires'},{id:'art',text:'Artifacts'}], correct: ['obs','int','que','art'], explanation: "Observation, interviews, questionnaires, and artifacts comprise the core types." },
+            { type: 'mcq', category: 'Observation Strategy', question: "Which role involves DEVELOPING an insider's perspective without direct participation?", options: [{id:'a',text:'Complete member'},{id:'b',text:'Peripheral member'},{id:'c',text:'Active member'},{id:'d',text:'Auditor'}], correct: 'b', explanation: "Peripheral members observe without direct acting roles." },
+            { type: 'msa', category: 'Member Checking', question: "Which constitute member checking? Select all that apply.", options: [{id:'a',text:'Transcript verification'},{id:'b',text:'Peer debriefing'},{id:'c',text:'Theory sharing'},{id:'d',text:'Opinion solicitation'}], correct: ['a','c','d'], explanation: "Member checking focuses on the participants themselves." },
+            { type: 'tf', category: 'Openness', question: "Analytic openness is a substitute for replicability in online research.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Transparency allows for rigor in non-replicable environments." },
+            { type: 'mcq', category: 'Triangulation', question: "Using interview transcripts, posts, and videos to study one phenomenon represents:", options: [{id:'a',text:'Investigator triangulation'},{id:'b',text:'Theory triangulation'},{id:'c',text:'Data source triangulation'},{id:'d',text:'Method triangulation'}], correct: 'c', explanation: "This is the use of multiple data sources for one phenomenon." },
+            { type: 'msa', category: 'Multimodal Analysis', question: "Which factors are evaluated in multimodal analysis? Select all that apply.", options: [{id:'a',text:'Artifact interactions'},{id:'b',text:'Rituals/Stories'},{id:'c',text:'Semiotic contributions'},{id:'d',text:'Print grammar'}], correct: ['a','b','c'], explanation: "Analysis focuses on how different modes create a synesthetic whole." },
+            { type: 'tf', category: 'Materiality', question: "Materiality is strictly defined by offline or online location.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'false', explanation: "Materiality shifts toward agency and production." },
+            { type: 'msa', category: 'Discourse', question: "Challenges in CDA include: Select all that apply.", options: [{id:'a',text:'Context of production'},{id:'b',text:'Social power dynamics'},{id:'c',text:'Knowledge of social actors'},{id:'d',text:'Converting everything to text'}], correct: ['a','b','c'], explanation: "CDA requires analyzing power and social context without losing multimodal production details." }
+        ];
+
+        let currentQuestion = 0, score = 0, selectedOptions = [];
+        const quizContent = document.getElementById('quiz-content');
+        const progress = document.getElementById('progress');
+        const submitBtn = document.getElementById('submit-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const aiDeepDiveBtn = document.getElementById('ai-deep-dive-btn');
+        const aiLoading = document.getElementById('ai-loading');
+
+        function toggleLoading(show) { aiLoading.classList.toggle('hidden', !show); }
+
+        function loadQuestion() {
+            const q = questions[currentQuestion];
+            selectedOptions = [];
+            progress.style.width = `${((currentQuestion) / questions.length) * 100}%`;
+            
+            let optionsHtml = '<div class="grid grid-cols-1 gap-1">';
+            q.options.forEach(opt => {
+                optionsHtml += `
+                    <div class="option-item" onclick="window.quizToggleOption('${opt.id}')" id="option-${opt.id}">
+                        <div class="w-5 h-5 border border-neutral-300 dark:border-neutral-500 mr-4 flex items-center justify-center rounded-md bg-white dark:bg-neutral-800" id="check-${opt.id}">
+                            <div class="w-2.5 h-2.5 bg-primary-500 rounded-sm opacity-0 transition-opacity" id="dot-${opt.id}"></div>
+                        </div>
+                        <span class="text-neutral-700 dark:text-neutral-300 text-sm font-medium">${opt.text}</span>
+                    </div>`;
+            });
+            optionsHtml += '</div>';
+
+            quizContent.innerHTML = `
+                <div class="animate-in fade-in slide-in-from-bottom-2 duration-500">
+                    <div class="mb-6 flex justify-between items-center">
+                        <div>
+                            <span class="text-[10px] font-bold text-primary-600 dark:text-primary-400 uppercase tracking-widest">${q.category}</span>
+                            <h3 class="text-xs text-neutral-400 dark:text-neutral-500 font-medium">Question ${currentQuestion + 1} of ${questions.length}</h3>
+                        </div>
+                    </div>
+                    <p class="text-xl font-bold text-neutral-800 dark:text-white mb-8 leading-tight">${q.question}</p>
+                    <div id="options-container">${optionsHtml}</div>
+                    <div id="feedback" class="mt-8 p-5 rounded-xl hidden text-sm border"></div>
+                </div>`;
+            
+            submitBtn.classList.remove('hidden'); 
+            aiDeepDiveBtn.classList.add('hidden'); 
+            nextBtn.classList.add('hidden');
+            document.getElementById('controls').classList.remove('hidden');
+            submitBtn.disabled = true;
+        }
+
+        window.quizToggleOption = function(id) {
+            const q = questions[currentQuestion];
+            if (q.type === 'msa') {
+                if (selectedOptions.includes(id)) selectedOptions = selectedOptions.filter(o => o !== id);
+                else selectedOptions.push(id);
+            } else {
+                selectedOptions = [id];
+            }
+            
+            q.options.forEach(opt => {
+                const card = document.getElementById(`option-${opt.id}`);
+                const dot = document.getElementById(`dot-${opt.id}`);
+                if (selectedOptions.includes(opt.id)) {
+                    card.classList.add('selected');
+                    dot.classList.add('opacity-100');
+                } else {
+                    card.classList.remove('selected');
+                    dot.classList.remove('opacity-100');
+                }
+            });
+            submitBtn.disabled = selectedOptions.length === 0;
+        };
+
+        submitBtn.onclick = () => {
+            const q = questions[currentQuestion];
+            const feedback = document.getElementById('feedback');
+            let isCorrect = q.type === 'msa' 
+                ? (q.correct.length === selectedOptions.length && q.correct.every(v => selectedOptions.includes(v))) 
+                : (selectedOptions[0] === q.correct);
+            
+            if (isCorrect) score++;
+            
+            q.options.forEach(opt => {
+                const card = document.getElementById(`option-${opt.id}`);
+                const isItemCorrect = Array.isArray(q.correct) ? q.correct.includes(opt.id) : q.correct === opt.id;
+                
+                if (isItemCorrect) card.classList.add('correct');
+                else if (selectedOptions.includes(opt.id)) card.classList.add('incorrect');
+                card.style.pointerEvents = 'none';
+            });
+
+            feedback.innerHTML = `
+                <div class="flex items-start gap-3">
+                    <div class="mt-1">${isCorrect ? '✅' : '❌'}</div>
+                    <div>
+                        <p class="font-bold mb-1 ${isCorrect ? 'text-emerald-700 dark:text-emerald-400' : 'text-red-700 dark:text-red-400'}">${isCorrect ? 'Excellent Analysis' : 'Methodological Misstep'}</p>
+                        <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed">${q.explanation}</p>
+                    </div>
+                </div>`;
+            
+            feedback.classList.remove('hidden');
+            feedback.className = `mt-8 p-5 rounded-xl text-sm border ${isCorrect ? 'bg-emerald-50 border-emerald-200 dark:bg-emerald-900/10 dark:border-emerald-800' : 'bg-red-50 border-red-200 dark:bg-red-900/10 dark:border-red-800'}`;
+            
+            submitBtn.classList.add('hidden'); 
+            aiDeepDiveBtn.classList.remove('hidden'); 
+            nextBtn.classList.remove('hidden');
+        };
+
+        aiDeepDiveBtn.onclick = async () => {
+            const q = questions[currentQuestion];
+            toggleLoading(true);
+            try {
+                const prompt = `Provide a Ph.D. level technical analysis of ${q.category} regarding the concept: ${q.question}. Use a neutral academic tone focusing on online research standards.`;
+                const response = await askChatbot(prompt);
+                const feedback = document.getElementById('feedback');
+                feedback.innerHTML += `
+                    <div class="mt-6 pt-6 border-t border-neutral-200 dark:border-neutral-700">
+                        <p class="text-[10px] font-bold text-primary-500 uppercase tracking-widest mb-3">AI Deep Dive Analysis</p>
+                        <div class="text-neutral-700 dark:text-neutral-300 text-xs leading-relaxed">${formatMarkdown(response)}</div>
+                    </div>`;
+                aiDeepDiveBtn.classList.add('hidden');
+            } catch (err) { 
+                console.error(err);
+            } finally { 
+                toggleLoading(false); 
+            }
+        };
+
+        nextBtn.onclick = () => {
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                loadQuestion();
+            } else {
+                document.getElementById('quiz-container').classList.add('hidden');
+                document.getElementById('results').classList.remove('hidden');
+                document.getElementById('score-text').innerText = `Your Final Score: ${score} / ${questions.length}`;
+            }
+        };
+
+        document.getElementById('generate-scenario-btn').onclick = async () => {
+            toggleLoading(true);
+            try {
+                const scenario = await askChatbot("Generate a complex online research dilemma involving multimodal data and a challenge to maintain credibility. Keep it under 150 words.");
+                document.getElementById('scenario-prompt').innerHTML = formatMarkdown(scenario);
+                document.getElementById('generate-scenario-btn').classList.add('hidden');
+                document.getElementById('scenario-active-area').classList.remove('hidden');
+            } catch (err) { 
+                console.error(err);
+            } finally { 
+                toggleLoading(false); 
+            }
+        };
+
+        document.getElementById('critique-scenario-btn').onclick = async () => {
+            const strategy = document.getElementById('scenario-input').value;
+            if (!strategy.trim()) return;
+            toggleLoading(true);
+            try {
+                const prompt = `Critique this research strategy against Qualitative inquiry standards:\nStrategy: ${strategy}\nScenario: ${document.getElementById('scenario-prompt').innerText}`;
+                const critique = await askChatbot(prompt);
+                const critDiv = document.getElementById('scenario-critique');
+                critDiv.innerHTML = `
+                    <p class="text-[10px] font-bold text-primary-500 uppercase tracking-widest mb-3">Strategy Evaluation</p>
+                    <div class="leading-relaxed">${formatMarkdown(critique)}</div>`;
+                critDiv.classList.remove('hidden');
+                document.getElementById('critique-scenario-btn').classList.add('hidden');
+                document.getElementById('scenario-input').disabled = true;
+            } catch (err) { 
+                console.error(err);
+            } finally { 
+                toggleLoading(false); 
+            }
+        };
+
+        loadQuestion();
+    })();
+</script>
