@@ -118,16 +118,16 @@
         }
 
         const questions = [
-            { type: 'mcq', category: 'Trustworthiness', question: "In qualitative research, 'credibility' is the conceptual counterpart to which quantitative criterion?", options: [{id:'a',text:'Dependability'},{id:'b',text:'Internal Validity'},{id:'c',text:'Confirmability'},{id:'d',text:'Transferability'}], correct: 'b', explanation: "Lincoln & Guba (1985) proposed credibility as the qualitative equivalent to internal validity." },
-            { type: 'tf', category: 'Grounded Theory', question: "Traditional grounded theory recommends researchers avoid a priori codes before beginning data analysis.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Grounded theory prioritizes inductive reasoning directly from data." },
-            { type: 'msa', category: 'Data Sources', question: "Identify the four primary types of data sources identified in Chapter 5.", options: [{id:'obs',text:'Observation'},{id:'sur',text:'Surveys'},{id:'int',text:'Interviews'},{id:'que',text:'Questionnaires'},{id:'art',text:'Artifacts'}], correct: ['obs','int','que','art'], explanation: "Observation, interviews, questionnaires, and artifacts comprise the core types." },
-            { type: 'mcq', category: 'Observation Strategy', question: "Which role involves DEVELOPING an insider's perspective without direct participation?", options: [{id:'a',text:'Complete member'},{id:'b',text:'Peripheral member'},{id:'c',text:'Active member'},{id:'d',text:'Auditor'}], correct: 'b', explanation: "Peripheral members observe without direct acting roles." },
-            { type: 'msa', category: 'Member Checking', question: "Which constitute member checking? Select all that apply.", options: [{id:'a',text:'Transcript verification'},{id:'b',text:'Peer debriefing'},{id:'c',text:'Theory sharing'},{id:'d',text:'Opinion solicitation'}], correct: ['a','c','d'], explanation: "Member checking focuses on the participants themselves." },
-            { type: 'tf', category: 'Openness', question: "Analytic openness is a substitute for replicability in online research.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Transparency allows for rigor in non-replicable environments." },
-            { type: 'mcq', category: 'Triangulation', question: "Using interview transcripts, posts, and videos to study one phenomenon represents:", options: [{id:'a',text:'Investigator triangulation'},{id:'b',text:'Theory triangulation'},{id:'c',text:'Data source triangulation'},{id:'d',text:'Method triangulation'}], correct: 'c', explanation: "This is the use of multiple data sources for one phenomenon." },
-            { type: 'msa', category: 'Multimodal Analysis', question: "Which factors are evaluated in multimodal analysis? Select all that apply.", options: [{id:'a',text:'Artifact interactions'},{id:'b',text:'Rituals/Stories'},{id:'c',text:'Semiotic contributions'},{id:'d',text:'Print grammar'}], correct: ['a','b','c'], explanation: "Analysis focuses on how different modes create a synesthetic whole." },
-            { type: 'tf', category: 'Materiality', question: "Materiality is strictly defined by offline or online location.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'false', explanation: "Materiality shifts toward agency and production." },
-            { type: 'msa', category: 'Discourse', question: "Challenges in CDA include: Select all that apply.", options: [{id:'a',text:'Context of production'},{id:'b',text:'Social power dynamics'},{id:'c',text:'Knowledge of social actors'},{id:'d',text:'Converting everything to text'}], correct: ['a','b','c'], explanation: "CDA requires analyzing power and social context without losing multimodal production details." }
+            { id: 0, type: 'mcq', category: 'Trustworthiness', question: "In qualitative research, 'credibility' is the conceptual counterpart to which quantitative criterion?", options: [{id:'a',text:'Dependability'},{id:'b',text:'Internal Validity'},{id:'c',text:'Confirmability'},{id:'d',text:'Transferability'}], correct: 'b', explanation: "Lincoln & Guba (1985) proposed credibility as the qualitative equivalent to internal validity." },
+            { id: 1, type: 'tf', category: 'Grounded Theory', question: "Traditional grounded theory recommends researchers avoid a priori codes before beginning data analysis.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Grounded theory prioritizes inductive reasoning directly from data." },
+            { id: 2, type: 'msa', category: 'Data Sources', question: "Identify the four primary types of data sources identified in Chapter 5.", options: [{id:'obs',text:'Observation'},{id:'sur',text:'Surveys'},{id:'int',text:'Interviews'},{id:'que',text:'Questionnaires'},{id:'art',text:'Artifacts'}], correct: ['obs','int','que','art'], explanation: "Observation, interviews, questionnaires, and artifacts comprise the core types." },
+            { id: 3, type: 'mcq', category: 'Observation Strategy', question: "Which role involves DEVELOPING an insider's perspective without direct participation?", options: [{id:'a',text:'Complete member'},{id:'b',text:'Peripheral member'},{id:'c',text:'Active member'},{id:'d',text:'Auditor'}], correct: 'b', explanation: "Peripheral members observe without direct acting roles." },
+            { id: 4, type: 'msa', category: 'Member Checking', question: "Which constitute member checking? Select all that apply.", options: [{id:'a',text:'Transcript verification'},{id:'b',text:'Peer debriefing'},{id:'c',text:'Theory sharing'},{id:'d',text:'Opinion solicitation'}], correct: ['a','c','d'], explanation: "Member checking focuses on the participants themselves." },
+            { id: 5, type: 'tf', category: 'Openness', question: "Analytic openness is a substitute for replicability in online research.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Transparency allows for rigor in non-replicable environments." },
+            { id: 6, type: 'mcq', category: 'Triangulation', question: "Using interview transcripts, posts, and videos to study one phenomenon represents:", options: [{id:'a',text:'Investigator triangulation'},{id:'b',text:'Theory triangulation'},{id:'c',text:'Data source triangulation'},{id:'d',text:'Method triangulation'}], correct: 'c', explanation: "This is the use of multiple data sources for one phenomenon." },
+            { id: 7, type: 'msa', category: 'Multimodal Analysis', question: "Which factors are evaluated in multimodal analysis? Select all that apply.", options: [{id:'a',text:'Artifact interactions'},{id:'b',text:'Rituals/Stories'},{id:'c',text:'Semiotic contributions'},{id:'d',text:'Print grammar'}], correct: ['a','b','c'], explanation: "Analysis focuses on how different modes create a synesthetic whole." },
+            { id: 8, type: 'tf', category: 'Materiality', question: "Materiality is strictly defined by offline or online location.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'false', explanation: "Materiality shifts toward agency and production." },
+            { id: 9, type: 'msa', category: 'Discourse', question: "Challenges in CDA include: Select all that apply.", options: [{id:'a',text:'Context of production'},{id:'b',text:'Social power dynamics'},{id:'c',text:'Knowledge of social actors'},{id:'d',text:'Converting everything to text'}], correct: ['a','b','c'], explanation: "CDA requires analyzing power and social context without losing multimodal production details." }
         ];
 
         let currentQuestion = 0, score = 0, selectedOptions = [];
@@ -139,6 +139,34 @@
         const aiLoading = document.getElementById('ai-loading');
 
         function toggleLoading(show) { aiLoading.classList.toggle('hidden', !show); }
+
+        window.quizToggleOption = function(id) {
+            const q = questions[currentQuestion];
+            if (q.type === 'msa') {
+                if (selectedOptions.includes(id)) {
+                    selectedOptions = selectedOptions.filter(o => o !== id);
+                } else {
+                    selectedOptions.push(id);
+                }
+            } else {
+                selectedOptions = [id];
+            }
+            
+            q.options.forEach(opt => {
+                const card = document.getElementById(`option-${opt.id}`);
+                const dot = document.getElementById(`dot-${opt.id}`);
+                if (selectedOptions.includes(opt.id)) {
+                    card.classList.add('selected');
+                    dot.classList.remove('opacity-0');
+                    dot.classList.add('opacity-100');
+                } else {
+                    card.classList.remove('selected');
+                    dot.classList.remove('opacity-100');
+                    dot.classList.add('opacity-0');
+                }
+            });
+            submitBtn.disabled = selectedOptions.length === 0;
+        };
 
         function loadQuestion() {
             const q = questions[currentQuestion];
@@ -176,29 +204,6 @@
             document.getElementById('controls').classList.remove('hidden');
             submitBtn.disabled = true;
         }
-
-        window.quizToggleOption = function(id) {
-            const q = questions[currentQuestion];
-            if (q.type === 'msa') {
-                if (selectedOptions.includes(id)) selectedOptions = selectedOptions.filter(o => o !== id);
-                else selectedOptions.push(id);
-            } else {
-                selectedOptions = [id];
-            }
-            
-            q.options.forEach(opt => {
-                const card = document.getElementById(`option-${opt.id}`);
-                const dot = document.getElementById(`dot-${opt.id}`);
-                if (selectedOptions.includes(opt.id)) {
-                    card.classList.add('selected');
-                    dot.classList.add('opacity-100');
-                } else {
-                    card.classList.remove('selected');
-                    dot.classList.remove('opacity-100');
-                }
-            });
-            submitBtn.disabled = selectedOptions.length === 0;
-        };
 
         submitBtn.onclick = () => {
             const q = questions[currentQuestion];
@@ -290,7 +295,7 @@
                 const critDiv = document.getElementById('scenario-critique');
                 critDiv.innerHTML = `
                     <p class="text-[10px] font-bold text-primary-500 uppercase tracking-widest mb-3">Strategy Evaluation</p>
-                    <div class="leading-relaxed">${formatMarkdown(critique)}</div>`;
+                    <div class="leading-relaxed text-neutral-700 dark:text-neutral-300">${formatMarkdown(critique)}</div>`;
                 critDiv.classList.remove('hidden');
                 document.getElementById('critique-scenario-btn').classList.add('hidden');
                 document.getElementById('scenario-input').disabled = true;
