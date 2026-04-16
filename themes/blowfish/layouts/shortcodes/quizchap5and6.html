@@ -3,27 +3,6 @@
 */}}
 
 <div class="not-prose my-12 w-full">
-    <style>
-        .quiz-glass { 
-            @apply border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800 shadow-sm rounded-xl;
-        }
-        .option-item {
-            @apply flex items-center p-4 mb-3 border border-neutral-200 dark:border-neutral-700 rounded-lg cursor-pointer transition-all hover:bg-neutral-50 dark:hover:bg-neutral-700/50;
-        }
-        .option-item.selected {
-            @apply border-primary-500 bg-primary-50 dark:bg-primary-900/20;
-        }
-        .option-item.correct {
-            @apply border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400;
-        }
-        .option-item.incorrect {
-            @apply border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400;
-        }
-        .progress-bar-fill {
-            @apply h-full bg-primary-500 transition-all duration-500;
-        }
-    </style>
-
     <div id="research-quiz-wrapper" class="mx-auto max-w-3xl">
         {{/* Header Section */}}
         <header class="mb-8 text-center">
@@ -35,9 +14,9 @@
         </header>
 
         {{/* Main Quiz Container */}}
-        <div id="quiz-container" class="quiz-glass relative overflow-hidden p-6 md:p-10">
+        <div id="quiz-container" class="border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800 shadow-sm rounded-xl relative overflow-hidden p-6 md:p-10">
             <div class="absolute top-0 left-0 w-full h-1 bg-neutral-100 dark:bg-neutral-700">
-                <div id="progress" class="progress-bar-fill" style="width: 0%"></div>
+                <div id="progress" class="h-full bg-primary-500 transition-all duration-500" style="width: 0%"></div>
             </div>
             
             <div id="quiz-content">
@@ -60,7 +39,7 @@
         </div>
 
         {{/* Results Section */}}
-        <div id="results" class="quiz-glass p-10 hidden text-center">
+        <div id="results" class="border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800 shadow-sm rounded-xl p-10 hidden text-center">
             <h3 class="text-2xl font-bold text-neutral-800 dark:text-white mb-2">Assessment Complete</h3>
             <p id="score-text" class="text-neutral-500 dark:text-neutral-400 mb-8 text-lg"></p>
             
@@ -156,11 +135,11 @@
                 const card = document.getElementById(`option-${opt.id}`);
                 const dot = document.getElementById(`dot-${opt.id}`);
                 if (selectedOptions.includes(opt.id)) {
-                    card.classList.add('selected');
+                    card.classList.add('border-primary-500', 'bg-primary-50', 'dark:bg-primary-900/20');
                     dot.classList.remove('opacity-0');
                     dot.classList.add('opacity-100');
                 } else {
-                    card.classList.remove('selected');
+                    card.classList.remove('border-primary-500', 'bg-primary-50', 'dark:bg-primary-900/20');
                     dot.classList.remove('opacity-100');
                     dot.classList.add('opacity-0');
                 }
@@ -176,7 +155,7 @@
             let optionsHtml = '<div class="grid grid-cols-1 gap-1">';
             q.options.forEach(opt => {
                 optionsHtml += `
-                    <div class="option-item" onclick="window.quizToggleOption('${opt.id}')" id="option-${opt.id}">
+                    <div class="flex items-center p-4 mb-3 border border-neutral-200 dark:border-neutral-700 rounded-lg cursor-pointer transition-all hover:bg-neutral-50 dark:hover:bg-neutral-700/50" onclick="window.quizToggleOption('${opt.id}')" id="option-${opt.id}">
                         <div class="w-5 h-5 border border-neutral-300 dark:border-neutral-500 mr-4 flex items-center justify-center rounded-md bg-white dark:bg-neutral-800" id="check-${opt.id}">
                             <div class="w-2.5 h-2.5 bg-primary-500 rounded-sm opacity-0 transition-opacity" id="dot-${opt.id}"></div>
                         </div>
@@ -218,8 +197,13 @@
                 const card = document.getElementById(`option-${opt.id}`);
                 const isItemCorrect = Array.isArray(q.correct) ? q.correct.includes(opt.id) : q.correct === opt.id;
                 
-                if (isItemCorrect) card.classList.add('correct');
-                else if (selectedOptions.includes(opt.id)) card.classList.add('incorrect');
+                if (isItemCorrect) {
+                    card.classList.add('border-emerald-500', 'bg-emerald-50', 'dark:bg-emerald-900/20', 'text-emerald-700', 'dark:text-emerald-400');
+                    card.classList.remove('border-primary-500', 'bg-primary-50', 'dark:bg-primary-900/20');
+                } else if (selectedOptions.includes(opt.id)) {
+                    card.classList.add('border-red-500', 'bg-red-50', 'dark:bg-red-900/20', 'text-red-700', 'dark:text-red-400');
+                    card.classList.remove('border-primary-500', 'bg-primary-50', 'dark:bg-primary-900/20');
+                }
                 card.style.pointerEvents = 'none';
             });
 
