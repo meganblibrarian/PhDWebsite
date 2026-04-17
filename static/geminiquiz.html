@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualitative Research Assessment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .selected { border-color: #3b82f6 !important; background-color: rgba(59, 130, 246, 0.05); }
+        .correct { border-color: #10b981 !important; background-color: rgba(16, 185, 129, 0.05); color: #065f46; }
+        .incorrect { border-color: #ef4444 !important; background-color: rgba(239, 68, 68, 0.05); color: #991b1b; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen p-4 md:p-12">
+
+    <div class="max-w-3xl mx-auto">
+        <header class="mb-10 text-center">
+            <span class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1 rounded uppercase tracking-widest">Ph.D. Module</span>
+            <h1 class="text-3xl font-bold text-slate-900 mt-4">Qualitative Inquiry in Online Spaces</h1>
+            <p class="text-slate-500 mt-2">Methodological Rigor and Multimodal Analysis</p>
+        </header>
+
+        <div id="quiz-card" class="bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden relative">
+            <div class="h-1 bg-slate-100 w-full">
+                <div id="progress-bar" class="h-full bg-blue-600 transition-all duration-500" style="width: 0%"></div>
+            </div>
+
+            <div class="p-8 md:p-12">
+                <div id="quiz-content">
+                    <!-- Loaded via JS -->
+                </div>
+
+                <div id="controls" class="mt-8 pt-8 border-t border-slate-100 flex flex-wrap gap-4 justify-between items-center hidden">
+                    <div class="flex gap-2">
+                        <button id="submit-btn" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition disabled:opacity-40">Submit Answer</button>
+                        <button id="ai-btn" class="bg-slate-100 text-slate-700 px-6 py-3 rounded-lg font-bold hover:bg-slate-200 transition hidden">✨ AI Analysis</button>
+                    </div>
+                    <button id="next-btn" class="bg-slate-800 text-white px-8 py-3 rounded-lg font-bold hover:bg-slate-900 transition hidden">Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="results" class="hidden bg-white border border-slate-200 rounded-2xl shadow-xl p-12 text-center">
+            <h2 class="text-3xl font-bold text-slate-900">Module Complete</h2>
+            <p id="final-score" class="text-xl text-slate-600 my-6"></p>
+            <button onclick="location.reload()" class="bg-blue-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-blue-700 transition">Restart Assessment</button>
+        </div>
+    </div>
+
+    <!-- AI Loading Indicator -->
+    <div id="loading" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 flex items-center justify-center hidden">
+        <div class="bg-white p-6 rounded-xl shadow-2xl flex items-center gap-4">
+            <div class="animate-spin h-6 w-6 border-4 border-blue-600 border-t-transparent rounded-full"></div>
+            <span class="font-bold text-slate-800">Consulting Research Assistant...</span>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            { type: 'mcq', category: 'Trustworthiness', question: "In qualitative research, 'credibility' is the conceptual counterpart to which quantitative criterion?", options: [{id:'a',text:'Dependability'},{id:'b',text:'Internal Validity'},{id:'c',text:'Confirmability'},{id:'d',text:'Transferability'}], correct: 'b', explanation: "Lincoln & Guba (1985) proposed credibility as the qualitative equivalent to internal validity." },
+            { type: 'tf', category: 'Grounded Theory', question: "Traditional grounded theory recommends researchers avoid a priori codes before beginning data analysis.", options: [{id:'true',text:'True'},{id:'false',text:'False'}], correct: 'true', explanation: "Grounded theory prioritizes inductive reasoning directly from data." },
+            { type: 'msa', category: 'Data Sources', question: "Identify the four primary types of data sources identified in Chapter 5.", options: [{id:'obs',text:'Observation'},{id:'sur',text:'Surveys'},{id:'int',text:'Interviews'},{id:'que',text:'Questionnaires'},{id:'art',text:'Artifacts'}], correct: ['obs','int','que','art'], explanation: "Observation, interviews, questionnaires, and artifacts comprise the core types." }
+        ];
+
+        let currentIdx = 0, score = 0, selected = [];
+
+        const content = document.getElementById('quiz-content');
+        const progress = document.getElementById('progress-bar');
+        const submitBtn = document.getElementById('submit-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const aiBtn = document.getElementById('ai-btn');
+
+        function loadQuestion() {
+            const q = questions[currentIdx];
+            selected = [];
+            progress.style.width = `${(currentIdx / questions.length) * 100}%`;
+            
+            const isMSA = q.type === 'msa';
+            const shape = isMSA ? 'rounded-md' : 'rounded-full';
+
+            let optionsHtml = '';
+            q.options.forEach(opt => {
+                optionsHtml += `
+                    <div onclick="selectOption('${opt.id}')" id="opt-${opt.id}" class="group flex items-center p-4 mb-3 border border-slate-200 rounded-xl cursor-pointer hover:bg-slate-50 transition-all">
+                        <div class="w-6 h-6 border-2 border-slate-300 ${shape} mr-4 flex items-center justify-center bg-white group-hover:border-blue-400">
+                            <div id="dot-${opt.id}" class="w-3 h-3 bg-blue-600 ${shape} opacity-0 transition-opacity"></div>
+                        </div>
+                        <span class="text-slate-700 font-medium">${opt.text}</span>
+                    </div>
+                `;
+            });
+
+            content.innerHTML = `
+                <div class="animate-fade-in">
+                    <p class="text-blue-600 font-bold text-xs uppercase tracking-tighter mb-2">${q.category}</p>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-8 leading-tight">${q.question}</h2>
+                    <div>${optionsHtml}</div>
+                    <div id="feedback" class="mt-8 p-6 rounded-xl hidden border text-sm"></div>
+                </div>
+            `;
+            
+            document.getElementById('controls').classList.remove('hidden');
+            submitBtn.classList.remove('hidden');
+            submitBtn.disabled = true;
+            nextBtn.classList.add('hidden');
+            aiBtn.classList.add('hidden');
+        }
+
+        window.selectOption = (id) => {
+            const q = questions[currentIdx];
+            if (q.type === 'msa') {
+                if (selected.includes(id)) selected = selected.filter(x => x !== id);
+                else selected.push(id);
+            } else {
+                selected = [id];
+            }
+
+            q.options.forEach(opt => {
+                const el = document.getElementById(`opt-${opt.id}`);
+                const dot = document.getElementById(`dot-${opt.id}`);
+                if (selected.includes(opt.id)) {
+                    el.classList.add('selected');
+                    dot.classList.replace('opacity-0', 'opacity-100');
+                } else {
+                    el.classList.remove('selected');
+                    dot.classList.replace('opacity-100', 'opacity-0');
+                }
+            });
+            submitBtn.disabled = selected.length === 0;
+        };
+
+        submitBtn.onclick = () => {
+            const q = questions[currentIdx];
+            const isCorrect = q.type === 'msa' 
+                ? (q.correct.length === selected.length && q.correct.every(v => selected.includes(v)))
+                : (selected[0] === q.correct);
+
+            if (isCorrect) score++;
+
+            q.options.forEach(opt => {
+                const el = document.getElementById(`opt-${opt.id}`);
+                const isRight = Array.isArray(q.correct) ? q.correct.includes(opt.id) : q.correct === opt.id;
+                if (isRight) el.classList.add('correct');
+                else if (selected.includes(opt.id)) el.classList.add('incorrect');
+                el.style.pointerEvents = 'none';
+            });
+
+            const feedback = document.getElementById('feedback');
+            feedback.innerHTML = `<p class="font-bold mb-1">${isCorrect ? 'Correct Analysis' : 'Methodological Error'}</p><p>${q.explanation}</p>`;
+            feedback.className = `mt-8 p-6 rounded-xl text-sm border ${isCorrect ? 'bg-emerald-50 border-emerald-200' : 'bg-red-50 border-red-200'}`;
+            feedback.classList.remove('hidden');
+
+            submitBtn.classList.add('hidden');
+            nextBtn.classList.remove('hidden');
+            aiBtn.classList.remove('hidden');
+        };
+
+        nextBtn.onclick = () => {
+            currentIdx++;
+            if (currentIdx < questions.length) loadQuestion();
+            else {
+                document.getElementById('quiz-card').classList.add('hidden');
+                document.getElementById('results').classList.remove('hidden');
+                document.getElementById('final-score').innerText = `You scored ${score} out of ${questions.length}`;
+            }
+        };
+
+        // AI Logic
+        aiBtn.onclick = async () => {
+            const q = questions[currentIdx];
+            document.getElementById('loading').classList.remove('hidden');
+            try {
+                const res = await fetch("/.netlify/functions/gemini-proxy", {
+                    method: "POST",
+                    body: JSON.stringify({ prompt: `Explain this research concept for a PhD student: ${q.question}` })
+                });
+                const data = await res.json();
+                const fb = document.getElementById('feedback');
+                fb.innerHTML += `<div class="mt-4 pt-4 border-t border-slate-200 text-xs italic text-slate-500">${data.reply}</div>`;
+                aiBtn.classList.add('hidden');
+            } catch (e) {
+                console.error(e);
+            } finally {
+                document.getElementById('loading').classList.add('hidden');
+            }
+        };
+
+        loadQuestion();
+    </script>
+</body>
+</html>
