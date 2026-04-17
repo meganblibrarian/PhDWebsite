@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Course Work on Megan E. Barnes, Ph.D. Student</title>
-    <link>https://meganebarnes.com/tags/course-work/</link>
+    <link>http://localhost:1313/tags/course-work/</link>
     <description>Recent content in Course Work on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://meganebarnes.com/tags/course-work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/course-work/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Pre-K3 - 12th Private School Educational System Design</title>
-      <link>https://meganebarnes.com/posts/1717529880982-educational-systems/</link>
+      <link>http://localhost:1313/posts/1717529880982-educational-systems/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/posts/1717529880982-educational-systems/</guid>
+      <guid>http://localhost:1313/posts/1717529880982-educational-systems/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/posts/1717529880982-educational-systems/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1717529880982-educational-systems/featured.png" />
     </item>
     
   </channel>

@@ -3,217 +3,229 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://meganebarnes.com/</loc>
-    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/quizchap5and6/</loc>
-    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/aipages/</loc>
+    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/mid-semester-check/</loc>
+    <loc>http://localhost:1313/aipages/chap5and6quiz/</loc>
+    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/aipages/quiz56/</loc>
+    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/mid-semester-check/</loc>
     <lastmod>2026-03-12T03:40:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-03-12T03:40:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/pathfinder/</loc>
+    <loc>http://localhost:1313/pathfinder/</loc>
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/notupdatingaboutme/</loc>
+    <loc>http://localhost:1313/notupdatingaboutme/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/creative-works/</loc>
+    <loc>http://localhost:1313/creative-works/</loc>
     <lastmod>2026-02-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/creative-works/portfolio-planning-whiteboard/</loc>
+    <loc>http://localhost:1313/creative-works/portfolio-planning-whiteboard/</loc>
     <lastmod>2026-02-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/creative-works/ai-letter-detective/</loc>
+    <loc>http://localhost:1313/creative-works/ai-letter-detective/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/creative-works/summer-reading/</loc>
+    <loc>http://localhost:1313/creative-works/summer-reading/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/research/</loc>
+    <loc>http://localhost:1313/research/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/online-distance-distributed-education/</loc>
+    <loc>http://localhost:1313/posts/online-distance-distributed-education/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/creative-works/library-games/</loc>
+    <loc>http://localhost:1313/creative-works/library-games/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/reflections-on-qualitative-research/</loc>
+    <loc>http://localhost:1313/posts/reflections-on-qualitative-research/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/research-and-teaching-with-technology/</loc>
+    <loc>http://localhost:1313/posts/research-and-teaching-with-technology/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/qualitativeresearchdata/</loc>
+    <loc>http://localhost:1313/posts/qualitativeresearchdata/</loc>
     <lastmod>2025-01-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/qualitative-research/</loc>
+    <loc>http://localhost:1313/posts/qualitative-research/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/bigpictureresearcher/</loc>
+    <loc>http://localhost:1313/posts/bigpictureresearcher/</loc>
     <lastmod>2024-07-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/systemsreflection/</loc>
+    <loc>http://localhost:1313/posts/systemsreflection/</loc>
     <lastmod>2024-07-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1719779935638-internal-and-external-systems/</loc>
+    <loc>http://localhost:1313/posts/1719779935638-internal-and-external-systems/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1719690467318-systems-and-education/</loc>
+    <loc>http://localhost:1313/posts/1719690467318-systems-and-education/</loc>
     <lastmod>2024-06-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1718682043861-presentation-reflection/</loc>
+    <loc>http://localhost:1313/posts/1718682043861-presentation-reflection/</loc>
     <lastmod>2024-06-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1718565259980-theory-of-planned-development/</loc>
+    <loc>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1718459257037-systems-intersect/</loc>
+    <loc>http://localhost:1313/posts/1718459257037-systems-intersect/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1717529880982-educational-systems/</loc>
+    <loc>http://localhost:1313/posts/1717529880982-educational-systems/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1713835356413-is-it-a-science-though/</loc>
+    <loc>http://localhost:1313/posts/1713835356413-is-it-a-science-though/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1708055921449-a-word-about-words/</loc>
+    <loc>http://localhost:1313/posts/1708055921449-a-word-about-words/</loc>
     <lastmod>2024-02-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</loc>
+    <loc>http://localhost:1313/posts/1707449803155-can-you-please-just-stop-touching-your-chromebook/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
+    <loc>http://localhost:1313/posts/1706239959033-power-knowledge-ball-/power-knowledge-ball--wang/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/ai_letter_detective/</loc>
+    <loc>http://localhost:1313/ai_letter_detective/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/cvoriginal/</loc>
+    <loc>http://localhost:1313/cvoriginal/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/posts/1706848252285-how-we-learn/</loc>
+    <loc>http://localhost:1313/posts/1706848252285-how-we-learn/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/testsite/</loc>
+    <loc>http://localhost:1313/testsite/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://meganebarnes.com/aboutme/</loc>
+    <loc>http://localhost:1313/aboutme/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

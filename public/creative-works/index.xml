@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creative Works on Megan E. Barnes, Ph.D. Student</title>
-    <link>https://meganebarnes.com/creative-works/</link>
+    <link>http://localhost:1313/creative-works/</link>
     <description>Recent content in Creative Works on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://meganebarnes.com/creative-works/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/creative-works/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Portfolio Planning Whiteboard</title>
-      <link>https://meganebarnes.com/creative-works/portfolio-planning-whiteboard/</link>
+      <link>http://localhost:1313/creative-works/portfolio-planning-whiteboard/</link>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/creative-works/portfolio-planning-whiteboard/</guid>
+      <guid>http://localhost:1313/creative-works/portfolio-planning-whiteboard/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/creative-works/portfolio-planning-whiteboard/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/portfolio-planning-whiteboard/featured.png" />
     </item>
     
     <item>
       <title>AI Letter Detective</title>
-      <link>https://meganebarnes.com/creative-works/ai-letter-detective/</link>
+      <link>http://localhost:1313/creative-works/ai-letter-detective/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/creative-works/ai-letter-detective/</guid>
+      <guid>http://localhost:1313/creative-works/ai-letter-detective/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/creative-works/ai-letter-detective/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/ai-letter-detective/featured.png" />
     </item>
     
     <item>
       <title>Summer Reading</title>
-      <link>https://meganebarnes.com/creative-works/summer-reading/</link>
+      <link>http://localhost:1313/creative-works/summer-reading/</link>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/creative-works/summer-reading/</guid>
+      <guid>http://localhost:1313/creative-works/summer-reading/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/creative-works/summer-reading/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/summer-reading/featured.png" />
     </item>
     
     <item>
       <title>Library Games</title>
-      <link>https://meganebarnes.com/creative-works/library-games/</link>
+      <link>http://localhost:1313/creative-works/library-games/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/creative-works/library-games/</guid>
+      <guid>http://localhost:1313/creative-works/library-games/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/creative-works/library-games/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/creative-works/library-games/featured.png" />
     </item>
     
   </channel>

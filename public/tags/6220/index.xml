@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6220 on Megan E. Barnes, Ph.D. Student</title>
-    <link>https://meganebarnes.com/tags/6220/</link>
+    <link>http://localhost:1313/tags/6220/</link>
     <description>Recent content in 6220 on Megan E. Barnes, Ph.D. Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
     <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
     <copyright>© 2026 Megan E. Barnes</copyright>
-    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://meganebarnes.com/tags/6220/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/6220/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I May Not Be a Big Picture Researcher</title>
-      <link>https://meganebarnes.com/posts/bigpictureresearcher/</link>
+      <link>http://localhost:1313/posts/bigpictureresearcher/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/posts/bigpictureresearcher/</guid>
+      <guid>http://localhost:1313/posts/bigpictureresearcher/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/posts/bigpictureresearcher/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/bigpictureresearcher/featured.png" />
     </item>
     
     <item>
       <title>Presentation-Reflection</title>
-      <link>https://meganebarnes.com/posts/1718682043861-presentation-reflection/</link>
+      <link>http://localhost:1313/posts/1718682043861-presentation-reflection/</link>
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/posts/1718682043861-presentation-reflection/</guid>
+      <guid>http://localhost:1313/posts/1718682043861-presentation-reflection/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/posts/1718682043861-presentation-reflection/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718682043861-presentation-reflection/featured.png" />
     </item>
     
     <item>
       <title>Applied Theory of Planned Behavior: Professional Development Implementation</title>
-      <link>https://meganebarnes.com/posts/1718565259980-theory-of-planned-development/</link>
+      <link>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
-      <guid>https://meganebarnes.com/posts/1718565259980-theory-of-planned-development/</guid>
+      <guid>http://localhost:1313/posts/1718565259980-theory-of-planned-development/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://meganebarnes.com/posts/1718565259980-theory-of-planned-development/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1718565259980-theory-of-planned-development/featured.png" />
     </item>
     
   </channel>
