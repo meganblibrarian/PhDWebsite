@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Early Childhood and Education and Technology on Megan E. Barnes, Ph.D. Student</title>
+    <link>http://localhost:1313/tags/early-childhood-and-education-and-technology/</link>
+    <description>Recent content in Early Childhood and Education and Technology on Megan E. Barnes, Ph.D. Student</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>meganbarnes2@my.unt.edu (Megan E. Barnes)</managingEditor>
+    <webMaster>meganbarnes2@my.unt.edu (Megan E. Barnes)</webMaster>
+    <copyright>© 2026 Megan E. Barnes</copyright>
+    <lastBuildDate>Sun, 26 Apr 2026 17:05:26 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/early-childhood-and-education-and-technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Midterm Reflection</title>
+      <link>http://localhost:1313/posts/midterm-reflection/</link>
+      <pubDate>Sun, 26 Apr 2026 17:05:26 +0000</pubDate>
+      <author>meganbarnes2@my.unt.edu (Megan E. Barnes)</author>
+      <guid>http://localhost:1313/posts/midterm-reflection/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/midterm-reflection/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

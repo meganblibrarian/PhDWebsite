@@ -143,7 +143,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "39"
+    "wordCount": "28"
   }]
   </script>
 
@@ -758,55 +758,55 @@
 
 
 
-<div class="quiz-wrapper not-prose" id="quiz-chap5and6">
+<div class="quiz-wrapper not-prose" id="quiz-quiz">
 
   
   <div class="quiz-header">
     <span class="quiz-label">Methodological Assessment</span>
-    <h2 class="quiz-title">Qualitative Inquiry in Online Spaces</h2>
-    <p class="quiz-description">Quiz over Chapters 5 &amp; 6</p>
+    <h2 class="quiz-title"></h2>
+    <p class="quiz-description"></p>
   </div>
 
   
   <div class="quiz-progress-track">
-    <div class="quiz-progress-bar" id="progress-chap5and6"></div>
+    <div class="quiz-progress-bar" id="progress-quiz"></div>
   </div>
 
   
-  <div class="quiz-card" id="question-area-chap5and6">
-    <div id="question-content-chap5and6"></div>
-    <div class="quiz-controls" id="controls-chap5and6">
+  <div class="quiz-card" id="question-area-quiz">
+    <div id="question-content-quiz"></div>
+    <div class="quiz-controls" id="controls-quiz">
       <div class="quiz-controls-left">
-        <button class="btn-primary" id="submit-chap5and6" disabled>Submit Answer</button>
-        <button class="btn-secondary" id="deepdive-chap5and6" style="display:none">✨ Explain Further</button>
+        <button class="btn-primary" id="submit-quiz" disabled>Submit Answer</button>
+        <button class="btn-secondary" id="deepdive-quiz" style="display:none">✨ Explain Further</button>
       </div>
-      <button class="btn-ghost" id="next-chap5and6" style="display:none">Next →</button>
+      <button class="btn-ghost" id="next-quiz" style="display:none">Next →</button>
     </div>
   </div>
 
   
-  <div class="quiz-card" id="results-chap5and6" style="display:none">
+  <div class="quiz-card" id="results-quiz" style="display:none">
     <h3 class="quiz-results-title">Assessment Complete</h3>
-    <p class="quiz-results-score" id="score-chap5and6"></p>
+    <p class="quiz-results-score" id="score-quiz"></p>
 
     <div class="quiz-scenario-box">
       <p class="quiz-scenario-label">Research Strategy Lab</p>
-      <button class="btn-primary" id="gen-scenario-chap5and6">✨ Generate Research Dilemma</button>
-      <div id="scenario-area-chap5and6" style="display:none">
-        <div class="quiz-scenario-prompt" id="scenario-prompt-chap5and6"></div>
-        <textarea class="quiz-textarea" id="scenario-input-chap5and6" placeholder="Propose your methodological strategy..."></textarea>
-        <button class="btn-primary" id="critique-chap5and6">✨ Evaluate My Strategy</button>
-        <div class="quiz-critique" id="scenario-critique-chap5and6" style="display:none"></div>
+      <button class="btn-primary" id="gen-scenario-quiz">✨ Generate Research Dilemma</button>
+      <div id="scenario-area-quiz" style="display:none">
+        <div class="quiz-scenario-prompt" id="scenario-prompt-quiz"></div>
+        <textarea class="quiz-textarea" id="scenario-input-quiz" placeholder="Propose your methodological strategy..."></textarea>
+        <button class="btn-primary" id="critique-quiz">✨ Evaluate My Strategy</button>
+        <div class="quiz-critique" id="scenario-critique-quiz" style="display:none"></div>
       </div>
     </div>
 
-    <button class="btn-ghost" onclick="document.getElementById('quiz-chap5and6').dispatchEvent(new Event('quizReset'))">
+    <button class="btn-ghost" onclick="document.getElementById('quiz-quiz').dispatchEvent(new Event('quizReset'))">
       Restart Quiz
     </button>
   </div>
 
   
-  <div class="quiz-loading" id="loading-chap5and6" style="display:none">
+  <div class="quiz-loading" id="loading-quiz" style="display:none">
     <div class="quiz-loading-inner">
       <div class="quiz-spinner"></div>
       <span>Analyzing...</span>
@@ -817,8 +817,8 @@
 
 <script>
 (function() {
-  const ID = "\"chap5and6\"";
-  const questions = "[{\"category\":\"Trustworthiness\",\"correct\":\"b\",\"dok\":1,\"explanation\":\"Lincoln \\u0026 Guba (1985) proposed credibility as the qualitative equivalent to internal validity.\",\"options\":[{\"id\":\"a\",\"text\":\"Dependability\"},{\"id\":\"b\",\"text\":\"Credibility\"},{\"id\":\"c\",\"text\":\"Confirmability\"},{\"id\":\"d\",\"text\":\"Transferability\"}],\"question\":\"In qualitative research, 'credibility' is the conceptual counterpart to which quantitative criterion?\",\"type\":\"mcq\"},{\"category\":\"Grounded Theory\",\"correct\":\"true\",\"dok\":1,\"explanation\":\"Grounded theory prioritizes inductive reasoning directly from data.\",\"options\":[{\"id\":\"true\",\"text\":\"True\"},{\"id\":\"false\",\"text\":\"False\"}],\"question\":\"Traditional grounded theory recommends researchers avoid a priori codes before beginning data analysis.\",\"type\":\"tf\"},{\"category\":\"Data Sources\",\"correct\":[\"obs\",\"int\",\"que\",\"art\"],\"dok\":1,\"explanation\":\"Observation, interviews, questionnaires, and artifacts comprise the core types.\",\"options\":[{\"id\":\"obs\",\"text\":\"Observation\"},{\"id\":\"sur\",\"text\":\"Surveys\"},{\"id\":\"int\",\"text\":\"Interviews\"},{\"id\":\"que\",\"text\":\"Questionnaires\"},{\"id\":\"art\",\"text\":\"Artifacts\"}],\"question\":\"Identify the four primary types of data sources identified in Chapter 5.\",\"type\":\"msa\"},{\"category\":\"Observation Strategy\",\"correct\":\"b\",\"dok\":2,\"explanation\":\"Peripheral members observe without direct acting roles.\",\"options\":[{\"id\":\"a\",\"text\":\"Complete member\"},{\"id\":\"b\",\"text\":\"Peripheral member\"},{\"id\":\"c\",\"text\":\"Active member\"},{\"id\":\"d\",\"text\":\"Auditor\"}],\"question\":\"Which role involves developing an insider's perspective without direct participation?\",\"type\":\"mcq\"},{\"category\":\"Member Checking\",\"correct\":[\"a\",\"c\",\"d\"],\"dok\":2,\"explanation\":\"Member checking focuses on the participants themselves.\",\"options\":[{\"id\":\"a\",\"text\":\"Transcript verification\"},{\"id\":\"b\",\"text\":\"Peer debriefing\"},{\"id\":\"c\",\"text\":\"Theory sharing\"},{\"id\":\"d\",\"text\":\"Opinion solicitation\"}],\"question\":\"Which constitutes member checking? Select all that apply.\",\"type\":\"msa\"},{\"category\":\"Openness\",\"correct\":\"true\",\"dok\":2,\"explanation\":\"Transparency allows for rigor in non-replicable environments.\",\"options\":[{\"id\":\"true\",\"text\":\"True\"},{\"id\":\"false\",\"text\":\"False\"}],\"question\":\"Analytic openness is a substitute for replicability in online research.\",\"type\":\"tf\"},{\"category\":\"Triangulation\",\"correct\":\"c\",\"dok\":3,\"explanation\":\"This is the use of multiple data sources for one phenomenon.\",\"options\":[{\"id\":\"a\",\"text\":\"Investigator triangulation\"},{\"id\":\"b\",\"text\":\"Theory triangulation\"},{\"id\":\"c\",\"text\":\"Data source triangulation\"},{\"id\":\"d\",\"text\":\"Method triangulation\"}],\"question\":\"Using interview transcripts, posts, and videos to study one phenomenon represents:\",\"type\":\"mcq\"},{\"category\":\"Multimodal Analysis\",\"correct\":[\"a\",\"b\",\"c\"],\"dok\":3,\"explanation\":\"Analysis focuses on how different modes create a synesthetic whole.\",\"options\":[{\"id\":\"a\",\"text\":\"Artifact interactions\"},{\"id\":\"b\",\"text\":\"Rituals/Stories\"},{\"id\":\"c\",\"text\":\"Semiotic contributions\"},{\"id\":\"d\",\"text\":\"Print grammar\"}],\"question\":\"Which factors are evaluated in multimodal analysis? Select all that apply.\",\"type\":\"msa\"},{\"category\":\"Materiality\",\"correct\":\"false\",\"dok\":3,\"explanation\":\"Materiality shifts toward agency and production.\",\"options\":[{\"id\":\"true\",\"text\":\"True\"},{\"id\":\"false\",\"text\":\"False\"}],\"question\":\"Materiality is strictly defined by offline or online location.\",\"type\":\"tf\"},{\"category\":\"Discourse\",\"correct\":[\"a\",\"b\",\"c\"],\"dok\":4,\"explanation\":\"CDA requires analyzing power and social context without losing multimodal production details.\",\"options\":[{\"id\":\"a\",\"text\":\"Context of production\"},{\"id\":\"b\",\"text\":\"Social power dynamics\"},{\"id\":\"c\",\"text\":\"Knowledge of social actors\"},{\"id\":\"d\",\"text\":\"Converting everything to text\"}],\"question\":\"Challenges in CDA include: Select all that apply.\",\"type\":\"msa\"}]";
+  const ID = "\"quiz\"";
+  const questions = "null";
 
   
   const $ = id => document.getElementById(id);
