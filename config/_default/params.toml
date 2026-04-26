@@ -35,10 +35,10 @@ showScrollToTop = true
 [homepage]
 layout = "hero"
 showRecent = true
-showRecentItems = 5
+showRecentItems = 10
 showMoreLink = true
 showMoreLinkDest = "/posts/"
-cardView = true
+cardView = false
 cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
