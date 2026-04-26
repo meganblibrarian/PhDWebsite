@@ -22,3 +22,9 @@ This requires metacognition, and I think – but need to research – if it also
 One key factor discussed in our book was the idea that many digital environments being studied do not solely live in a single digital environment, but across multiple digital places as well as extending into the physical world. This complex interplay of digital, physical, and social systems (across physical and digital places) makes teaching with and about digital technology in early childhood more complex. The idea that the hard work of education and thinking must be maintained is true – but we can also see that supporting that complex thinking by utilizing technology to assist and support lower-order thinking supports developing higher-order thinking. 
 
 
+_References_
+
+Tao, S. (2025). Aligning technology with cognitive development: A five-tiered framework to generative AI in K-12 education. _AI, Brain and Child_, 1(1), 20. https://doi.org/10.1007/s44436-025-00024-0
+
+Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: How dual cognitive pathways paradoxically enable transformative learning. _International Journal of Educational Technology in Higher Education_, 23(1), 11. https://doi.org/10.1186/s41239-026-00585-x
+
