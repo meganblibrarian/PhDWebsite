@@ -1,8 +1,8 @@
 ---
-title: "Midterm Reflection"
+title: "Reflections"
 date: 2026-04-26T17:05:26Z
-draft: truefalse
-description: "My midterm refelction I actually wrote late in the semester not remembering I had already written a midterm reflection because I never turned it in."
+draft: false
+description: "A reflection on qualitative learning in digital learning environments, techonlogy and early childhood education, and emerging research on AI and education developmental recommendations."
 tags: ['PhD', '6040', 'midterm', 'ai', 'online learning', 'early childhood and education and technology']
 article.showZenMode: true
 ---
@@ -11,11 +11,14 @@ Pairing this class with working with early childhood students (using academia’
 The nice thing about technology and learning is solid pedagogy in the physical classroom is solid pedagogy in digital spaces. Adult learners can also struggle with self-regulation in distributed learning, struggling to contend with the siren song of notifications, but students in early childhood are still developing their executive function skills and this makes these self-regulation issues more pernicious. There is also emerging research that combines AI literacy frameworks with child development (cognitive and moral) to help create guidelines for how much and when to use AI (Tao, 2025). 
 
 ![Developmental AI Use Progression Infographic](ai_use_timeline_infographic.png)
+Credit: Image generation by NotebookLM, source material is <a href="https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research">Tao, 2025</a>
 
 There is also emerging research that all cognitive offloading with AI use is not created equal, and that a person (student, teacher, professional, or general use) is moderated by their desire to do things quickly or efficiently (Wang and Zhang, 2026), but the relationship to vigilance is important: those with higher vigilance saw efficiency as using AI and checking it for accuracy so they do not have to re-do work-  the ultimate inefficiency. 
   
 ![Infographic 1](wangzhanginfos/wang_zhang_infographic.png)
 ![Infographic 2](wangzhanginfos/wangzhang2.png)
+Credit: Image generation by NotebookLM, source material is <a href=" https://doi.org/10.1186/s41239-026-00585-x">Wang and Zhang, 2026</a>
+
 
 
 This requires metacognition, and I think – but need to research – if it also means users need a theory of mind that extends to AI as well as humans. All of these are emerging skills, especially in early childhood education (age 3 through 4th grade), and the language of AI (general and domain-specific) is needed to use AI to its fullest. For example, in designing the graphics for this page with NotebookLM, I needed to create a custom prompt to get the visual results I wanted, but struggle because I don’t have the specific graphic design language to accurately assign what I want. This general and domain-specific knowledge must 
