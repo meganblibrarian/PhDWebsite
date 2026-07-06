@@ -162,7 +162,7 @@ Search across every field below — citation, purpose, framework, methodology, f
   (function () {
     // Replace with your sheet's published CSV link:
     // File → Share → Publish to web → select the "Bibliography" tab → CSV → Publish
-    const CSV_URL = 'PASTE_YOUR_PUBLISHED_CSV_URL_HERE';
+    const CSV_URL = 'https://docs.google.com/spreadsheets/d/1zT_0z23NHYuLQm0-eqwpCo9MRM63YlhmFDkbyTCZYM0/view';
 
     const resultsEl = document.getElementById('bib-results');
     const countEl = document.getElementById('bib-count');
