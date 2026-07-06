@@ -6,6 +6,7 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 showEdit: false
+page: simple
 ---
 
 Search across every field below — citation, purpose, framework, methodology, findings, and relevance to my research.
@@ -32,7 +33,7 @@ Search across every field below — citation, purpose, framework, methodology, f
     font-size: 0.75rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: rgb(var(--color-neutral-500) / 1);
+    color: rgba(var(--color-neutral-500), 1);
     margin-bottom: 0.4rem;
   }
 
@@ -41,56 +42,56 @@ Search across every field below — citation, purpose, framework, methodology, f
     padding: 0.7rem 0.9rem;
     font-size: 0.95rem;
     font-family: inherit;
-    background: rgb(var(--color-neutral-100) / 1);
-    border: 1px solid rgb(var(--color-neutral-300) / 1);
+    background: rgba(var(--color-neutral-100), 1);
+    border: 1px solid rgba(var(--color-neutral-300), 1);
     border-radius: 0.375rem;
-    color: rgb(var(--color-neutral-900) / 1);
+    color: rgba(var(--color-neutral-900), 1);
     outline: none;
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
   }
 
   html.dark #bib-search {
-    background: rgb(var(--color-neutral-800) / 1);
-    border-color: rgb(var(--color-neutral-600) / 1);
-    color: rgb(var(--color-neutral-100) / 1);
+    background: rgba(var(--color-neutral-800), 1);
+    border-color: rgba(var(--color-neutral-600), 1);
+    color: rgba(var(--color-neutral-100), 1);
   }
 
   #bib-search:focus {
-    border-color: rgb(var(--color-primary-500) / 1);
-    box-shadow: 0 0 0 3px rgb(var(--color-primary-500) / 0.15);
+    border-color: rgba(var(--color-primary-500), 1);
+    box-shadow: 0 0 0 3px rgba(var(--color-primary-500), 0.15);
   }
 
   .bib-count {
     font-size: 0.8rem;
-    color: rgb(var(--color-neutral-500) / 1);
+    color: rgba(var(--color-neutral-500), 1);
     margin: 0.6rem 0.1rem 1.5rem;
   }
 
   .bib-status {
     font-size: 0.85rem;
-    color: rgb(var(--color-neutral-500) / 1);
+    color: rgba(var(--color-neutral-500), 1);
     padding: 2rem 0;
     text-align: center;
   }
 
   .bib-status.error {
-    color: rgb(var(--color-primary-600) / 1);
+    color: rgba(var(--color-primary-600), 1);
   }
 
   .bib-card {
     position: relative;
-    background: rgb(var(--color-neutral-100) / 1);
-    border: 1px solid rgb(var(--color-neutral-300) / 1);
-    border-left: 3px solid rgb(var(--color-secondary-500) / 1);
+    background: rgba(var(--color-neutral-100), 1);
+    border: 1px solid rgba(var(--color-neutral-300), 1);
+    border-left: 3px solid rgba(var(--color-secondary-500), 1);
     border-radius: 0.375rem;
     margin-bottom: 1.1rem;
     padding: 1.2rem 1.3rem 1.3rem;
   }
 
   html.dark .bib-card {
-    background: rgb(var(--color-neutral-800) / 1);
-    border-color: rgb(var(--color-neutral-600) / 1);
-    border-left-color: rgb(var(--color-secondary-400) / 1);
+    background: rgba(var(--color-neutral-800), 1);
+    border-color: rgba(var(--color-neutral-600), 1);
+    border-left-color: rgba(var(--color-secondary-400), 1);
   }
 
   .bib-citation {
@@ -99,13 +100,13 @@ Search across every field below — citation, purpose, framework, methodology, f
     line-height: 1.5;
     margin: 0 0 0.9rem;
     padding-bottom: 0.8rem;
-    border-bottom: 1px solid rgb(var(--color-neutral-300) / 1);
-    color: rgb(var(--color-neutral-900) / 1);
+    border-bottom: 1px solid rgba(var(--color-neutral-300), 1);
+    color: rgba(var(--color-neutral-900), 1);
   }
 
   html.dark .bib-citation {
-    border-bottom-color: rgb(var(--color-neutral-600) / 1);
-    color: rgb(var(--color-neutral-100) / 1);
+    border-bottom-color: rgba(var(--color-neutral-600), 1);
+    color: rgba(var(--color-neutral-100), 1);
   }
 
   .bib-field {
@@ -122,32 +123,32 @@ Search across every field below — citation, purpose, framework, methodology, f
     font-size: 0.68rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: rgb(var(--color-neutral-500) / 1);
+    color: rgba(var(--color-neutral-500), 1);
     padding-top: 0.1rem;
   }
 
   .bib-field-value {
     font-size: 0.9rem;
-    color: rgb(var(--color-neutral-800) / 1);
+    color: rgba(var(--color-neutral-800), 1);
   }
 
   html.dark .bib-field-value {
-    color: rgb(var(--color-neutral-200) / 1);
+    color: rgba(var(--color-neutral-200), 1);
   }
 
   .bib-field-value.empty {
-    color: rgb(var(--color-neutral-400) / 1);
+    color: rgba(var(--color-neutral-400), 1);
     font-style: italic;
   }
 
   .bib-field.relevance .bib-field-value,
   .bib-field.relevance .bib-field-label {
-    color: rgb(var(--color-primary-600) / 1);
+    color: rgba(var(--color-primary-600), 1);
   }
 
   html.dark .bib-field.relevance .bib-field-value,
   html.dark .bib-field.relevance .bib-field-label {
-    color: rgb(var(--color-primary-400) / 1);
+    color: rgba(var(--color-primary-400), 1);
   }
 
   @media (max-width: 560px) {
@@ -162,7 +163,7 @@ Search across every field below — citation, purpose, framework, methodology, f
   (function () {
     // Replace with your sheet's published CSV link:
     // File → Share → Publish to web → select the "Bibliography" tab → CSV → Publish
-    const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vREmM8dOTFceKmjGLrV-DgWpKwYhZRLHaUk0u85iOYbcMQmBIbqXx80zuNdi67Cg7Qz-d8Y34BVhQgM/pub?gid=1083192916&single=true&output=csv';
+    const CSV_URL = 'PASTE_YOUR_PUBLISHED_CSV_URL_HERE';
 
     const resultsEl = document.getElementById('bib-results');
     const countEl = document.getElementById('bib-count');
