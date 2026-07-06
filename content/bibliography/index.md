@@ -163,7 +163,7 @@ Search across every field below — citation, purpose, framework, methodology, f
   (function () {
     // Replace with your sheet's published CSV link:
     // File → Share → Publish to web → select the "Bibliography" tab → CSV → Publish
-    const CSV_URL = 'PASTE_YOUR_PUBLISHED_CSV_URL_HERE';
+    const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vREmM8dOTFceKmjGLrV-DgWpKwYhZRLHaUk0u85iOYbcMQmBIbqXx80zuNdi67Cg7Qz-d8Y34BVhQgM/pub?gid=1083192916&single=true&output=csv';
 
     const resultsEl = document.getElementById('bib-results');
     const countEl = document.getElementById('bib-count');
