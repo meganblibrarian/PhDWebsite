@@ -6,7 +6,7 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 showEdit: false
-page: simple
+layout: "simple"
 ---
 
 Search across every field below — citation, purpose, framework, methodology, findings, and relevance to my research.
